@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TheStreet"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="52.494">
+  <properties />
+  
+  
+            <testcase name="dsaSignUp" time="52.494" classname="SignUp.DSA_SignUp" />
+      
+</testsuite>

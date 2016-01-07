@@ -1,0 +1,4 @@
+TheStreet.disabledListeners=true
+TheStreet.outdir=/test-output
+eclipse.preferences.version=1
+xmlTemplateFile=D\:\\Thestreet_Selenium\\TheStreet\\TSTSignUp\\SignUp.xml

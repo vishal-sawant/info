@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>TestNG:  : Regression Test on Pipeline</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>: Regression Test on Pipeline</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 16 19:47:31 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>67 seconds (67405 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.pack.common.tests.HomePageTest.verifyHomePageElements()'><b>verifyHomePageElements</b><br>Test class: com.pack.common.tests.HomePageTest<br/>
+<a href="#Output-1446422140" onClick='toggleBox("Output-1446422140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1446422140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1446422140">
+Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page<br/>
+Test case passed: verify today's date displayed on the Pipeline home page<br/>
+Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page<br/>
+Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL<br/>
+Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty<br/>
+Test case passed: verify Investment Banking page displayed and user can see related deals or articles<br/>
+Test case passed: verify Private Equity Screener page displayed and user can see related data by clicking on alphabet link from 'Search Firms Alphabetically' section<br/>
+</div>
+</td>
+<td></td>
+<td>57</td>
+<td>com.pack.common.tests.HomePageTest@6b833711</td></tr>
+</table><p>
+</body>
+</html>

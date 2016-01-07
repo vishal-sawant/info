@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression on SignUp Service"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="49.161">
+  <properties />
+  
+  
+            <testcase name="ccSignUp" time="49.161" classname="signup.service.CC_SignUp" />
+      
+</testsuite>

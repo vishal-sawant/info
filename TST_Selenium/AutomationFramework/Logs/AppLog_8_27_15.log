@@ -1,0 +1,32 @@
+27/08/15 09:33 - INFO - Loaded property files and created logger instance.
+27/08/15 09:33 - INFO - Setting up FireFox driver.
+27/08/15 10:13 - INFO - Loaded property files and created logger instance.
+27/08/15 10:13 - INFO - Setting up Internet Explorer driver.
+27/08/15 10:13 - INFO - Executing Test Case :- blankformSubmit
+27/08/15 10:13 - INFO - Screen Shots file :  D:\F Drive Data\TST_Selenium\AutomationFramework\test-output\ScreenShots\image-1440650629934.jpg
+27/08/15 10:13 - INFO - Executing Test Case :- checkEmailID
+27/08/15 10:14 - INFO - Loaded property files and created logger instance.
+27/08/15 10:14 - INFO - Setting up Chrome driver.
+27/08/15 10:14 - INFO - Executing Test Case :- blankformSubmit
+27/08/15 10:14 - INFO - Screen Shots file :  D:\F Drive Data\TST_Selenium\AutomationFramework\test-output\ScreenShots\image-1440650695508.jpg
+27/08/15 10:14 - INFO - Executing Test Case :- checkEmailID
+27/08/15 10:15 - INFO - Executing Test Case :- checkEmailID
+27/08/15 10:15 - INFO - Executing Test Case :- checkFirstName
+27/08/15 10:15 - INFO - Executing Test Case :- checkFirstName
+27/08/15 10:15 - INFO - Executing Test Case :- checkLastName
+27/08/15 10:15 - INFO - Executing Test Case :- checkLastName
+27/08/15 10:15 - INFO - Executing Test Case :- checkPassword
+27/08/15 10:15 - INFO - Executing Test Case :- checkPassword
+27/08/15 10:15 - INFO - Executing Test Case :- checkConfirmPassword
+27/08/15 10:15 - INFO - Executing Test Case :- checkConfirmPassword
+27/08/15 10:15 - INFO - Loaded property files and created logger instance.
+27/08/15 10:15 - INFO - Setting up Chrome driver.
+27/08/15 10:15 - INFO - Executing Test Case :- blankformSubmit
+27/08/15 10:15 - INFO - Executing Test Case :- checkEmailID
+27/08/15 10:15 - INFO - Executing Test Case :- checkEmailID
+27/08/15 10:15 - INFO - Executing Test Case :- checkPassword
+27/08/15 10:15 - INFO - Executing Test Case :- checkPassword
+27/08/15 10:15 - INFO - Executing Test Case :- checkConfirmPassword
+27/08/15 10:15 - INFO - Executing Test Case :- checkConfirmPassword
+27/08/15 10:15 - INFO - Loaded property files and created logger instance.
+27/08/15 10:15 - INFO - Setting up Chrome driver.

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG is going to start the execution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test : Regression Test on Pipeline
+==========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyHomePageElements]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify today's date displayed on the Pipeline home page]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify Investment Banking page displayed and user can see related deals or articles]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify Private Equity Screener page displayed and user can see related data by clicking on alphabet link from 'Search Firms Alphabetically' section]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test : Regression Test on Pipeline]]>
+    </line>
+    <line>
+      <![CDATA[TestNG has finished execution. It took around 67.483 seconds.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67405" started-at="2015-09-16T14:17:31Z" finished-at="2015-09-16T14:18:39Z">
+    <groups>
+    </groups>
+    <test name=": Regression Test on Pipeline" duration-ms="67405" started-at="2015-09-16T14:17:31Z" finished-at="2015-09-16T14:18:39Z">
+      <class name="com.pack.common.tests.HomePageTest">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:com.pack.common.tests.HomePageTest@6b833711]" name="setupBeforeSuite" is-config="true" duration-ms="6140" started-at="2015-09-16T19:47:31Z" finished-at="2015-09-16T19:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="verifyHomePageElements()[pri:0, instance:com.pack.common.tests.HomePageTest@6b833711]" name="verifyHomePageElements" duration-ms="57574" started-at="2015-09-16T19:47:37Z" finished-at="2015-09-16T19:48:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed: verify today's date displayed on the Pipeline home page]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed: verify Investment Banking page displayed and user can see related deals or articles]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed: verify Private Equity Screener page displayed and user can see related data by clicking on alphabet link from 'Search Firms Alphabetically' section]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageElements -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:com.pack.common.tests.HomePageTest@6b833711]" name="setupAfterSuite" is-config="true" duration-ms="3679" started-at="2015-09-16T19:48:35Z" finished-at="2015-09-16T19:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- com.pack.common.tests.HomePageTest -->
+    </test> <!-- : Regression Test on Pipeline -->
+  </suite> <!-- Suite -->
+</testng-results>

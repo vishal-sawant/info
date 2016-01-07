@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;commonClasses.ReadExcel&apos; to &apos;ReadWriteExcel&apos;&#x0D;&#x0A;- Original project: &apos;TheStreet&apos;&#x0D;&#x0A;- Original element: &apos;commonClasses.ReadExcel&apos;&#x0D;&#x0A;- Renamed element: &apos;commonClasses.ReadWriteExcel&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ReadExcel&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;commonClasses{ReadExcel.java[ReadExcel" matchStrategy="1" name="ReadWriteExcel" qualified="false" references="true" similarDeclarations="false" stamp="1437040846346" textual="false" version="1.0"/>
+</session>

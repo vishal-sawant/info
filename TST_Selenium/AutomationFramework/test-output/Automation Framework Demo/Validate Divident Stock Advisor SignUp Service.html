@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Validate Divident Stock Advisor SignUp Service</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Validate Divident Stock Advisor SignUp Service</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 21 14:17:49 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>290 seconds (290293 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.blankformSubmit()'><b>blankformSubmit</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: dsa_link</td>
+<td></td>
+<td>49</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.checkConfirmPassword()'><b>checkConfirmPassword</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: a</td>
+<td></td>
+<td>24</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.checkConfirmPassword()'><b>checkConfirmPassword</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: ab</td>
+<td></td>
+<td>28</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.checkEmailID()'><b>checkEmailID</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: #@%^%#$@#$@#.com</td>
+<td></td>
+<td>24</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.checkEmailID()'><b>checkEmailID</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: @example.com</td>
+<td></td>
+<td>19</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.checkFirstName()'><b>checkFirstName</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: vishal99</td>
+<td></td>
+<td>17</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.checkFirstName()'><b>checkFirstName</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: vish*l</td>
+<td></td>
+<td>17</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.checkLastName()'><b>checkLastName</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: sawant1011</td>
+<td></td>
+<td>20</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.checkLastName()'><b>checkLastName</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: saw**t</td>
+<td></td>
+<td>17</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.checkPassword()'><b>checkPassword</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: a</td>
+<td></td>
+<td>25</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+<tr>
+<td title='validate.signup.service.ValidateFieldsOnSignUp.checkPassword()'><b>checkPassword</b><br>Test class: validate.signup.service.ValidateFieldsOnSignUp<br>Parameters: ab</td>
+<td></td>
+<td>31</td>
+<td>validate.signup.service.ValidateFieldsOnSignUp@c5c76c</td></tr>
+</table><p>
+</body>
+</html>

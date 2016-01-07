@@ -1,0 +1,68 @@
+15/09/15 09:40 - INFO - Loaded property files and created logger instance
+15/09/15 09:40 - INFO - Setting up FireFox driver.
+15/09/15 09:40 - INFO - Executing Test Case :- verifyPipelineLoginFunction
+15/09/15 09:40 - INFO - Test case passed: verify user able to login into pipeline application
+15/09/15 09:40 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/09/15 09:40 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/09/15 09:40 - INFO - Loaded property files and created logger instance
+15/09/15 09:40 - INFO - Setting up FireFox driver.
+15/09/15 09:40 - INFO - Executing Test Case :- verifyHomePageElements
+15/09/15 09:40 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+15/09/15 09:40 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+15/09/15 09:40 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+15/09/15 09:40 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+15/09/15 09:40 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+15/09/15 09:40 - INFO - Test case passed: verify Investment Banking page displayed and user can see related deals or articles
+15/09/15 09:40 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/09/15 09:40 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/09/15 09:40 - INFO - Loaded property files and created logger instance
+15/09/15 09:40 - INFO - Setting up FireFox driver.
+15/09/15 09:40 - INFO - Executing Test Case :- verifyArticleID
+15/09/15 09:41 - INFO - Test case passed: verify article id showing in the url
+15/09/15 09:41 - INFO - Test case passed: verify required sections displayed on an article page
+15/09/15 09:41 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/09/15 09:41 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/09/15 09:41 - INFO - Loaded property files and created logger instance
+15/09/15 09:41 - INFO - Setting up FireFox driver.
+15/09/15 09:41 - INFO - Executing Test Case :- verifyTheDealPageIsDisplayed
+15/09/15 09:41 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442290304283.jpg
+15/09/15 09:41 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/09/15 09:41 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/09/15 09:58 - INFO - Loaded property files and created logger instance
+15/09/15 09:58 - INFO - Setting up FireFox driver.
+15/09/15 09:58 - INFO - Executing Test Case :- verifyPipelineLoginFunction
+15/09/15 09:58 - INFO - Test case passed: verify user able to login into pipeline application
+15/09/15 09:58 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/09/15 09:58 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/09/15 09:58 - INFO - Loaded property files and created logger instance
+15/09/15 09:58 - INFO - Setting up FireFox driver.
+15/09/15 09:59 - INFO - Executing Test Case :- verifyHomePageElements
+15/09/15 09:59 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+15/09/15 09:59 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+15/09/15 09:59 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+15/09/15 09:59 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+15/09/15 09:59 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+15/09/15 09:59 - INFO - Test case passed: verify Investment Banking page displayed and user can see related deals or articles
+15/09/15 09:59 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/09/15 09:59 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/09/15 09:59 - INFO - Loaded property files and created logger instance
+15/09/15 09:59 - INFO - Setting up FireFox driver.
+15/09/15 09:59 - INFO - Executing Test Case :- verifyArticleID
+15/09/15 09:59 - INFO - Test case passed: verify article id showing in the url
+15/09/15 09:59 - INFO - Test case passed: verify required sections displayed on an article page
+15/09/15 09:59 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/09/15 09:59 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/09/15 09:59 - INFO - Loaded property files and created logger instance
+15/09/15 09:59 - INFO - Setting up FireFox driver.
+15/09/15 09:59 - INFO - Executing Test Case :- verifyTheDealPageIsDisplayed
+15/09/15 10:00 - INFO - Test case passed: verify user is navigated to 'http://www.thedeal.com/' page
+15/09/15 10:00 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/09/15 10:00 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================

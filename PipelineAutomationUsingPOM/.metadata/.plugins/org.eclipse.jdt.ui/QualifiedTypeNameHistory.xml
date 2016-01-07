@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.pack.base.ReadWriteExcel"/>
+<fullyQualifiedTypeName name="com.pack.base.CommonConstant"/>
+<fullyQualifiedTypeName name="org.apache.poi.hssf.record.CommonObjectDataSubRecord"/>
+<fullyQualifiedTypeName name="com.pack.base.CommonMethods"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="com.pack.common.pageobjects.LoginPage"/>
+<fullyQualifiedTypeName name="com.pack.common.pageobjects.HomePage"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="com.pack.common.pageobjects.ArticlePage"/>
+<fullyQualifiedTypeName name="org.testng.Assert"/>
+<fullyQualifiedTypeName name="org.testng.Reporter"/>
+<fullyQualifiedTypeName name="com.pack.common.pageobjects.TheDealPage"/>
+<fullyQualifiedTypeName name="com.pack.base.LaunchBrowser"/>
+<fullyQualifiedTypeName name="org.jboss.netty.channel.ExceptionEvent"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="org.testng.TestNG"/>
+<fullyQualifiedTypeName name="java.net.URLEncoder"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxProfile"/>
+</qualifiedTypeNameHistroy>

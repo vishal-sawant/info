@@ -1,0 +1,260 @@
+10/09/15 12:03 - INFO - Loaded property files and created logger instance
+10/09/15 12:03 - INFO - Setting up FireFox driver.
+10/09/15 12:03 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 01:04 - INFO - Loaded property files and created logger instance
+10/09/15 01:04 - INFO - Setting up FireFox driver.
+10/09/15 01:05 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 01:05 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 01:05 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 01:05 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 01:05 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 01:05 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 01:05 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 01:05 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 01:06 - INFO - Loaded property files and created logger instance
+10/09/15 01:06 - INFO - Setting up FireFox driver.
+10/09/15 01:06 - INFO - Executing Test Case :- verifyArticleID
+10/09/15 01:06 - INFO - Test case passed: verify article id showing in the url
+10/09/15 01:06 - INFO - Test case passed: verify required sections displayed on an article page
+10/09/15 01:06 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 01:06 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 01:07 - INFO - Loaded property files and created logger instance
+10/09/15 01:07 - INFO - Setting up FireFox driver.
+10/09/15 01:07 - INFO - Executing Test Case :- verifyArticleID
+10/09/15 01:07 - INFO - Test case passed: verify article id showing in the url
+10/09/15 01:07 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441870666272.jpg
+10/09/15 01:07 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 01:07 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 01:10 - INFO - Loaded property files and created logger instance
+10/09/15 01:10 - INFO - Setting up FireFox driver.
+10/09/15 01:11 - INFO - Executing Test Case :- verifyArticleID
+10/09/15 01:11 - INFO - Test case passed: verify article id showing in the url
+10/09/15 01:11 - INFO - Test case passed: verify required sections displayed on an article page
+10/09/15 01:11 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 01:11 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 05:50 - INFO - Loaded property files and created logger instance
+10/09/15 05:50 - INFO - Setting up FireFox driver.
+10/09/15 05:50 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 05:50 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 05:50 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 05:50 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 05:50 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 05:50 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 05:50 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441887658875.jpg
+10/09/15 05:50 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 05:50 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 05:54 - INFO - Loaded property files and created logger instance
+10/09/15 05:54 - INFO - Setting up FireFox driver.
+10/09/15 05:54 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 05:55 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 05:55 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 05:55 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 05:55 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 05:55 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 05:57 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441888060606.jpg
+10/09/15 05:57 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 05:57 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 06:10 - INFO - Loaded property files and created logger instance
+10/09/15 06:10 - INFO - Setting up FireFox driver.
+10/09/15 06:10 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 06:10 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 06:11 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 06:11 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 06:11 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 06:11 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 06:12 - INFO - Loaded property files and created logger instance
+10/09/15 06:12 - INFO - Setting up FireFox driver.
+10/09/15 06:13 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 06:13 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 06:13 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 06:13 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 06:13 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 06:13 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 06:14 - INFO - Loaded property files and created logger instance
+10/09/15 06:14 - INFO - Setting up FireFox driver.
+10/09/15 06:14 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 06:14 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 06:14 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 06:14 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 06:14 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 06:14 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 06:17 - INFO - Loaded property files and created logger instance
+10/09/15 06:17 - INFO - Setting up FireFox driver.
+10/09/15 06:17 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 06:17 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 06:17 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 06:17 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 06:17 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 06:17 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 06:18 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441889311171.jpg
+10/09/15 06:18 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 06:18 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 06:25 - INFO - Loaded property files and created logger instance
+10/09/15 06:25 - INFO - Setting up FireFox driver.
+10/09/15 06:26 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 06:26 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 06:26 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 06:26 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 06:26 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 06:26 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 06:26 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441889811149.jpg
+10/09/15 06:26 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 06:26 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 06:47 - INFO - Loaded property files and created logger instance
+10/09/15 06:47 - INFO - Setting up FireFox driver.
+10/09/15 06:48 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 06:48 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 06:48 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 06:48 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 06:48 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 06:48 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 06:48 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 06:48 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441891138540.jpg
+10/09/15 06:48 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 06:48 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 06:59 - INFO - Loaded property files and created logger instance
+10/09/15 06:59 - INFO - Setting up FireFox driver.
+10/09/15 06:59 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 06:59 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 06:59 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 06:59 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 06:59 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 06:59 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:00 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:00 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441891834968.jpg
+10/09/15 07:00 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 07:00 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 07:02 - INFO - Loaded property files and created logger instance
+10/09/15 07:02 - INFO - Setting up FireFox driver.
+10/09/15 07:02 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 07:02 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 07:02 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 07:02 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 07:02 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 07:02 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:02 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:04 - INFO - Loaded property files and created logger instance
+10/09/15 07:04 - INFO - Setting up FireFox driver.
+10/09/15 07:04 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 07:04 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 07:04 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 07:04 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 07:04 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 07:04 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:04 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:10 - INFO - Loaded property files and created logger instance
+10/09/15 07:10 - INFO - Setting up FireFox driver.
+10/09/15 07:10 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 07:11 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 07:11 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 07:11 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 07:11 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 07:11 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:11 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:12 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441892529041.jpg
+10/09/15 07:12 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 07:12 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 07:19 - INFO - Loaded property files and created logger instance
+10/09/15 07:19 - INFO - Setting up FireFox driver.
+10/09/15 07:20 - INFO - Loaded property files and created logger instance
+10/09/15 07:20 - INFO - Setting up FireFox driver.
+10/09/15 07:20 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 07:21 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 07:21 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 07:21 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 07:21 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 07:21 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:21 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:22 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441893144190.jpg
+10/09/15 07:22 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 07:22 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 07:27 - INFO - Loaded property files and created logger instance
+10/09/15 07:27 - INFO - Setting up FireFox driver.
+10/09/15 07:27 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 07:27 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 07:27 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 07:27 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 07:27 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 07:27 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:27 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:29 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441893571346.jpg
+10/09/15 07:29 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 07:29 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 07:31 - INFO - Loaded property files and created logger instance
+10/09/15 07:31 - INFO - Setting up FireFox driver.
+10/09/15 07:31 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 07:31 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 07:31 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 07:31 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 07:31 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 07:31 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:32 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:34 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441893842518.jpg
+10/09/15 07:34 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 07:34 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 07:36 - INFO - Loaded property files and created logger instance
+10/09/15 07:36 - INFO - Setting up FireFox driver.
+10/09/15 07:36 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 07:37 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 07:37 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 07:37 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 07:37 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 07:37 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:37 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:38 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1441894104349.jpg
+10/09/15 07:38 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 07:38 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 07:42 - INFO - Loaded property files and created logger instance
+10/09/15 07:42 - INFO - Setting up FireFox driver.
+10/09/15 07:42 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 07:43 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 07:43 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 07:43 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 07:43 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 07:43 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:43 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:43 - INFO - Test case passed: verify Investment Banking page displayed and user can see related deals or articles
+10/09/15 07:43 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 07:43 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 07:50 - INFO - Loaded property files and created logger instance
+10/09/15 07:50 - INFO - Setting up FireFox driver.
+10/09/15 07:51 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 07:51 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 07:51 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 07:51 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 07:51 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 07:51 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:51 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:51 - INFO - Test case passed: verify Investment Banking page displayed and user can see related deals or articles
+10/09/15 07:51 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 07:51 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+10/09/15 07:51 - INFO - Loaded property files and created logger instance
+10/09/15 07:51 - INFO - Setting up FireFox driver.
+10/09/15 07:52 - INFO - Executing Test Case :- verifyHomePageElements
+10/09/15 07:52 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+10/09/15 07:52 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+10/09/15 07:52 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+10/09/15 07:52 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+10/09/15 07:52 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+10/09/15 07:52 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+10/09/15 07:53 - INFO - Test case passed: verify Investment Banking page displayed and user can see related deals or articles
+10/09/15 07:53 - INFO - Test executed on Operating System : WINDOWS 8.1
+10/09/15 07:53 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================

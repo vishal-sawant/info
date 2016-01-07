@@ -1,0 +1,56 @@
+<suite name="Automation Framework Demo" verbose="10">
+	<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="common.classes.Listener" />
+  	</listeners>
+		<test name="Validate Cairman's Club SignUp Service" >
+			<parameter name="Validate_SignUpService" value="cc_link"/>
+				<classes>
+					<class name="validate.signup.service.ValidateFieldsOnSignUp"> </class>
+				</classes>  
+		</test>
+		<test name="Validate Action Alert Plus SignUp Service" >
+		 	<parameter name="Validate_SignUpService" value="aap_link"/>
+				<classes>
+					<class name="validate.signup.service.ValidateFieldsOnSignUp">
+						<methods>
+	        				<exclude name="checkFirstName" />
+	        				<exclude name="checkLastName" />
+	      				</methods>
+					</class>
+				</classes>
+		</test>
+		<test name="Validate Action Alert Options SignUp Service" >
+			<parameter name="Validate_SignUpService" value="aao_link"/>
+				 <classes>
+					<class name="validate.signup.service.ValidateFieldsOnSignUp">
+						<methods>
+	        				<exclude name="checkFirstName" />
+	        				<exclude name="checkLastName" />
+	      				</methods>
+	      			</class>		
+	      		</classes> 
+	    </test>
+	    <test name="Validate Dividend Stock Advisor SignUp Service" >
+			<parameter name="Validate_SignUpService" value="dsa_link"/>
+				<classes>
+					<class name="validate.signup.service.ValidateFieldsOnSignUp"> </class>
+				</classes>
+		</test>
+		<test name="Validate Daily Swing Trade SignUp Service" >
+			<parameter name="Validate_SignUpService" value="dst_link"/>
+				<classes>
+					<class name="validate.signup.service.ValidateFieldsOnSignUp"> </class> 
+				</classes> 			
+		</test> 
+		<test name="Regression on SignUp Service" preserve-order="true">
+			<classes>
+				<class name="signup.service.CC_SignUp"> </class>
+				<class name="signup.service.AAP_SignUp"> </class>
+	       		<class name="signup.service.AAO_SignUp"> </class>
+	       		<class name="signup.service.DSA_SignUp"> </class> 
+	       		<class name="signup.service.DST_SignUp"> </class>	
+	       	</classes> 
+		</test>		
+</suite>

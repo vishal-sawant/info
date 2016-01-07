@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Sign Up Demo]">
+  <test name="TheStreet(failed)">
+    <classes>
+      <class name="SignUp.AAP_SignUp">
+        <methods>
+          <include name="aapSignUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SignUp.AAP_SignUp -->
+      <class name="SignUp.ConfigureTST">
+        <methods>
+          <include name="setupAfterSuite"/>
+          <include name="setupBeforeSuite"/>
+        </methods>
+      </class> <!-- SignUp.ConfigureTST -->
+    </classes>
+  </test> <!-- TheStreet(failed) -->
+</suite> <!-- Failed suite [Sign Up Demo] -->

@@ -1,0 +1,516 @@
+21/08/15 10:37 - INFO - Loaded property files and created logger instance.
+21/08/15 10:37 - INFO - Setting up FireFox driver.
+21/08/15 10:37 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 10:38 - INFO - Blank Form Submit test case is passed
+21/08/15 10:38 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:39 - INFO - Invalid Email test case passed
+21/08/15 10:40 - INFO - Loaded property files and created logger instance.
+21/08/15 10:40 - INFO - Setting up FireFox driver.
+21/08/15 10:41 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 10:41 - INFO - Blank Form Submit test case is passed
+21/08/15 10:41 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:42 - INFO - Invalid Email test case passed
+21/08/15 10:42 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:42 - INFO - Invalid Email test case passed
+21/08/15 10:42 - INFO - Executing Test Case :- checkPassword
+21/08/15 10:42 - INFO - Invalid Password test case passed
+21/08/15 10:42 - INFO - Executing Test Case :- checkPassword
+21/08/15 10:43 - INFO - Invalid Password test case passed
+21/08/15 10:43 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 10:43 - INFO - Invalid Confirm Password test case passed
+21/08/15 10:43 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 10:43 - INFO - Invalid Confirm Password test case passed
+21/08/15 10:43 - INFO - Executing Test Case :- checkFirstName
+21/08/15 10:43 - INFO - Invalid First Name test case passed
+21/08/15 10:43 - INFO - Executing Test Case :- checkFirstName
+21/08/15 10:44 - INFO - Invalid First Name test case passed
+21/08/15 10:44 - INFO - Executing Test Case :- checkLastName
+21/08/15 10:44 - INFO - Screen Shots file :  D:\F Drive Data\TST_Selenium\TheStreet\test-output\ScreenShots\image-1440134084753.jpg
+21/08/15 10:44 - INFO - Executing Test Case :- checkLastName
+21/08/15 10:44 - INFO - Screen Shots file :  D:\F Drive Data\TST_Selenium\TheStreet\test-output\ScreenShots\image-1440134097806.jpg
+21/08/15 10:44 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 10:44 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 10:45 - INFO - Loaded property files and created logger instance.
+21/08/15 10:45 - INFO - Setting up FireFox driver.
+21/08/15 10:46 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 10:46 - INFO - Blank Form Submit test case is passed
+21/08/15 10:46 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:47 - INFO - Invalid Email test case passed
+21/08/15 10:47 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:47 - INFO - Invalid Email test case passed
+21/08/15 10:47 - INFO - Executing Test Case :- checkPassword
+21/08/15 10:47 - INFO - Invalid Password test case passed
+21/08/15 10:47 - INFO - Executing Test Case :- checkPassword
+21/08/15 10:48 - INFO - Invalid Password test case passed
+21/08/15 10:48 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 10:48 - INFO - Invalid Confirm Password test case passed
+21/08/15 10:48 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 10:48 - INFO - Invalid Confirm Password test case passed
+21/08/15 10:48 - INFO - Executing Test Case :- checkFirstName
+21/08/15 10:48 - INFO - Invalid First Name test case passed
+21/08/15 10:48 - INFO - Executing Test Case :- checkFirstName
+21/08/15 10:49 - INFO - Invalid First Name test case passed
+21/08/15 10:49 - INFO - Executing Test Case :- checkLastName
+21/08/15 10:49 - INFO - Invalid Last Name test case passed
+21/08/15 10:49 - INFO - Executing Test Case :- checkLastName
+21/08/15 10:49 - INFO - Invalid Last Name test case passed
+21/08/15 10:49 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 10:49 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 10:50 - INFO - Loaded property files and created logger instance.
+21/08/15 10:50 - INFO - Setting up FireFox driver.
+21/08/15 10:50 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 10:51 - INFO - Blank Form Submit test case is passed
+21/08/15 10:51 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:51 - INFO - Invalid Email test case passed
+21/08/15 10:51 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:52 - INFO - Invalid Email test case passed
+21/08/15 10:52 - INFO - Executing Test Case :- checkPassword
+21/08/15 10:52 - INFO - Invalid Password test case passed
+21/08/15 10:52 - INFO - Executing Test Case :- checkPassword
+21/08/15 10:52 - INFO - Invalid Password test case passed
+21/08/15 10:52 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 10:53 - INFO - Invalid Confirm Password test case passed
+21/08/15 10:53 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 10:53 - INFO - Invalid Confirm Password test case passed
+21/08/15 10:53 - INFO - Executing Test Case :- checkFirstName
+21/08/15 10:53 - INFO - Executing Test Case :- checkFirstName
+21/08/15 10:53 - INFO - Executing Test Case :- checkLastName
+21/08/15 10:53 - INFO - Executing Test Case :- checkLastName
+21/08/15 10:53 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 10:53 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 10:54 - INFO - Loaded property files and created logger instance.
+21/08/15 10:54 - INFO - Setting up FireFox driver.
+21/08/15 10:54 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 10:55 - INFO - Blank Form Submit test case is passed
+21/08/15 10:55 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:55 - INFO - Invalid Email test case passed
+21/08/15 10:55 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:55 - INFO - Invalid Email test case passed
+21/08/15 10:55 - INFO - Executing Test Case :- checkPassword
+21/08/15 10:56 - INFO - Invalid Password test case passed
+21/08/15 10:56 - INFO - Executing Test Case :- checkPassword
+21/08/15 10:56 - INFO - Invalid Password test case passed
+21/08/15 10:56 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 10:56 - INFO - Invalid Confirm Password test case passed
+21/08/15 10:56 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 10:57 - INFO - Invalid Confirm Password test case passed
+21/08/15 10:57 - INFO - Executing Test Case :- checkFirstName
+21/08/15 10:57 - INFO - Executing Test Case :- checkFirstName
+21/08/15 10:57 - INFO - Executing Test Case :- checkLastName
+21/08/15 10:57 - INFO - Executing Test Case :- checkLastName
+21/08/15 10:57 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 10:57 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 10:57 - INFO - Loaded property files and created logger instance.
+21/08/15 10:57 - INFO - Setting up FireFox driver.
+21/08/15 10:57 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 10:58 - INFO - Blank Form Submit test case is passed
+21/08/15 10:58 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:58 - INFO - Invalid Email test case passed
+21/08/15 10:58 - INFO - Executing Test Case :- checkEmailID
+21/08/15 10:59 - INFO - Invalid Email test case passed
+21/08/15 10:59 - INFO - Executing Test Case :- checkPassword
+21/08/15 10:59 - INFO - Invalid Password test case passed
+21/08/15 10:59 - INFO - Executing Test Case :- checkPassword
+21/08/15 11:01 - INFO - Invalid Password test case passed
+21/08/15 11:01 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 11:01 - INFO - Invalid Confirm Password test case passed
+21/08/15 11:01 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 11:02 - INFO - Invalid Confirm Password test case passed
+21/08/15 11:02 - INFO - Executing Test Case :- checkFirstName
+21/08/15 11:02 - INFO - Invalid First Name test case passed
+21/08/15 11:02 - INFO - Executing Test Case :- checkFirstName
+21/08/15 11:02 - INFO - Invalid First Name test case passed
+21/08/15 11:02 - INFO - Executing Test Case :- checkLastName
+21/08/15 11:02 - INFO - Invalid Last Name test case passed
+21/08/15 11:02 - INFO - Executing Test Case :- checkLastName
+21/08/15 11:03 - INFO - Invalid Last Name test case passed
+21/08/15 11:03 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 11:03 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 11:05 - INFO - Loaded property files and created logger instance.
+21/08/15 11:05 - INFO - Setting up FireFox driver.
+21/08/15 11:05 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 11:06 - INFO - Blank Form Submit test case is passed
+21/08/15 11:06 - INFO - Executing Test Case :- checkEmailID
+21/08/15 11:06 - INFO - Invalid Email test case passed
+21/08/15 11:06 - INFO - Executing Test Case :- checkEmailID
+21/08/15 11:06 - INFO - Invalid Email test case passed
+21/08/15 11:06 - INFO - Executing Test Case :- checkPassword
+21/08/15 11:07 - INFO - Invalid Password test case passed
+21/08/15 11:07 - INFO - Executing Test Case :- checkPassword
+21/08/15 11:07 - INFO - Invalid Password test case passed
+21/08/15 11:07 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 11:07 - INFO - Invalid Confirm Password test case passed
+21/08/15 11:07 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 11:08 - INFO - Invalid Confirm Password test case passed
+21/08/15 11:08 - INFO - Executing Test Case :- checkFirstName
+21/08/15 11:08 - INFO - Invalid First Name test case passed
+21/08/15 11:08 - INFO - Executing Test Case :- checkFirstName
+21/08/15 11:08 - INFO - Invalid First Name test case passed
+21/08/15 11:08 - INFO - Executing Test Case :- checkLastName
+21/08/15 11:08 - INFO - Invalid Last Name test case passed
+21/08/15 11:08 - INFO - Executing Test Case :- checkLastName
+21/08/15 11:09 - INFO - Invalid Last Name test case passed
+21/08/15 11:09 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 11:09 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 12:04 - INFO - Loaded property files and created logger instance.
+21/08/15 12:04 - INFO - Setting up FireFox driver.
+21/08/15 12:05 - INFO - Executing Test Case :- blankformSubmitparameters if any: [Ljava.lang.Object;@c97178
+21/08/15 12:05 - INFO - Executing Test Case :- checkEmailIDparameters if any: [Ljava.lang.Object;@13b0eef
+21/08/15 12:05 - INFO - Executing Test Case :- checkEmailIDparameters if any: [Ljava.lang.Object;@122adee
+21/08/15 12:05 - INFO - Executing Test Case :- checkPasswordparameters if any: [Ljava.lang.Object;@1dee8db
+21/08/15 12:05 - INFO - Executing Test Case :- checkPasswordparameters if any: [Ljava.lang.Object;@8092db
+21/08/15 12:05 - INFO - Executing Test Case :- checkConfirmPasswordparameters if any: [Ljava.lang.Object;@927790
+21/08/15 12:05 - INFO - Executing Test Case :- checkConfirmPasswordparameters if any: [Ljava.lang.Object;@1c26895
+21/08/15 12:05 - INFO - Executing Test Case :- checkFirstNameparameters if any: [Ljava.lang.Object;@caeeb8
+21/08/15 12:05 - INFO - Executing Test Case :- checkFirstNameparameters if any: [Ljava.lang.Object;@1e043a8
+21/08/15 12:05 - INFO - Executing Test Case :- checkLastNameparameters if any: [Ljava.lang.Object;@1e9967b
+21/08/15 12:05 - INFO - Executing Test Case :- checkLastNameparameters if any: [Ljava.lang.Object;@1ddadc
+21/08/15 12:17 - INFO - Loaded property files and created logger instance.
+21/08/15 12:17 - INFO - Setting up FireFox driver.
+21/08/15 12:17 - INFO - Executing Test Case :- blankformSubmitparameters if any: [Ljava.lang.Object;@1e04525
+21/08/15 12:18 - INFO - Blank Form Submit test case is passed
+21/08/15 12:18 - INFO - Executing Test Case :- checkEmailIDparameters if any: [Ljava.lang.Object;@3c6feb
+21/08/15 12:18 - INFO - Invalid Email test case passed
+21/08/15 12:18 - INFO - Executing Test Case :- checkEmailIDparameters if any: [Ljava.lang.Object;@13c09a6
+21/08/15 12:19 - INFO - Invalid Email test case passed
+21/08/15 12:19 - INFO - Executing Test Case :- checkPasswordparameters if any: [Ljava.lang.Object;@fda1c9
+21/08/15 12:19 - INFO - Invalid Password test case passed
+21/08/15 12:19 - INFO - Executing Test Case :- checkPasswordparameters if any: [Ljava.lang.Object;@595fa
+21/08/15 12:20 - INFO - Invalid Password test case passed
+21/08/15 12:20 - INFO - Executing Test Case :- checkConfirmPasswordparameters if any: [Ljava.lang.Object;@f94083
+21/08/15 12:20 - INFO - Invalid Confirm Password test case passed
+21/08/15 12:20 - INFO - Executing Test Case :- checkConfirmPasswordparameters if any: [Ljava.lang.Object;@91b2c8
+21/08/15 12:20 - INFO - Invalid Confirm Password test case passed
+21/08/15 12:20 - INFO - Executing Test Case :- checkFirstNameparameters if any: [Ljava.lang.Object;@18ffa89
+21/08/15 12:21 - INFO - Invalid First Name test case passed
+21/08/15 12:21 - INFO - Executing Test Case :- checkFirstNameparameters if any: [Ljava.lang.Object;@1f77a1c
+21/08/15 12:21 - INFO - Invalid First Name test case passed
+21/08/15 12:21 - INFO - Executing Test Case :- checkLastNameparameters if any: [Ljava.lang.Object;@144aa6c
+21/08/15 12:21 - INFO - Invalid Last Name test case passed
+21/08/15 12:21 - INFO - Executing Test Case :- checkLastNameparameters if any: [Ljava.lang.Object;@33940a
+21/08/15 12:22 - INFO - Invalid Last Name test case passed
+21/08/15 12:22 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 12:22 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 12:32 - INFO - Loaded property files and created logger instance.
+21/08/15 12:32 - INFO - Setting up FireFox driver.
+21/08/15 12:32 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 12:33 - INFO - Blank Form Submit test case is passed
+21/08/15 12:33 - INFO - Executing Test Case :- checkEmailID
+21/08/15 12:33 - INFO - Invalid Email test case passed
+21/08/15 12:33 - INFO - Executing Test Case :- checkEmailID
+21/08/15 12:33 - INFO - Invalid Email test case passed
+21/08/15 12:33 - INFO - Executing Test Case :- checkPassword
+21/08/15 12:34 - INFO - Invalid Password test case passed
+21/08/15 12:34 - INFO - Executing Test Case :- checkPassword
+21/08/15 12:34 - INFO - Invalid Password test case passed
+21/08/15 12:34 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 12:34 - INFO - Invalid Confirm Password test case passed
+21/08/15 12:34 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 12:35 - INFO - Invalid Confirm Password test case passed
+21/08/15 12:35 - INFO - Executing Test Case :- checkFirstName
+21/08/15 12:35 - INFO - Invalid First Name test case passed
+21/08/15 12:35 - INFO - Executing Test Case :- checkFirstName
+21/08/15 12:35 - INFO - Invalid First Name test case passed
+21/08/15 12:35 - INFO - Executing Test Case :- checkLastName
+21/08/15 12:36 - INFO - Invalid Last Name test case passed
+21/08/15 12:36 - INFO - Executing Test Case :- checkLastName
+21/08/15 12:36 - INFO - Invalid Last Name test case passed
+21/08/15 12:36 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 12:36 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 01:32 - INFO - Loaded property files and created logger instance.
+21/08/15 01:32 - INFO - Setting up FireFox driver.
+21/08/15 01:32 - INFO - Executing Test Case :- ccSignUp
+21/08/15 01:33 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 01:33 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 01:37 - INFO - Loaded property files and created logger instance.
+21/08/15 01:37 - INFO - Setting up FireFox driver.
+21/08/15 01:37 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 01:37 - INFO - Blank Form Submit test case is passed
+21/08/15 01:37 - INFO - Executing Test Case :- checkEmailID
+21/08/15 01:38 - INFO - Invalid Email test case passed
+21/08/15 01:38 - INFO - Executing Test Case :- checkEmailID
+21/08/15 01:38 - INFO - Invalid Email test case passed
+21/08/15 01:38 - INFO - Executing Test Case :- checkPassword
+21/08/15 01:38 - INFO - Invalid Password test case passed
+21/08/15 01:38 - INFO - Executing Test Case :- checkPassword
+21/08/15 01:39 - INFO - Invalid Password test case passed
+21/08/15 01:39 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 01:39 - INFO - Invalid Confirm Password test case passed
+21/08/15 01:39 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 01:39 - INFO - Invalid Confirm Password test case passed
+21/08/15 01:39 - INFO - Executing Test Case :- checkFirstName
+21/08/15 01:39 - INFO - Invalid First Name test case passed
+21/08/15 01:39 - INFO - Executing Test Case :- checkFirstName
+21/08/15 01:40 - INFO - Invalid First Name test case passed
+21/08/15 01:40 - INFO - Executing Test Case :- checkLastName
+21/08/15 01:40 - INFO - Invalid Last Name test case passed
+21/08/15 01:40 - INFO - Executing Test Case :- checkLastName
+21/08/15 01:40 - INFO - Invalid Last Name test case passed
+21/08/15 01:40 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 01:40 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 01:40 - INFO - Loaded property files and created logger instance.
+21/08/15 01:40 - INFO - Setting up FireFox driver.
+21/08/15 01:40 - INFO - Executing Test Case :- ccSignUp
+21/08/15 01:41 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 01:41 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 01:41 - INFO - Loaded property files and created logger instance.
+21/08/15 01:41 - INFO - Setting up FireFox driver.
+21/08/15 01:41 - INFO - Executing Test Case :- aapSignUp
+21/08/15 01:43 - INFO - Screen Shots file :  D:\F Drive Data\TST_Selenium\AutomationFramework\test-output\ScreenShots\image-1440144799788.jpg
+21/08/15 01:43 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 01:43 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 01:43 - INFO - Loaded property files and created logger instance.
+21/08/15 01:43 - INFO - Setting up FireFox driver.
+21/08/15 01:43 - INFO - Executing Test Case :- aaoSignUp
+21/08/15 01:43 - INFO - Screen Shots file :  D:\F Drive Data\TST_Selenium\AutomationFramework\test-output\ScreenShots\image-1440144812924.jpg
+21/08/15 01:43 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 01:43 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 01:43 - INFO - Loaded property files and created logger instance.
+21/08/15 01:43 - INFO - Setting up FireFox driver.
+21/08/15 01:43 - INFO - Executing Test Case :- dstSignUp
+21/08/15 01:43 - INFO - Screen Shots file :  D:\F Drive Data\TST_Selenium\AutomationFramework\test-output\ScreenShots\image-1440144822679.jpg
+21/08/15 01:43 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 01:43 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 01:43 - INFO - Loaded property files and created logger instance.
+21/08/15 01:43 - INFO - Setting up FireFox driver.
+21/08/15 01:43 - INFO - Executing Test Case :- dsaSignUp
+21/08/15 01:43 - INFO - Screen Shots file :  D:\F Drive Data\TST_Selenium\AutomationFramework\test-output\ScreenShots\image-1440144832151.jpg
+21/08/15 01:43 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 01:43 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 01:48 - INFO - Loaded property files and created logger instance.
+21/08/15 01:48 - INFO - Setting up FireFox driver.
+21/08/15 01:48 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 01:54 - INFO - Loaded property files and created logger instance.
+21/08/15 01:54 - INFO - Setting up FireFox driver.
+21/08/15 01:55 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 01:56 - INFO - Blank Form Submit test case is passed
+21/08/15 01:56 - INFO - Executing Test Case :- checkEmailID
+21/08/15 01:56 - INFO - Invalid Email test case passed
+21/08/15 01:56 - INFO - Executing Test Case :- checkEmailID
+21/08/15 01:56 - INFO - Invalid Email test case passed
+21/08/15 01:56 - INFO - Executing Test Case :- checkPassword
+21/08/15 01:57 - INFO - Invalid Password test case passed
+21/08/15 01:57 - INFO - Executing Test Case :- checkPassword
+21/08/15 01:57 - INFO - Invalid Password test case passed
+21/08/15 01:57 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 01:58 - INFO - Invalid Confirm Password test case passed
+21/08/15 01:58 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 01:58 - INFO - Invalid Confirm Password test case passed
+21/08/15 01:58 - INFO - Executing Test Case :- checkFirstName
+21/08/15 01:58 - INFO - Invalid First Name test case passed
+21/08/15 01:58 - INFO - Executing Test Case :- checkFirstName
+21/08/15 01:59 - INFO - Invalid First Name test case passed
+21/08/15 01:59 - INFO - Executing Test Case :- checkLastName
+21/08/15 01:59 - INFO - Invalid Last Name test case passed
+21/08/15 01:59 - INFO - Executing Test Case :- checkLastName
+21/08/15 01:59 - INFO - Invalid Last Name test case passed
+21/08/15 01:59 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 01:59 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:04 - INFO - Loaded property files and created logger instance.
+21/08/15 02:04 - INFO - Setting up FireFox driver.
+21/08/15 02:05 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 02:05 - INFO - Blank Form Submit test case is passed
+21/08/15 02:05 - INFO - Executing Test Case :- checkEmailID
+21/08/15 02:06 - INFO - Invalid Email test case passed
+21/08/15 02:06 - INFO - Executing Test Case :- checkEmailID
+21/08/15 02:06 - INFO - Invalid Email test case passed
+21/08/15 02:06 - INFO - Executing Test Case :- checkPassword
+21/08/15 02:06 - INFO - Invalid Password test case passed
+21/08/15 02:06 - INFO - Executing Test Case :- checkPassword
+21/08/15 02:07 - INFO - Invalid Password test case passed
+21/08/15 02:07 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 02:07 - INFO - Invalid Confirm Password test case passed
+21/08/15 02:07 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 02:08 - INFO - Invalid Confirm Password test case passed
+21/08/15 02:08 - INFO - Executing Test Case :- checkFirstName
+21/08/15 02:08 - INFO - Invalid First Name test case passed
+21/08/15 02:08 - INFO - Executing Test Case :- checkFirstName
+21/08/15 02:08 - INFO - Invalid First Name test case passed
+21/08/15 02:08 - INFO - Executing Test Case :- checkLastName
+21/08/15 02:09 - INFO - Invalid Last Name test case passed
+21/08/15 02:09 - INFO - Executing Test Case :- checkLastName
+21/08/15 02:09 - INFO - Invalid Last Name test case passed
+21/08/15 02:09 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 02:09 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:09 - INFO - Loaded property files and created logger instance.
+21/08/15 02:09 - INFO - Setting up FireFox driver.
+21/08/15 02:09 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 02:10 - INFO - Blank Form Submit test case is passed
+21/08/15 02:10 - INFO - Executing Test Case :- checkEmailID
+21/08/15 02:11 - INFO - Invalid Email test case passed
+21/08/15 02:11 - INFO - Executing Test Case :- checkEmailID
+21/08/15 02:11 - INFO - Invalid Email test case passed
+21/08/15 02:11 - INFO - Executing Test Case :- checkPassword
+21/08/15 02:11 - INFO - Invalid Password test case passed
+21/08/15 02:11 - INFO - Executing Test Case :- checkPassword
+21/08/15 02:12 - INFO - Invalid Password test case passed
+21/08/15 02:12 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 02:12 - INFO - Invalid Confirm Password test case passed
+21/08/15 02:12 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 02:13 - INFO - Invalid Confirm Password test case passed
+21/08/15 02:13 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 02:13 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:13 - INFO - Loaded property files and created logger instance.
+21/08/15 02:13 - INFO - Setting up FireFox driver.
+21/08/15 02:13 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 02:14 - INFO - Blank Form Submit test case is passed
+21/08/15 02:14 - INFO - Executing Test Case :- checkEmailID
+21/08/15 02:15 - INFO - Invalid Email test case passed
+21/08/15 02:15 - INFO - Executing Test Case :- checkEmailID
+21/08/15 02:15 - INFO - Invalid Email test case passed
+21/08/15 02:15 - INFO - Executing Test Case :- checkPassword
+21/08/15 02:16 - INFO - Invalid Password test case passed
+21/08/15 02:16 - INFO - Executing Test Case :- checkPassword
+21/08/15 02:16 - INFO - Invalid Password test case passed
+21/08/15 02:16 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 02:17 - INFO - Invalid Confirm Password test case passed
+21/08/15 02:17 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 02:17 - INFO - Invalid Confirm Password test case passed
+21/08/15 02:17 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 02:17 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:17 - INFO - Loaded property files and created logger instance.
+21/08/15 02:17 - INFO - Setting up FireFox driver.
+21/08/15 02:18 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 02:18 - INFO - Blank Form Submit test case is passed
+21/08/15 02:18 - INFO - Executing Test Case :- checkEmailID
+21/08/15 02:19 - INFO - Invalid Email test case passed
+21/08/15 02:19 - INFO - Executing Test Case :- checkEmailID
+21/08/15 02:19 - INFO - Invalid Email test case passed
+21/08/15 02:19 - INFO - Executing Test Case :- checkPassword
+21/08/15 02:20 - INFO - Invalid Password test case passed
+21/08/15 02:20 - INFO - Executing Test Case :- checkPassword
+21/08/15 02:20 - INFO - Invalid Password test case passed
+21/08/15 02:20 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 02:20 - INFO - Invalid Confirm Password test case passed
+21/08/15 02:20 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 02:21 - INFO - Invalid Confirm Password test case passed
+21/08/15 02:21 - INFO - Executing Test Case :- checkFirstName
+21/08/15 02:21 - INFO - Invalid First Name test case passed
+21/08/15 02:21 - INFO - Executing Test Case :- checkFirstName
+21/08/15 02:21 - INFO - Invalid First Name test case passed
+21/08/15 02:21 - INFO - Executing Test Case :- checkLastName
+21/08/15 02:22 - INFO - Invalid Last Name test case passed
+21/08/15 02:22 - INFO - Executing Test Case :- checkLastName
+21/08/15 02:22 - INFO - Invalid Last Name test case passed
+21/08/15 02:22 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 02:22 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:22 - INFO - Loaded property files and created logger instance.
+21/08/15 02:22 - INFO - Setting up FireFox driver.
+21/08/15 02:22 - INFO - Executing Test Case :- blankformSubmit
+21/08/15 02:23 - INFO - Blank Form Submit test case is passed
+21/08/15 02:23 - INFO - Executing Test Case :- checkEmailID
+21/08/15 02:23 - INFO - Invalid Email test case passed
+21/08/15 02:23 - INFO - Executing Test Case :- checkEmailID
+21/08/15 02:24 - INFO - Invalid Email test case passed
+21/08/15 02:24 - INFO - Executing Test Case :- checkPassword
+21/08/15 02:24 - INFO - Invalid Password test case passed
+21/08/15 02:24 - INFO - Executing Test Case :- checkPassword
+21/08/15 02:25 - INFO - Invalid Password test case passed
+21/08/15 02:25 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 02:25 - INFO - Invalid Confirm Password test case passed
+21/08/15 02:25 - INFO - Executing Test Case :- checkConfirmPassword
+21/08/15 02:25 - INFO - Invalid Confirm Password test case passed
+21/08/15 02:25 - INFO - Executing Test Case :- checkFirstName
+21/08/15 02:25 - INFO - Invalid First Name test case passed
+21/08/15 02:25 - INFO - Executing Test Case :- checkFirstName
+21/08/15 02:26 - INFO - Invalid First Name test case passed
+21/08/15 02:26 - INFO - Executing Test Case :- checkLastName
+21/08/15 02:26 - INFO - Invalid Last Name test case passed
+21/08/15 02:26 - INFO - Executing Test Case :- checkLastName
+21/08/15 02:27 - INFO - Invalid Last Name test case passed
+21/08/15 02:27 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 02:27 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:32 - INFO - Loaded property files and created logger instance.
+21/08/15 02:32 - INFO - Setting up FireFox driver.
+21/08/15 02:32 - INFO - Executing Test Case :- ccSignUp
+21/08/15 02:32 - INFO - Screen Shots file :  D:\F Drive Data\TST_Selenium\AutomationFramework\test-output\ScreenShots\image-1440147754604.jpg
+21/08/15 02:32 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 02:32 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:32 - INFO - Loaded property files and created logger instance.
+21/08/15 02:32 - INFO - Setting up FireFox driver.
+21/08/15 02:32 - INFO - Executing Test Case :- aapSignUp
+21/08/15 02:33 - INFO - Loaded property files and created logger instance.
+21/08/15 02:33 - INFO - Setting up FireFox driver.
+21/08/15 02:33 - INFO - Executing Test Case :- ccSignUp
+21/08/15 02:34 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 02:34 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:34 - INFO - Loaded property files and created logger instance.
+21/08/15 02:34 - INFO - Setting up FireFox driver.
+21/08/15 02:34 - INFO - Executing Test Case :- aapSignUp
+21/08/15 02:47 - INFO - Loaded property files and created logger instance.
+21/08/15 02:47 - INFO - Setting up FireFox driver.
+21/08/15 02:47 - INFO - Executing Test Case :- ccSignUp
+21/08/15 02:55 - INFO - Loaded property files and created logger instance.
+21/08/15 02:55 - INFO - Setting up FireFox driver.
+21/08/15 02:55 - INFO - Executing Test Case :- ccSignUp
+21/08/15 02:56 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 02:56 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:56 - INFO - Loaded property files and created logger instance.
+21/08/15 02:56 - INFO - Setting up FireFox driver.
+21/08/15 02:56 - INFO - Executing Test Case :- aapSignUp
+21/08/15 02:57 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 02:57 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:57 - INFO - Loaded property files and created logger instance.
+21/08/15 02:57 - INFO - Setting up FireFox driver.
+21/08/15 02:57 - INFO - Executing Test Case :- aaoSignUp
+21/08/15 02:58 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 02:58 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 02:58 - INFO - Loaded property files and created logger instance.
+21/08/15 02:58 - INFO - Setting up FireFox driver.
+21/08/15 02:58 - INFO - Executing Test Case :- dstSignUp
+21/08/15 03:00 - INFO - Screen Shots file :  D:\F Drive Data\TST_Selenium\AutomationFramework\test-output\ScreenShots\image-1440149413601.jpg
+21/08/15 03:00 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:00 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 03:00 - INFO - Loaded property files and created logger instance.
+21/08/15 03:00 - INFO - Setting up FireFox driver.
+21/08/15 03:00 - INFO - Executing Test Case :- dsaSignUp
+21/08/15 03:01 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:01 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 03:05 - INFO - Loaded property files and created logger instance.
+21/08/15 03:05 - INFO - Setting up FireFox driver.
+21/08/15 03:05 - INFO - Executing Test Case :- aaoSignUp
+21/08/15 03:06 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:06 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 03:06 - INFO - Loaded property files and created logger instance.
+21/08/15 03:06 - INFO - Setting up FireFox driver.
+21/08/15 03:06 - INFO - Executing Test Case :- dstSignUp
+21/08/15 03:10 - INFO - Loaded property files and created logger instance.
+21/08/15 03:10 - INFO - Setting up FireFox driver.
+21/08/15 03:10 - INFO - Executing Test Case :- aaoSignUp
+21/08/15 03:11 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:11 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 03:11 - INFO - Loaded property files and created logger instance.
+21/08/15 03:11 - INFO - Setting up FireFox driver.
+21/08/15 03:11 - INFO - Executing Test Case :- dstSignUp
+21/08/15 03:12 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:12 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 03:12 - INFO - Loaded property files and created logger instance.
+21/08/15 03:12 - INFO - Setting up FireFox driver.
+21/08/15 03:12 - INFO - Executing Test Case :- dsaSignUp
+21/08/15 03:13 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:13 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 03:16 - INFO - Loaded property files and created logger instance.
+21/08/15 03:16 - INFO - Setting up FireFox driver.
+21/08/15 03:16 - INFO - Executing Test Case :- ccSignUp
+21/08/15 03:17 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:17 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 03:17 - INFO - Loaded property files and created logger instance.
+21/08/15 03:17 - INFO - Setting up FireFox driver.
+21/08/15 03:17 - INFO - Executing Test Case :- aapSignUp
+21/08/15 03:18 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:18 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 03:18 - INFO - Loaded property files and created logger instance.
+21/08/15 03:18 - INFO - Setting up FireFox driver.
+21/08/15 03:18 - INFO - Executing Test Case :- aaoSignUp
+21/08/15 03:19 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:19 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 03:19 - INFO - Loaded property files and created logger instance.
+21/08/15 03:19 - INFO - Setting up FireFox driver.
+21/08/15 03:19 - INFO - Executing Test Case :- dstSignUp
+21/08/15 03:20 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:20 - INFO - Test executed on Browser : firefox 39.0
+21/08/15 03:20 - INFO - Loaded property files and created logger instance.
+21/08/15 03:20 - INFO - Setting up FireFox driver.
+21/08/15 03:20 - INFO - Executing Test Case :- dsaSignUp
+21/08/15 03:21 - INFO - Test executed on Operating System : WINDOWS 8.1
+21/08/15 03:21 - INFO - Test executed on Browser : firefox 39.0

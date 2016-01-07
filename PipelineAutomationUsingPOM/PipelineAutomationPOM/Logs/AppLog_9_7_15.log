@@ -1,0 +1,30 @@
+07/09/15 06:03 - INFO - Loaded property files and created logger instance
+07/09/15 06:03 - INFO - Setting up FireFox driver.
+07/09/15 06:03 - INFO - Executing Test Case :- verifyPipelineLogin
+07/09/15 06:03 - INFO - Test case passed: verify user able to login to pipeline application
+07/09/15 06:03 - INFO - Executing Test Case :- verifyInitialPopup
+07/09/15 06:03 - INFO - Test case passed: verify help popup displayed on Pipeline homepage and working fine
+07/09/15 06:03 - INFO - Executing Test Case :- verifyTodaysDateDisplayedOnHomePage
+07/09/15 06:03 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline homepage
+07/09/15 06:03 - INFO - Test case passed: verify today's date displayed on the Pipeline homepage
+07/09/15 06:03 - INFO - Executing Test Case :- verifyArticleLinkWorking
+07/09/15 06:03 - INFO - Test case passed: verify required sections displayed on an article page
+07/09/15 06:03 - INFO - Executing Test Case :- verifyTheDealLogo
+07/09/15 06:04 - INFO - Test case passed: verify user is navigated to 'http://www.thedeal.com/' page
+07/09/15 06:04 - INFO - Executing Test Case :- verifySectionsOnPipelineHomepage
+07/09/15 06:04 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline homepage
+07/09/15 06:04 - INFO - Executing Test Case :- verifyPageNavigation
+07/09/15 06:04 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+07/09/15 06:04 - INFO - Test executed on Operating System : WINDOWS 8.1
+07/09/15 06:04 - INFO - Test executed on Browser : firefox 40.0.3
+07/09/15 06:34 - INFO - Loaded property files and created logger instance
+07/09/15 06:34 - INFO - Setting up FireFox driver.
+07/09/15 06:34 - INFO - Executing Test Case :- verifyPipelineLogin
+07/09/15 06:34 - INFO - Test case passed: verify user able to login to pipeline application
+07/09/15 06:34 - INFO - Executing Test Case :- verifyInitialPopup
+07/09/15 06:34 - INFO - Test case passed: verify help pop up displayed on Pipeline home page and working fine
+07/09/15 06:34 - INFO - Test executed on Operating System : WINDOWS 8.1
+07/09/15 06:34 - INFO - Test executed on Browser : firefox 40.0.3
+07/09/15 06:35 - INFO - Loaded property files and created logger instance
+07/09/15 06:35 - INFO - Setting up FireFox driver.
+07/09/15 06:35 - INFO - Executing Test Case :- verifyQuickViewMode

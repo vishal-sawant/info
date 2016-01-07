@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TheStreet"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.668">
+  <properties />
+  
+  
+            <testcase name="launchURL" time="0.053" classname="SignUp.internationalizationDemo" />
+                <testcase name="searchInLanguage" time="11.615" classname="SignUp.internationalizationDemo" />
+      
+</testsuite>

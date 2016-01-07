@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=": Regression Test on Pipeline"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.836">
+  <properties />
+  
+  
+            <testcase name="verifyPipelineLoginFunction" time="7.836" classname="com.pack.common.tests.LoginPageTest" />
+      
+</testsuite>

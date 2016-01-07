@@ -1,0 +1,122 @@
+16/09/15 06:23 - INFO - Loaded property files and created logger instance
+16/09/15 06:23 - INFO - Setting up FireFox driver.
+16/09/15 06:24 - INFO - Executing Test Case :- verifyTheDealPageIsDisplayed
+16/09/15 06:24 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442408054502.jpg
+16/09/15 06:24 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 06:24 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 06:29 - INFO - Loaded property files and created logger instance
+16/09/15 06:29 - INFO - Setting up FireFox driver.
+16/09/15 06:29 - INFO - Executing Test Case :- verifyTheDealPageIsDisplayed
+16/09/15 06:29 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442408373901.jpg
+16/09/15 06:29 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 06:29 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 06:34 - INFO - Loaded property files and created logger instance
+16/09/15 06:34 - INFO - Setting up FireFox driver.
+16/09/15 06:34 - INFO - Executing Test Case :- verifyTheDealPageIsDisplayed
+16/09/15 06:35 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442408701212.jpg
+16/09/15 06:35 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 06:35 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 06:40 - INFO - Loaded property files and created logger instance
+16/09/15 06:40 - INFO - Setting up FireFox driver.
+16/09/15 06:40 - INFO - Executing Test Case :- verifyTheDealPageIsDisplayed
+16/09/15 06:40 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442409021065.jpg
+16/09/15 06:40 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 06:40 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 06:41 - INFO - Loaded property files and created logger instance
+16/09/15 06:41 - INFO - Setting up FireFox driver.
+16/09/15 06:41 - INFO - Executing Test Case :- verifyTheDealPageIsDisplayed
+16/09/15 06:41 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442409094372.jpg
+16/09/15 06:41 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 06:41 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 06:44 - INFO - Loaded property files and created logger instance
+16/09/15 06:44 - INFO - Setting up FireFox driver.
+16/09/15 06:44 - INFO - Executing Test Case :- verifyTheDealPageIsDisplayed
+16/09/15 06:44 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442409277938.jpg
+16/09/15 06:44 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 06:44 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 06:45 - INFO - Loaded property files and created logger instance
+16/09/15 06:45 - INFO - Setting up FireFox driver.
+16/09/15 06:45 - INFO - Executing Test Case :- verifyTheDealPageIsDisplayed
+16/09/15 06:46 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442409375070.jpg
+16/09/15 06:46 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 06:46 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 07:32 - INFO - Loaded property files and created logger instance
+16/09/15 07:32 - INFO - Setting up FireFox driver.
+16/09/15 07:32 - INFO - Executing Test Case :- verifyHomePageElements
+16/09/15 07:33 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+16/09/15 07:33 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+16/09/15 07:33 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+16/09/15 07:33 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442412186195.jpg
+16/09/15 07:33 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 07:33 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 07:34 - INFO - Loaded property files and created logger instance
+16/09/15 07:34 - INFO - Setting up FireFox driver.
+16/09/15 07:34 - INFO - Executing Test Case :- verifyHomePageElements
+16/09/15 07:34 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+16/09/15 07:34 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+16/09/15 07:34 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+16/09/15 07:34 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442412285860.jpg
+16/09/15 07:34 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 07:34 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 07:38 - INFO - Loaded property files and created logger instance
+16/09/15 07:38 - INFO - Setting up FireFox driver.
+16/09/15 07:38 - INFO - Executing Test Case :- verifyHomePageElements
+16/09/15 07:38 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+16/09/15 07:38 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+16/09/15 07:38 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+16/09/15 07:38 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442412518344.jpg
+16/09/15 07:38 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 07:38 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 07:41 - INFO - Loaded property files and created logger instance
+16/09/15 07:41 - INFO - Setting up FireFox driver.
+16/09/15 07:41 - INFO - Executing Test Case :- verifyHomePageElements
+16/09/15 07:42 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+16/09/15 07:42 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+16/09/15 07:42 - INFO - Loaded property files and created logger instance
+16/09/15 07:42 - INFO - Setting up FireFox driver.
+16/09/15 07:42 - INFO - Executing Test Case :- verifyHomePageElements
+16/09/15 07:42 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+16/09/15 07:42 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+16/09/15 07:42 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+16/09/15 07:42 - INFO - Screen Shots file :  D:\PipelineAutomationUsingPOM\PipelineAutomationPOM\test-output\ScreenShots\image-1442412769614.jpg
+16/09/15 07:42 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 07:42 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 07:43 - INFO - Loaded property files and created logger instance
+16/09/15 07:43 - INFO - Setting up FireFox driver.
+16/09/15 07:43 - INFO - Executing Test Case :- verifyHomePageElements
+16/09/15 07:43 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+16/09/15 07:43 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+16/09/15 07:43 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+16/09/15 07:47 - INFO - Loaded property files and created logger instance
+16/09/15 07:47 - INFO - Setting up FireFox driver.
+16/09/15 07:47 - INFO - Executing Test Case :- verifyHomePageElements
+16/09/15 07:47 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+16/09/15 07:47 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+16/09/15 07:47 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+16/09/15 07:47 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+16/09/15 07:47 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+16/09/15 07:48 - INFO - Test case passed: verify Investment Banking page displayed and user can see related deals or articles
+16/09/15 07:48 - INFO - Test case passed: verify Private Equity Screener page displayed and user can see related data by clicking on alphabet link from 'Search Firms Alphabetically' section
+16/09/15 07:48 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/09/15 07:48 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/09/15 07:53 - INFO - Loaded property files and created logger instance
+16/09/15 07:53 - INFO - Setting up FireFox driver.
+16/09/15 07:54 - INFO - Executing Test Case :- verifyHomePageElements
+16/09/15 07:54 - INFO - Test case passed: verify text 'TODAY'S DEALS' present on Pipeline home page
+16/09/15 07:54 - INFO - Test case passed: verify today's date displayed on the Pipeline home page
+16/09/15 07:54 - INFO - Test case passed: verify QVM, Exclusive video, Deal Dashboard, Rumor Mill sections displayed on Pipeline home page
+16/09/15 07:54 - INFO - Test case passed: verify page navigation works properly, verify user able to navigate to different pages by changing the page id in URL
+16/09/15 07:54 - INFO - Test case passed: verify Arbitrage Situations Chart page displayed and it's not empty
+16/09/15 07:54 - INFO - Test case passed: verify Investment Banking page displayed and user can see related deals or articles

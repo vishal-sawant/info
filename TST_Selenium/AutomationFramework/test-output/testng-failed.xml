@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Automation Framework Demo]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="common.classes.Listener"/>
+  </listeners>
+  <test name="Regression on SignUp Service(failed)">
+    <classes>
+      <class name="signup.service.CC_SignUp">
+        <methods>
+          <include name="setupAfterSuite"/>
+          <include name="setupBeforeSuite"/>
+        </methods>
+      </class> <!-- signup.service.CC_SignUp -->
+      <class name="signup.service.AAP_SignUp">
+        <methods>
+          <include name="setupAfterSuite"/>
+          <include name="setupBeforeSuite"/>
+        </methods>
+      </class> <!-- signup.service.AAP_SignUp -->
+      <class name="signup.service.AAO_SignUp">
+        <methods>
+          <include name="setupAfterSuite"/>
+          <include name="setupBeforeSuite"/>
+        </methods>
+      </class> <!-- signup.service.AAO_SignUp -->
+      <class name="signup.service.DSA_SignUp">
+        <methods>
+          <include name="setupAfterSuite"/>
+          <include name="setupBeforeSuite"/>
+        </methods>
+      </class> <!-- signup.service.DSA_SignUp -->
+      <class name="signup.service.DST_SignUp">
+        <methods>
+          <include name="dstSignUp"/>
+          <include name="setupAfterSuite"/>
+          <include name="setupBeforeSuite"/>
+        </methods>
+      </class> <!-- signup.service.DST_SignUp -->
+    </classes>
+  </test> <!-- Regression on SignUp Service(failed) -->
+</suite> <!-- Failed suite [Automation Framework Demo] -->

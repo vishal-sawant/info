@@ -1,0 +1,198 @@
+04/09/15 10:09 - INFO - Loaded property files and created logger instance
+04/09/15 10:09 - INFO - Setting up FireFox driver.
+04/09/15 10:10 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 10:10 - INFO - Loaded property files and created logger instance
+04/09/15 10:10 - INFO - Setting up FireFox driver.
+04/09/15 10:11 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 10:11 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 10:11 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 10:11 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 10:12 - INFO - Screen Shots file :  D:\Pipeline_Automation_Framework\AutomationFramework\test-output\ScreenShots\image-1441341722636.jpg
+04/09/15 10:12 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 10:12 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 10:12 - INFO - Loaded property files and created logger instance
+04/09/15 10:12 - INFO - Setting up FireFox driver.
+04/09/15 10:13 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 10:13 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 10:13 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 10:13 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 10:14 - INFO - Screen Shots file :  D:\Pipeline_Automation_Framework\AutomationFramework\test-output\ScreenShots\image-1441341885861.jpg
+04/09/15 10:14 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 10:14 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 10:16 - INFO - Loaded property files and created logger instance
+04/09/15 10:16 - INFO - Setting up FireFox driver.
+04/09/15 10:16 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 10:17 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 10:17 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 10:17 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 10:17 - INFO - Screen Shots file :  D:\Pipeline_Automation_Framework\AutomationFramework\test-output\ScreenShots\image-1441342023257.jpg
+04/09/15 10:17 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 10:17 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 10:21 - INFO - Loaded property files and created logger instance
+04/09/15 10:21 - INFO - Setting up FireFox driver.
+04/09/15 10:21 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 10:22 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 10:22 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 10:22 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 10:22 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 10:22 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 10:29 - INFO - Loaded property files and created logger instance
+04/09/15 10:29 - INFO - Setting up FireFox driver.
+04/09/15 10:29 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 10:30 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 10:30 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 10:30 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 10:30 - INFO - Screen Shots file :  D:\Pipeline_Automation_Framework\AutomationFramework\test-output\ScreenShots\image-1441342806033.jpg
+04/09/15 10:30 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 10:30 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 10:32 - INFO - Loaded property files and created logger instance
+04/09/15 10:32 - INFO - Setting up FireFox driver.
+04/09/15 10:32 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 10:33 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 10:33 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 10:33 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 10:33 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 10:33 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 10:44 - INFO - Loaded property files and created logger instance
+04/09/15 10:44 - INFO - Setting up FireFox driver.
+04/09/15 10:44 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 10:44 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 10:44 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 10:44 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 10:45 - INFO - Screen Shots file :  D:\Pipeline_Automation_Framework\AutomationFramework\test-output\ScreenShots\image-1441343741728.jpg
+04/09/15 10:45 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 10:45 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 10:52 - INFO - Loaded property files and created logger instance
+04/09/15 10:52 - INFO - Setting up FireFox driver.
+04/09/15 10:52 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 10:52 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 10:52 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 10:52 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 10:54 - INFO - Screen Shots file :  D:\Pipeline_Automation_Framework\AutomationFramework\test-output\ScreenShots\image-1441344260663.jpg
+04/09/15 10:54 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 10:54 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 10:56 - INFO - Loaded property files and created logger instance
+04/09/15 10:56 - INFO - Setting up FireFox driver.
+04/09/15 10:56 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 10:56 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 10:56 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 10:56 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 11:40 - INFO - Loaded property files and created logger instance
+04/09/15 11:40 - INFO - Setting up FireFox driver.
+04/09/15 11:41 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 11:41 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 11:41 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 11:41 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 11:41 - INFO - Screen Shots file :  D:\Pipeline_Automation_Framework\AutomationFramework\test-output\ScreenShots\image-1441347082945.jpg
+04/09/15 11:41 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 11:41 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 11:43 - INFO - Loaded property files and created logger instance
+04/09/15 11:43 - INFO - Setting up FireFox driver.
+04/09/15 11:43 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 11:43 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 11:43 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 11:43 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 11:43 - INFO - Screen Shots file :  D:\Pipeline_Automation_Framework\AutomationFramework\test-output\ScreenShots\image-1441347227433.jpg
+04/09/15 11:43 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 11:43 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 11:48 - INFO - Loaded property files and created logger instance
+04/09/15 11:48 - INFO - Setting up FireFox driver.
+04/09/15 11:48 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 11:48 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 11:49 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 11:49 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 11:49 - INFO - Screen Shots file :  D:\Pipeline_Automation_Framework\AutomationFramework\test-output\ScreenShots\image-1441347549288.jpg
+04/09/15 11:49 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 11:49 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 11:51 - INFO - Loaded property files and created logger instance
+04/09/15 11:51 - INFO - Setting up FireFox driver.
+04/09/15 11:51 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 11:51 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 11:51 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 11:51 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 11:51 - INFO - Verified today's date is displayed on the Pipeline homepage
+04/09/15 11:51 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 11:51 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 11:59 - INFO - Loaded property files and created logger instance
+04/09/15 11:59 - INFO - Setting up FireFox driver.
+04/09/15 11:59 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 11:59 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 11:59 - INFO - Executing Test Case :- verifyHomePage
+04/09/15 11:59 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 11:59 - INFO - Verified today's date is displayed on the Pipeline homepage
+04/09/15 11:59 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 11:59 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 02:08 - INFO - Loaded property files and created logger instance
+04/09/15 02:08 - INFO - Setting up FireFox driver.
+04/09/15 02:09 - INFO - Loaded property files and created logger instance
+04/09/15 02:09 - INFO - Setting up FireFox driver.
+04/09/15 02:09 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 02:10 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 02:10 - INFO - Executing Test Case :- verifyTodaysDateDisplayedOnHomePage
+04/09/15 02:10 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 02:10 - INFO - Verified today's date is displayed on the Pipeline homepage
+04/09/15 02:10 - INFO - Executing Test Case :- verifyArticleLinkWorking
+04/09/15 02:12 - INFO - Loaded property files and created logger instance
+04/09/15 02:12 - INFO - Setting up FireFox driver.
+04/09/15 02:13 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 02:13 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 02:13 - INFO - Executing Test Case :- verifyTodaysDateDisplayedOnHomePage
+04/09/15 02:13 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 02:13 - INFO - Verified today's date is displayed on the Pipeline homepage
+04/09/15 02:13 - INFO - Executing Test Case :- verifyArticleLinkWorking
+04/09/15 02:13 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 02:13 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 04:16 - INFO - Loaded property files and created logger instance
+04/09/15 04:16 - INFO - Setting up FireFox driver.
+04/09/15 04:16 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 04:16 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 04:16 - INFO - Executing Test Case :- verifyTodaysDateDisplayedOnHomePage
+04/09/15 04:16 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 04:16 - INFO - Verified today's date is displayed on the Pipeline homepage
+04/09/15 04:16 - INFO - Executing Test Case :- verifyArticleLinkWorking
+04/09/15 04:16 - INFO - Screen Shots file :  D:\Pipeline_Automation_Framework\AutomationFramework\test-output\ScreenShots\image-1441363598947.jpg
+04/09/15 04:17 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 04:17 - INFO - Test executed on Browser : firefox 40.0.3
+04/09/15 04:24 - INFO - Loaded property files and created logger instance
+04/09/15 04:24 - INFO - Setting up FireFox driver.
+04/09/15 04:24 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 04:25 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 04:25 - INFO - Executing Test Case :- verifyTodaysDateDisplayedOnHomePage
+04/09/15 04:25 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 04:25 - INFO - Verified today's date is displayed on the Pipeline homepage
+04/09/15 04:25 - INFO - Executing Test Case :- verifyArticleLinkWorking
+04/09/15 04:26 - INFO - Loaded property files and created logger instance
+04/09/15 04:26 - INFO - Setting up FireFox driver.
+04/09/15 04:27 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 04:27 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 04:27 - INFO - Executing Test Case :- verifyTodaysDateDisplayedOnHomePage
+04/09/15 04:27 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 04:27 - INFO - Verified today's date is displayed on the Pipeline homepage
+04/09/15 04:27 - INFO - Executing Test Case :- verifyArticleLinkWorking
+04/09/15 04:28 - INFO - Loaded property files and created logger instance
+04/09/15 04:28 - INFO - Setting up FireFox driver.
+04/09/15 04:28 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 04:28 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 04:28 - INFO - Executing Test Case :- verifyTodaysDateDisplayedOnHomePage
+04/09/15 04:28 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 04:28 - INFO - Verified today's date is displayed on the Pipeline homepage
+04/09/15 04:28 - INFO - Executing Test Case :- verifyArticleLinkWorking
+04/09/15 05:33 - INFO - Loaded property files and created logger instance
+04/09/15 05:33 - INFO - Setting up FireFox driver.
+04/09/15 05:33 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 05:33 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 05:34 - INFO - Executing Test Case :- verifyTodaysDateDisplayedOnHomePage
+04/09/15 05:34 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 05:34 - INFO - Verified today's date is displayed on the Pipeline homepage
+04/09/15 05:34 - INFO - Executing Test Case :- verifyArticleLinkWorking
+04/09/15 06:12 - INFO - Loaded property files and created logger instance
+04/09/15 06:12 - INFO - Setting up FireFox driver.
+04/09/15 06:12 - INFO - Executing Test Case :- verifyPipelineLogin
+04/09/15 06:12 - INFO - Executing Test Case :- verifyInitialPopup
+04/09/15 06:12 - INFO - Executing Test Case :- verifyTodaysDateDisplayedOnHomePage
+04/09/15 06:12 - INFO - Verified text 'TODAY'S DEALS' present on Pipeline homepage
+04/09/15 06:12 - INFO - Verified today's date is displayed on the Pipeline homepage
+04/09/15 06:12 - INFO - Executing Test Case :- verifyArticleLinkWorking
+04/09/15 06:13 - INFO - Test case passed to verify required sections displayed on an article page
+04/09/15 06:14 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/09/15 06:14 - INFO - Test executed on Browser : firefox 40.0.3

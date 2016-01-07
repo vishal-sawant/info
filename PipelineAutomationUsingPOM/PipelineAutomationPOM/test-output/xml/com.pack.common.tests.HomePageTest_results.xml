@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=": Regression Test on Pipeline"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="57.574">
+  <properties />
+  
+  
+            <testcase name="verifyHomePageElements" time="57.574" classname="com.pack.common.tests.HomePageTest" />
+      
+</testsuite>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG is going to start the execution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test Regression on SignUp Service]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- ccSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- aapSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- aaoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- dstSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- dsaSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test Regression on SignUp Service]]>
+    </line>
+    <line>
+      <![CDATA[TestNG has finished execution. It took around 304.792 seconds.]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation Framework Demo" duration-ms="304685" started-at="2015-08-21T09:46:17Z" finished-at="2015-08-21T09:51:22Z">
+    <groups>
+    </groups>
+    <test name="Regression on SignUp Service" duration-ms="304685" started-at="2015-08-21T09:46:17Z" finished-at="2015-08-21T09:51:22Z">
+      <class name="signup.service.DSA_SignUp">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:signup.service.DSA_SignUp@199ffdd]" name="setupBeforeSuite" is-config="true" duration-ms="12683" started-at="2015-08-21T15:20:11Z" finished-at="2015-08-21T15:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="dsaSignUp()[pri:0, instance:signup.service.DSA_SignUp@199ffdd]" name="dsaSignUp" duration-ms="57718" started-at="2015-08-21T15:20:24Z" finished-at="2015-08-21T15:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dsaSignUp -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:signup.service.DSA_SignUp@199ffdd]" name="setupAfterSuite" is-config="true" duration-ms="508" started-at="2015-08-21T15:21:22Z" finished-at="2015-08-21T15:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- signup.service.DSA_SignUp -->
+      <class name="signup.service.AAO_SignUp">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:signup.service.AAO_SignUp@a5b721]" name="setupBeforeSuite" is-config="true" duration-ms="9667" started-at="2015-08-21T15:18:17Z" finished-at="2015-08-21T15:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="aaoSignUp()[pri:0, instance:signup.service.AAO_SignUp@a5b721]" name="aaoSignUp" duration-ms="46413" started-at="2015-08-21T15:18:27Z" finished-at="2015-08-21T15:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaoSignUp -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:signup.service.AAO_SignUp@a5b721]" name="setupAfterSuite" is-config="true" duration-ms="538" started-at="2015-08-21T15:19:13Z" finished-at="2015-08-21T15:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- signup.service.AAO_SignUp -->
+      <class name="signup.service.AAP_SignUp">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:signup.service.AAP_SignUp@17cdd50]" name="setupBeforeSuite" is-config="true" duration-ms="12636" started-at="2015-08-21T15:17:20Z" finished-at="2015-08-21T15:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="aapSignUp()[pri:0, instance:signup.service.AAP_SignUp@17cdd50]" name="aapSignUp" duration-ms="43566" started-at="2015-08-21T15:17:33Z" finished-at="2015-08-21T15:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aapSignUp -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:signup.service.AAP_SignUp@17cdd50]" name="setupAfterSuite" is-config="true" duration-ms="525" started-at="2015-08-21T15:18:16Z" finished-at="2015-08-21T15:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- signup.service.AAP_SignUp -->
+      <class name="signup.service.DST_SignUp">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:signup.service.DST_SignUp@16d383a]" name="setupBeforeSuite" is-config="true" duration-ms="13825" started-at="2015-08-21T15:19:14Z" finished-at="2015-08-21T15:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="dstSignUp()[pri:0, instance:signup.service.DST_SignUp@16d383a]" name="dstSignUp" duration-ms="43218" started-at="2015-08-21T15:19:27Z" finished-at="2015-08-21T15:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dstSignUp -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:signup.service.DST_SignUp@16d383a]" name="setupAfterSuite" is-config="true" duration-ms="580" started-at="2015-08-21T15:20:11Z" finished-at="2015-08-21T15:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- signup.service.DST_SignUp -->
+      <class name="signup.service.CC_SignUp">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:signup.service.CC_SignUp@3bd44c]" name="setupBeforeSuite" is-config="true" duration-ms="13087" started-at="2015-08-21T15:16:17Z" finished-at="2015-08-21T15:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="ccSignUp()[pri:0, instance:signup.service.CC_SignUp@3bd44c]" name="ccSignUp" duration-ms="49161" started-at="2015-08-21T15:16:30Z" finished-at="2015-08-21T15:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccSignUp -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:signup.service.CC_SignUp@3bd44c]" name="setupAfterSuite" is-config="true" duration-ms="543" started-at="2015-08-21T15:17:20Z" finished-at="2015-08-21T15:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- signup.service.CC_SignUp -->
+    </test> <!-- Regression on SignUp Service -->
+  </suite> <!-- Automation Framework Demo -->
+</testng-results>

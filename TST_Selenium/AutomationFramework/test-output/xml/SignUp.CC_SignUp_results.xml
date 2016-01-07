@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TheStreet"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="258.164">
+  <properties />
+  
+  
+            <testcase name="checkFirstName" time="21.116" classname="SignUp.CC_SignUp" />
+                <testcase name="checkFirstName" time="23.816" classname="SignUp.CC_SignUp" />
+                <testcase name="checkConfirmPassword" time="24.992" classname="SignUp.CC_SignUp" />
+                <testcase name="checkLastName" time="23.314" classname="SignUp.CC_SignUp" />
+                <testcase name="checkPassword" time="24.286" classname="SignUp.CC_SignUp" />
+                <testcase name="checkPassword" time="20.113" classname="SignUp.CC_SignUp" />
+                <testcase name="checkLastName" time="20.172" classname="SignUp.CC_SignUp" />
+                <testcase name="checkEmailID" time="29.033" classname="SignUp.CC_SignUp" />
+                <testcase name="checkConfirmPassword" time="25.105" classname="SignUp.CC_SignUp" />
+                <testcase name="checkEmailID" time="46.217" classname="SignUp.CC_SignUp" />
+      
+</testsuite>

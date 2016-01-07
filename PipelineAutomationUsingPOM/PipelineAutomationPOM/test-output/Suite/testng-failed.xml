@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.pack.base.Listener"/>
+  </listeners>
+  <test name=": Regression Test on Pipeline(failed)">
+    <classes>
+      <class name="com.pack.common.tests.HomePageTest">
+        <methods>
+          <include name="verifyHomePageElements"/>
+          <include name="setupBeforeSuite"/>
+          <include name="setupAfterSuite"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.HomePageTest -->
+    </classes>
+  </test> <!-- : Regression Test on Pipeline(failed) -->
+</suite> <!-- Failed suite [Suite] -->

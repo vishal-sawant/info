@@ -1,0 +1,48 @@
+#
+# Page elements present on Pipeline Login & Home page
+#
+userName =name:username
+password =name:password
+submitButton =xpath://form[@name='loginform']/input[4]
+popupNextButton =xpath://button[@title='Next (Right arrow key)']
+popupImage1 =xpath://img[contains(@src, 'images/helppopup/td_lightbox_1_925x675.png')]
+popupImage2 =xpath://img[contains(@src, 'images/helppopup/td_lightbox_2_925x675.png')]
+popupImage3 =xpath://img[contains(@src, 'images/helppopup/td_lightbox_3_925x675.png')]
+popupImage4 =xpath://img[contains(@src, 'images/helppopup/td_lightbox_4_925x675.png')]
+popupImage5 =xpath://img[contains(@src, 'images/helppopup/td_lightbox_5_925x675.png')]
+popupCloseButton =xpath://button[@title='Close (Esc)']
+textTodaysDeal =xpath://div[@class='blackTitleCss']
+getTodaysDate =xpath://span[@class='todaysdate']
+logoTheDeal =xpath://div[@class='head-wrap']//img
+theDealPipelineLink =linktext:The Deal Pipeline
+sectionQVM =id:qvm_main_div
+sectionVideo =id:toutBoxBorder
+sectionDashboard =xpath://td[contains(text(),' DEAL DASHBOARD')]
+sectionRumorMill =xpath://img[contains(@src, 'images/rumormill.jpg')]
+pageNavigation2Link =xpath://div[@id='pageNavDiv']/a/b
+pageNavigationNextLink =xpath://div[@id='pageNavDiv']//a[contains(text(),'Next')]
+homePageMenuLink = xpath://div[@id='sec-level']//a[contains(text(),'Home')]
+#
+# Web element locators related to Article page
+#
+articleLink =xpath://a[contains(text(),'[Full Story]')]
+topStoriesText =xpath://td[contains(text(),'Top Stories')]
+yourCompanysConnectionText =xpath://span[contains(text(),'Your Company')]
+yourConnectionText =xpath://span[contains(text(),'Your Connections')]
+relatedTopicsText =xpath://td[contains(text(),'Related Topics')]
+relatedIndustriesText =xpath://td[contains(text(),'Related Industries')]
+companiesMentionedText =xpath://td[contains(text(),'Companies Mentioned')]
+relatedStoriesText =xpath://td[contains(text(),'Related Stories')]
+#
+# Web element locators related to Quick View Mode section
+#
+linkArbitrageSituationsChart =linktext:Arbitrage Situations Chart
+headerTextArbitrageSituationsChart =xpath://div[contains(text(), 'Arbitrage Situations Chart')]
+reportTextArbitrageSituations =xpath://b[contains(text(), 'Arbitrage situations as of market')]
+investmentBankingLink =id:qvm_link_td_1_Investment Banking
+investmentBankingText =xpath://td[@id='tdBodyDiv']//div
+verifyArticleDisplayed =xpath://a[contains(text(),'[Full Story]')]
+verifyDealsDisplayed =xpath://a[contains(text(),'[View Deal Memo]')]
+linkPrivateEquity =id:qvm_menu_fw_link
+headerTextPrivateEquity =xpath://div[contains(text(), 'PRIVATE EQUITY SCREENER')]
+linkSearchFirmsAlphabetically =xpath://form[@name='frmBasicState']/table//a[contains(text(),'N')]

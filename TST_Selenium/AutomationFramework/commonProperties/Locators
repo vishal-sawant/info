@@ -1,0 +1,65 @@
+#
+# Web element locators common on all Sing Up pages
+#
+submit_button =id:submitButton
+subscribe_link =xpath://li[@id='servicesLink']/a
+email_add =name:emailAddress1
+telephone_number =id:creditCard.creditCardTelephone1
+thkyou_text =xpath://h1[contains(text(),'Thank you')]
+fname =name:firstName
+lname =name:lastName
+#
+# Error locators common on all Sing Up pages
+#
+error_text  =xpath://*[contains(text(), 'we were unable to process')]
+error_invalidEmail =xpath://*[contains(text(), 'Email Address contains invalid')]
+error_invalidfirstName =xpath://*[contains(text(), 'First Name contains invalid')]
+error_invalidLastName =xpath://*[contains(text(), 'Last Name contains invalid')]
+error_invalidPassword =xpath://*[contains(text(), 'between 5 and 30 characters.')]
+error_invalidConfirmPassword =xpath://*[contains(text(), 'Confirm Password must be')]
+#
+# Create Account page Web Elements
+#
+pass =name:metaData.password
+confirmpass =name:confirmPassword
+ccreditcardnumber =name:creditCard.creditCardNumber
+ccreditcardcvv =name:creditCard.creditCardCvv
+nameoncreditcard =name:creditCard.creditCardHolderName
+address1 =name:user.address1
+address2 =name:user.address2
+city =name:user.city
+state =name:user.state
+postalCode =name:user.postalCode
+#
+# Cairman's Club SignUp page Web Elements
+#
+continue_site_link =xpath://a[contains(text(),'Continue to site')]
+cc_link =xpath://a[contains(text(),'Chairma')]
+cc_button =xpath://div[@id='rightColumn']/a/img
+membership_button =xpath://div[@id='sectionOne']/div/a/img
+email_id =id:user.emailAddress1
+first_name =id:user.firstName
+last_name =id:user.lastName
+#
+# Action Alerts PLUS page Web Elements
+#
+aap_link =xpath://a[contains(text(),'Action Alerts PLUS')]
+portfolio_button =xpath://div[@id='sectionOne']/div/a/img
+aap_thkyou_text =xpath://h2[contains(text(),'Thank you')]
+#
+# Action Alerts OPTIONS page Web Elements
+#
+aao_link =xpath://a[contains(text(),'Action Alerts OPTIONS')]
+free_trial_button =xpath://div[@id='content']/div/a/img
+#
+# Daily Swing Trade page Web Elements
+#
+dst_link =xpath://a[contains(text(),'Daily Swing Trade')]
+free-trial_button =xpath://img[contains(@alt, '14-Day FREE Trial!')]
+dst_thkyou_text =xpath://span[contains(text(),'Thank you')]
+#
+# Dividend Stock Advisor page Web Elements
+#
+dsa_link =xpath://a[contains(text(),'Dividend Stock Advisor')]
+getstarted_button1 =xpath://div[@id='rightColumn']/div/a/img
+getstarted_button2 =xpath://div[@id='sectionOne']/div/a/img
