@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=" Regression Test on UDB"
+           tests="27"
+           failures="0"
+           errors="0"
+           skipped="27"
+           time="0.016">
+  <properties />
+  
+            <testcase name="verifyAdminUserPgNav" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyDefaultFilterWorksOnPersonHp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifySearchOnAdminUserHp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifySearchOnAdminUserHp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyDiffPageNavLinkWorks" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyAdminUserPgNav" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifySearchOnAdminUserHp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyAdminUserPgNav" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyUserAdminPgDisp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFilterFunctionality" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifySearchOnAdminUserHp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyDiffColsOnAdminUserPg" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyAdminUserPgNav" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifySearchOnAdminUserHp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyRecordsDisplayedAsPerSelValInDropdown" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFilterFunctionality" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifySearchOnAdminUserHp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFilterFunctionality" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyShowEntriesDropdownvalues" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFilterFunctionality" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifySearchOnAdminUserHp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyDefaultNumberOfRecordsDispOnAdminUserHp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFilterFunctionality" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifySearchOnAdminUserHp" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFilterFunctionality" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFilterFunctionality" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyDefaultSelectedValueOfShowEntiresDropdown" time="0.0" classname="udbtests.AdminUserTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

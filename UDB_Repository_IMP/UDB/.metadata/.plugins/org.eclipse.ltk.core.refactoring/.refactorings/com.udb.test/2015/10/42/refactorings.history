@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pageobjects.Company&apos; to &apos;CompanyHome&apos;&#x0D;&#x0A;- Original project: &apos;com.udb.test&apos;&#x0D;&#x0A;- Original element: &apos;pageobjects.Company&apos;&#x0D;&#x0A;- Renamed element: &apos;pageobjects.CompanyHome&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Company&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;pageobjects{Company.java[Company" matchStrategy="1" name="CompanyHome" qualified="false" references="true" similarDeclarations="false" stamp="1444636886137" textual="false" version="1.0"/>
+</session>

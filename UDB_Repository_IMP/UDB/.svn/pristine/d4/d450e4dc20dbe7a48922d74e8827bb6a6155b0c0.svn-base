@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG is going to start the execution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test  Regression Test on UDB
+==========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyRoleGroupPgDisp]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify by clicking on 'Role Group' button, it redirects to Add Group page.]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyAllColsDispOnRoleGrpPg]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify all the company columns are displayed on Admin Role Group page]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyShowEntriesDropdownvalues]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify by default, 10 is selected in 'Show entries' dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyDefaultNumberOfRecordsDispOnRoleGrpPg]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyRoleGrpPageNavigation]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify Role group home page pagination works fine]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyDiffPageNavLinkWorks]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify page navigation links like First, Previous, Next and Last links work properly]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifySearchOnRoleGrpPg]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify user able to search records by Role group name]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyDefaultSortingOnGrpByName]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify by default, group names are displayed in ascending order]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyGrpNameSortingInDescendingOrder]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify sorting functionality on Group Name column works properly]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="140339" started-at="2015-11-25T13:02:13Z" finished-at="2015-11-25T13:04:33Z">
+    <groups>
+    </groups>
+    <test name=" Regression Test on UDB" duration-ms="140339" started-at="2015-11-25T13:02:13Z" finished-at="2015-11-25T13:04:33Z">
+      <class name="udbtests.AdminRoleGroupTest">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="setupBeforeSuite" is-config="true" duration-ms="8046" started-at="2015-11-25T18:32:13Z" finished-at="2015-11-25T18:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="verifyRoleGroupPgDisp()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="verifyRoleGroupPgDisp" duration-ms="34596" started-at="2015-11-25T18:32:21Z" finished-at="2015-11-25T18:32:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify by clicking on 'Role Group' button, it redirects to Add Group page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRoleGroupPgDisp -->
+        <test-method status="PASS" signature="verifyAllColsDispOnRoleGrpPg()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="verifyAllColsDispOnRoleGrpPg" duration-ms="46" started-at="2015-11-25T18:32:56Z" finished-at="2015-11-25T18:32:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify all the company columns are displayed on Admin Role Group page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAllColsDispOnRoleGrpPg -->
+        <test-method status="PASS" signature="verifyShowEntriesDropdownvalues()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="verifyShowEntriesDropdownvalues" duration-ms="52" started-at="2015-11-25T18:32:56Z" finished-at="2015-11-25T18:32:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyShowEntriesDropdownvalues -->
+        <test-method status="PASS" signature="verifyDefaultSelectedValueOfShowEntiresDropdown()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="verifyDefaultSelectedValueOfShowEntiresDropdown" duration-ms="34" started-at="2015-11-25T18:32:56Z" finished-at="2015-11-25T18:32:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify by default, 10 is selected in 'Show entries' dropdown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultSelectedValueOfShowEntiresDropdown -->
+        <test-method status="PASS" signature="verifyDefaultNumberOfRecordsDispOnRoleGrpPg()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="verifyDefaultNumberOfRecordsDispOnRoleGrpPg" duration-ms="12" started-at="2015-11-25T18:32:56Z" finished-at="2015-11-25T18:32:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultNumberOfRecordsDispOnRoleGrpPg -->
+        <test-method status="PASS" signature="verifyRoleGrpPageNavigation()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="verifyRoleGrpPageNavigation" duration-ms="21037" started-at="2015-11-25T18:32:56Z" finished-at="2015-11-25T18:33:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify Role group home page pagination works fine]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRoleGrpPageNavigation -->
+        <test-method status="PASS" signature="verifyDiffPageNavLinkWorks()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="verifyDiffPageNavLinkWorks" duration-ms="8845" started-at="2015-11-25T18:33:17Z" finished-at="2015-11-25T18:33:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify page navigation links like First, Previous, Next and Last links work properly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDiffPageNavLinkWorks -->
+        <test-method status="PASS" signature="verifySearchOnRoleGrpPg()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="verifySearchOnRoleGrpPg" duration-ms="20990" started-at="2015-11-25T18:33:26Z" finished-at="2015-11-25T18:33:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify user able to search records by Role group name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchOnRoleGrpPg -->
+        <test-method status="PASS" signature="verifyDefaultSortingOnGrpByName()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="verifyDefaultSortingOnGrpByName" duration-ms="20904" started-at="2015-11-25T18:33:47Z" finished-at="2015-11-25T18:34:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify by default, group names are displayed in ascending order]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultSortingOnGrpByName -->
+        <test-method status="PASS" signature="verifyGrpNameSortingInDescendingOrder()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="verifyGrpNameSortingInDescendingOrder" duration-ms="22378" started-at="2015-11-25T18:34:08Z" finished-at="2015-11-25T18:34:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify sorting functionality on Group Name column works properly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGrpNameSortingInDescendingOrder -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]" name="setupAfterSuite" is-config="true" duration-ms="3379" started-at="2015-11-25T18:34:30Z" finished-at="2015-11-25T18:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- udbtests.AdminRoleGroupTest -->
+    </test> <!--  Regression Test on UDB -->
+  </suite> <!-- Suite -->
+</testng-results>

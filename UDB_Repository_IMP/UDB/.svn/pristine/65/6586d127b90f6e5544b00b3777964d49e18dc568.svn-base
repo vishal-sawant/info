@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report -  Regression Test on UDB</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1> Regression Test on UDB</h1>
+<p>
+  Test duration: 1568.382s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">udbtests.MergerAcquisitionHomeTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyCompHomePageNavigation
+      </td>
+  <td class="duration">
+    81.697s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"10"</span><br />
+    
+            <div class="testOutput">
+                        Screen Shots file :&nbsp; D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1447762112068.jpg<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Timed out after 7 seconds waiting for element to no longer be visible: By.id: example_processing<br/>
+Build info: version: &apos;2.47.2&apos;, revision: &apos;4d972c01cab1304452627f837654326a11eb92fe&apos;, time: &apos;2015-09-24 09:17:17&apos;<br/>
+System info: host: &apos;vsawant-win8&apos;, ip: &apos;172.27.142.77&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;<br/>
+Session ID: 28fb5c9a-506f-48db-b93f-5772da1318f1<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=41.0.2}]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)<br />
+              pageobjects.MergerAcquisitionHome.pageNavigation(MergerAcquisitionHome.java:116)<br />
+              udbtests.MergerAcquisitionHomeTest.verifyCompHomePageNavigation(MergerAcquisitionHomeTest.java:75)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:606)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:773)<br />
+              org.testng.TestRunner.run(TestRunner.java:623)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:357)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:259)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1110)<br />
+              org.testng.TestNG.run(TestNG.java:1018)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyCompHomePageNavigation
+      </td>
+  <td class="duration">
+    37.754s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"50"</span><br />
+    
+            <div class="testOutput">
+                        Screen Shots file :&nbsp; D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1447762239307.jpg<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Timed out after 7 seconds waiting for element to no longer be visible: By.id: example_processing<br/>
+Build info: version: &apos;2.47.2&apos;, revision: &apos;4d972c01cab1304452627f837654326a11eb92fe&apos;, time: &apos;2015-09-24 09:17:17&apos;<br/>
+System info: host: &apos;vsawant-win8&apos;, ip: &apos;172.27.142.77&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;<br/>
+Session ID: 28fb5c9a-506f-48db-b93f-5772da1318f1<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=41.0.2}]</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)<br />
+              pageobjects.MergerAcquisitionHome.pageNavigation(MergerAcquisitionHome.java:106)<br />
+              udbtests.MergerAcquisitionHomeTest.verifyCompHomePageNavigation(MergerAcquisitionHomeTest.java:75)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:606)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:773)<br />
+              org.testng.TestRunner.run(TestRunner.java:623)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:357)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:259)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1110)<br />
+              org.testng.TestNG.run(TestNG.java:1018)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    17.366s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"bySeller"</span><br />
+    
+            <div class="testOutput">
+                        Screen Shots file :&nbsp; D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1447762532984.jpg<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Timed out after 9 seconds waiting for element to no longer be visible: By.id: example_processing<br/>
+Build info: version: &apos;2.47.2&apos;, revision: &apos;4d972c01cab1304452627f837654326a11eb92fe&apos;, time: &apos;2015-09-24 09:17:17&apos;<br/>
+System info: host: &apos;vsawant-win8&apos;, ip: &apos;172.27.142.77&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;<br/>
+Session ID: 28fb5c9a-506f-48db-b93f-5772da1318f1<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=41.0.2}]</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)<br />
+              pageobjects.MergerAcquisitionHome.diffSearchOnMAHome(MergerAcquisitionHome.java:274)<br />
+              udbtests.MergerAcquisitionHomeTest.verifySearchOnCompHp(MergerAcquisitionHomeTest.java:101)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:606)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:773)<br />
+              org.testng.TestRunner.run(TestRunner.java:623)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:357)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:259)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1110)<br />
+              org.testng.TestNG.run(TestNG.java:1018)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">udbtests.MergerAcquisitionHomeTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyAllColumnsDisplayedOnMAHp
+      </td>
+  <td class="duration">
+    0.150s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify all the M&amp;A columns are displayed on M&amp;A home page<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyCompHomePageNavigation
+      </td>
+  <td class="duration">
+    90.792s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"100"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify pagination works fine on M&amp;A home page<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyCompHomePageNavigation
+      </td>
+  <td class="duration">
+    89.270s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"25"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify pagination works fine on M&amp;A home page<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDefaultFilterWorksOnCompHp
+      </td>
+  <td class="duration">
+    35.257s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify by default records are filtered by Last Updated Date in descending order on M&amp;A Home page<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDefaultNumberOfRecordsDispOnHome
+      </td>
+  <td class="duration">
+    3.513s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDefaultSelectedValueOfShowEntiresDropdown
+      </td>
+  <td class="duration">
+    0.037s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify by default, 10 is selected in &apos;Show entries&apos; dropdown<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDiffPageNavLinkWorks
+      </td>
+  <td class="duration">
+    44.650s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify page navigation links like First, Previous, Next and Last work properly<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyFilterFunctionality
+      </td>
+  <td class="duration">
+    91.722s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"filterOnStatus"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to filter records by M&amp;A ID, Announcement Date, Value, Status and Updated User<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyFilterFunctionality
+      </td>
+  <td class="duration">
+    174.630s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"filterOnLastUpdatedUser"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to filter records by M&amp;A ID, Announcement Date, Value, Status and Updated User<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyFilterFunctionality
+      </td>
+  <td class="duration">
+    38.856s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"filterOnM&AId"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to filter records by M&amp;A ID, Announcement Date, Value, Status and Updated User<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyFilterFunctionality
+      </td>
+  <td class="duration">
+    60.514s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"filterOnValue"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to filter records by M&amp;A ID, Announcement Date, Value, Status and Updated User<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyFilterFunctionality
+      </td>
+  <td class="duration">
+    63.473s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"filterOnAnnouncementDate"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to filter records by M&amp;A ID, Announcement Date, Value, Status and Updated User<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMAHomePgDisplayed
+      </td>
+  <td class="duration">
+    35.992s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify clicking on the M&amp;A tab Merger Acquisition home page gets displayed<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyRecordsDisplayedAsPerSelValInDropdown
+      </td>
+  <td class="duration">
+    20.507s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify correct number of records display on M&amp;A home page as per value selected in the show entries drop down<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    25.439s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"byLastUpdatedDate"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by M&amp;A Id, Target, Acquirer, Seller,&nbsp; From-To Date, Value, Published<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    1.985s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"byM&AId"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by M&amp;A Id, Target, Acquirer, Seller,&nbsp; From-To Date, Value, Published<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    23.847s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"byValue"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by M&amp;A Id, Target, Acquirer, Seller,&nbsp; From-To Date, Value, Published<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    81.866s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"byAcquirer"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by M&amp;A Id, Target, Acquirer, Seller,&nbsp; From-To Date, Value, Published<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    56.843s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"byTarget"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by M&amp;A Id, Target, Acquirer, Seller,&nbsp; From-To Date, Value, Published<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    34.283s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"byLastUpdatedUser"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by M&amp;A Id, Target, Acquirer, Seller,&nbsp; From-To Date, Value, Published<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    237.066s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"byStatus"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by M&amp;A Id, Target, Acquirer, Seller,&nbsp; From-To Date, Value, Published<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    79.147s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"byPublished-Unpublished"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by M&amp;A Id, Target, Acquirer, Seller,&nbsp; From-To Date, Value, Published<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    29.481s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"byFrom-ToDate"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by M&amp;A Id, Target, Acquirer, Seller,&nbsp; From-To Date, Value, Published<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnCompHp
+      </td>
+  <td class="duration">
+    100.224s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"byUpdatesPublished"</span><br />
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by M&amp;A Id, Target, Acquirer, Seller,&nbsp; From-To Date, Value, Published<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

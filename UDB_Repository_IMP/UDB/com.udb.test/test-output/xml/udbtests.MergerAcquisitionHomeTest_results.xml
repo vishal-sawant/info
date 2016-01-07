@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=" Regression Test on UDB"
+           tests="27"
+           failures="5"
+           errors="0"
+           skipped="0"
+           time="940.727">
+  <properties />
+            <testcase name="verifySearchOnMaHp" time="28.493" classname="udbtests.MergerAcquisitionHomeTest">
+                <failure type="java.lang.AssertionError"
+                  message="Search functionality does not work on M&amp;A home page expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Search functionality does not work on M&A home page expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  udbtests.MergerAcquisitionHomeTest.verifySearchOnMaHp(MergerAcquisitionHomeTest.java:100)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+  org.testng.TestNG.run(TestNG.java:1018)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyFilterFunctionality" time="36.368" classname="udbtests.MergerAcquisitionHomeTest">
+                <failure type="java.lang.AssertionError"
+                  message="Records filter functionality does not work on M&amp;A home page expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Records filter functionality does not work on M&A home page expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  udbtests.MergerAcquisitionHomeTest.verifyFilterFunctionality(MergerAcquisitionHomeTest.java:121)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+  org.testng.TestNG.run(TestNG.java:1018)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifySearchOnMaHp" time="28.545" classname="udbtests.MergerAcquisitionHomeTest">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;./td[5]&quot;}
+Command duration or timeout: 18.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.47.2&apos;, revision: &apos;4d972c01cab1304452627f837654326a11eb92fe&apos;, time: &apos;2015-09-24 09:17:17&apos;
+System info: host: &apos;vsawant-win8&apos;, ip: &apos;172.27.142.77&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=./td[5]}
+Session ID: 0fd534e1-c1be-42b2-b4b5-955a61ed0e98
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=41.0.2}]"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"./td[5]"}
+Command duration or timeout: 18.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'
+System info: host: 'vsawant-win8', ip: '172.27.142.77', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=./td[5]}
+Session ID: 0fd534e1-c1be-42b2-b4b5-955a61ed0e98
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=41.0.2}]
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:273)
+  org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:176)
+  org.openqa.selenium.remote.RemoteWebElement.findElementByXPath(RemoteWebElement.java:249)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+  org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:172)
+  pageobjects.MergerAcquisitionHome.diffSearchOnMAHome(MergerAcquisitionHome.java:278)
+  udbtests.MergerAcquisitionHomeTest.verifySearchOnMaHp(MergerAcquisitionHomeTest.java:101)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+  org.testng.TestNG.run(TestNG.java:1018)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"./td[5]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'
+System info: host: 'vsawant-win8', ip: '172.27.142.77', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+  <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/vsawant/AppData/Local/Temp/anonymous8049805553624007740webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+  <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/vsawant/AppData/Local/Temp/anonymous8049805553624007740webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyFilterFunctionality" time="79.015" classname="udbtests.MergerAcquisitionHomeTest">
+                <failure type="java.lang.AssertionError"
+                  message="Records filter functionality does not work on M&amp;A home page expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Records filter functionality does not work on M&A home page expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  udbtests.MergerAcquisitionHomeTest.verifyFilterFunctionality(MergerAcquisitionHomeTest.java:121)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+  org.testng.TestNG.run(TestNG.java:1018)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyAllColumnsDisplayedOnMAHp" time="0.094" classname="udbtests.MergerAcquisitionHomeTest">
+                <failure type="java.lang.AssertionError"
+                  message="Not all columns are displayed M&amp;A home page expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Not all columns are displayed M&A home page expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  udbtests.MergerAcquisitionHomeTest.verifyAllColumnsDisplayedOnMAHp(MergerAcquisitionHomeTest.java:32)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+  org.testng.TestNG.run(TestNG.java:1018)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="verifySearchOnMaHp" time="28.939" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyDiffPageNavLinkWorks" time="13.871" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyMaHomePageNavigation" time="36.297" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifySearchOnMaHp" time="90.252" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyMaHomePageNavigation" time="34.203" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifySearchOnMaHp" time="29.214" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifySearchOnMaHp" time="30.412" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyDefaultFilterWorksOnCompHp" time="20.345" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifySearchOnMaHp" time="111.281" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifySearchOnMaHp" time="1.902" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyDefaultNumberOfRecordsDispOnHome" time="1.059" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifySearchOnMaHp" time="164.050" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyMaHomePageNavigation" time="35.123" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyMAHomePgDisplayed" time="5.932" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifySearchOnMaHp" time="24.036" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyFilterFunctionality" time="21.392" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyFilterFunctionality" time="25.551" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifySearchOnMaHp" time="27.459" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyFilterFunctionality" time="22.619" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyMaHomePageNavigation" time="35.195" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyRecordsDisplayedAsPerSelValInDropdown" time="9.029" classname="udbtests.MergerAcquisitionHomeTest" />
+                <testcase name="verifyDefaultSelectedValueOfShowEntiresDropdown" time="0.051" classname="udbtests.MergerAcquisitionHomeTest" />
+      
+</testsuite>

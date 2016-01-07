@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=" Regression Test on UDB"
+           tests="22"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="542.910">
+  <properties />
+  
+  
+            <testcase name="verifyFilterFunctionality" time="13.083" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyShowEntriesDropdownvalues" time="0.056" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyFilterFunctionality" time="12.284" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyDefaultNumberOfRecordsDispOnPersonHp" time="0.010" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifySearchOnPersonHp" time="37.489" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifySearchOnPersonHp" time="24.548" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyRecordsDisplayedAsPerSelValInDropdown" time="3.775" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifySearchOnPersonHp" time="31.752" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifySearchOnPersonHp" time="30.202" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyAllColumnsDisplayedOnPersonHp" time="6.679" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyFilterFunctionality" time="21.491" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyDefaultSelectedValueOfShowEntiresDropdown" time="0.031" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyPersonHpPageNavigation" time="43.990" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifySearchOnPersonHp" time="98.476" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyDefaultFilterWorksOnPersonHp" time="11.336" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyPersonHpPageNavigation" time="57.295" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifySearchOnPersonHp" time="29.682" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyPersonHpPageNavigation" time="40.489" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifySearchOnPersonHp" time="24.764" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifySearchOnPersonHp" time="1.329" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyFilterFunctionality" time="12.456" classname="udbtests.PersonHomeTest" />
+                <testcase name="verifyPersonHpPageNavigation" time="41.693" classname="udbtests.PersonHomeTest" />
+      
+</testsuite>

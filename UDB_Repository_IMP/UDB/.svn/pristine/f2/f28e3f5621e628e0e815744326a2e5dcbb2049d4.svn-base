@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="base.Listener"/>
+  </listeners>
+  <test name=" Regression Test on UDB(failed)">
+    <classes>
+      <class name="udbtests.MergerAcquisitionHomeTest">
+        <methods>
+          <include name="setupBeforeSuite"/>
+          <include name="verifyGenericSearchWorks"/>
+          <include name="setupAfterSuite"/>
+        </methods>
+      </class> <!-- udbtests.MergerAcquisitionHomeTest -->
+    </classes>
+  </test> <!--  Regression Test on UDB(failed) -->
+</suite> <!-- Failed suite [Suite] -->

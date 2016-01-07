@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=" Regression Test on UDB"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.127">
+  <properties />
+  
+  
+            <testcase name="verifyAllColumnsDisplayedOnCompHp" time="7.750" classname="udbtests.CompanyHomeTest" />
+                <testcase name="verifyCompNameWithNumericData" time="4.315" classname="udbtests.CompanyHomeTest" />
+                <testcase name="verifyShowEntriesDropdownvalues" time="0.062" classname="udbtests.CompanyHomeTest" />
+      
+</testsuite>

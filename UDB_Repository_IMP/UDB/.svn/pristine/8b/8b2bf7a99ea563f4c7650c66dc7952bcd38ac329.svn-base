@@ -1,0 +1,50 @@
+package pageobjects;
+
+import org.openqa.selenium.WebDriver;
+
+import base.CommonMethods;
+import base.LaunchBrowser;
+
+public class HomePage {
+	private WebDriver driver;
+	protected CommonMethods commonObj = LaunchBrowser.getCommonMethodObj();
+
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+		// System.out.println("home page driver value is: " + this.driver);
+	}
+
+	public String getPageTitle() {
+		String title = driver.getTitle();
+		return title;
+	}
+	
+	/**
+	 * Click on the Company-Home link .
+	 * 
+	 */
+	public CompanyHome clickOnCompanyHome() {
+		commonObj.click("companyLink");
+		commonObj.click("companyHomeLink");
+		return new CompanyHome(driver);
+	}
+
+	/**
+	 * Click on the M&A link .
+	 * 
+	 */
+	public MergerAcquisitionHome clickOnMergerAcquisitionLink() {
+		commonObj.click("mergerAcquisitionLink");
+		return new MergerAcquisitionHome(driver);
+	}
+
+	/**
+	 * Click on the Person-Home link .
+	 * 
+	 */
+	public PersonHome clickOnPersonHome() {
+		commonObj.click("personLink");
+		return new PersonHome(driver);
+	}
+
+}

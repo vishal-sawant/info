@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Log Output</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  <h1>Log Output</h1>
+  <p>
+    Combined output from all calls to the log methods of the <a href="http://testng.org/javadocs/org/testng/Reporter.html">TestNG Reporter</a>.    
+  </p>
+
+  <div id="log">
+                  TestNG is going to start the execution<br />
+                        About to begin executing Test&nbsp; Regression Test on UDB<br/>
+==========================================================<br />
+                        Executing Test Case :- verifyUDBLogin<br />
+                        Test case passed: verify user able to login into UDB application and UDB home page displayed<br />
+                        Executing Test Case :- verifyInvalidUDBLogin<br />
+                        Test case passed: verify user able to logout from UDB application successfully<br />
+                        Test case passed: verify user not able to login into UDB application using invalid credentials<br />
+                        Executing Test Case :- verifyCompHomePgDisplayed<br />
+                        Test case passed: verify clicking on the company tab company home page gets displayed<br />
+                        Executing Test Case :- verifyAllColumnsDisplayedOnCompHp<br />
+                        Test case passed: verify all the company columns are displayed on Company home page<br />
+                        Executing Test Case :- verifyShowEntriesDropdownvalues<br />
+                        Test case passed: verify user able to see values 10, 25, 50, 100 in &apos;Show entries&apos; dropdown<br />
+                        Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown<br />
+                        Test case passed: verify by default, 10 is selected in &apos;Show entries&apos; dropdown<br />
+                        Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp<br />
+                        Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page<br />
+                        Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown<br />
+                        Screen Shots file :&nbsp; D:\repository\UDB\com.udb.test\test-output\ScreenShots\image-1448428523468.jpg<br />
+                        Executing Test Case :- verifyCompHomePageNavigation<br />
+                        Executing Test Case :- verifyCompHomePageNavigation<br />
+                        Executing Test Case :- verifyCompHomePageNavigation<br />
+                        Executing Test Case :- verifyCompHomePageNavigation<br />
+                        Executing Test Case :- verifyDiffPageNavLinkWorks<br />
+                        Executing Test Case :- verifySearchOnCompHp<br />
+                        Executing Test Case :- verifySearchOnCompHp<br />
+                        Executing Test Case :- verifySearchOnCompHp<br />
+                        Executing Test Case :- verifySearchOnCompHp<br />
+                        Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published<br />
+                        Executing Test Case :- verifySearchOnCompHp<br />
+                        Executing Test Case :- verifySearchOnCompHp<br />
+                        Executing Test Case :- verifyDefaultFilterWorksOnCompHp<br />
+                        Test case passed: verify by default records are filtered by Last Updated Date in descending order on Company Home page<br />
+            </div>
+
+</body>
+</html>

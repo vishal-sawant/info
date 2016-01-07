@@ -1,0 +1,7 @@
+13/10/15 11:24 - INFO - Loaded property files and created logger instance
+13/10/15 11:24 - INFO - Setting up FireFox driver.
+13/10/15 11:25 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+13/10/15 11:25 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444715708987.jpg
+13/10/15 11:25 - INFO - Test executed on Operating System : WINDOWS 8.1
+13/10/15 11:25 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================

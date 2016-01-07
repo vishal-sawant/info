@@ -1,0 +1,90 @@
+package pageobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import base.CommonMethods;
+import base.LaunchBrowser;
+
+public class HomePage {
+	private WebDriver driver;
+	protected CommonMethods commonObj = LaunchBrowser.getCommonMethodObj();
+
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public String getPageTitle() {
+		String title = driver.getTitle();
+		return title;
+	}
+	
+	/**
+	 * Click on the Company-Home link .
+	 * 
+	 */
+	public CompanyHome clickOnCompanyHome() {
+		commonObj.click("companyLink");
+		commonObj.click("companyHomeLink");
+		return new CompanyHome(driver);
+	}
+
+	/**
+	 * Click on the M&A link .
+	 * 
+	 */
+	public MergerAcquisitionHome clickOnMergerAcquisitionLink() {
+     commonObj.click("mergerAcquisitionLink");
+		return new MergerAcquisitionHome(driver);
+	}
+
+	/**
+	 * Click on the Person-Home link .
+	 * 
+	 */
+	public PersonHome clickOnPersonHome() {
+     commonObj.click("personLink");
+		return new PersonHome(driver);
+	}
+
+	/**
+	 * Click on the Admin-Role Group link .
+	 * 
+	 */
+	public AdminRoleGroup clickOnAdminRoleGroup() {
+		try {
+			driver.wait(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		commonObj.click("adminBtn");
+		commonObj.click("roleGroup");
+		return new AdminRoleGroup(driver);
+	}
+	
+	/**
+	 * Click on the Auction link .
+	 * 
+	 */
+	public AuctionHome clickOnAuctionLink() {
+		commonObj.click("auctionLink");
+		return new AuctionHome(driver);
+	}
+	
+	/**
+	 * Click on the Admin User link.
+	 * 
+	 */
+	public AdminUser clickOnAdminUserLink() {
+		commonObj.click("adminBtn");
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//a[contains(text(), 'User')]"))));
+		commonObj.click("adminUser");
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@value='Search User ID']"))));
+		return new AdminUser(driver);
+	}
+
+}

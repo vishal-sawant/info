@@ -1,0 +1,357 @@
+15/10/15 09:58 - INFO - Loaded property files and created logger instance
+15/10/15 09:58 - INFO - Setting up FireFox driver.
+15/10/15 09:58 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 09:58 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 09:58 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 09:59 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 09:59 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 09:59 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 09:59 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 09:59 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 09:59 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 09:59 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 10:55 - INFO - Loaded property files and created logger instance
+15/10/15 10:55 - INFO - Setting up FireFox driver.
+15/10/15 10:55 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 10:55 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 10:55 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 10:55 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 10:55 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 10:55 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 10:55 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 10:55 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 10:55 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 11:00 - INFO - Loaded property files and created logger instance
+15/10/15 11:00 - INFO - Setting up FireFox driver.
+15/10/15 11:00 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 11:00 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 11:00 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 11:00 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 11:00 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 11:00 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 11:00 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 11:00 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 11:00 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 11:02 - INFO - Loaded property files and created logger instance
+15/10/15 11:02 - INFO - Setting up FireFox driver.
+15/10/15 11:02 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 11:02 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 11:02 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 11:02 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 11:02 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 11:02 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 11:02 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 11:02 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 11:02 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 11:03 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 11:04 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 11:04 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 11:15 - INFO - Loaded property files and created logger instance
+15/10/15 11:15 - INFO - Setting up FireFox driver.
+15/10/15 11:15 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 11:15 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 11:15 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 11:15 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 11:15 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 11:15 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 11:15 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 11:15 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 11:15 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 11:16 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 11:16 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 11:16 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 11:24 - INFO - Loaded property files and created logger instance
+15/10/15 11:24 - INFO - Setting up FireFox driver.
+15/10/15 11:24 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 11:24 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 11:24 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 11:24 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 11:24 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 11:24 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 11:24 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 11:24 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 11:24 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 11:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444888494628.jpg
+15/10/15 11:24 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 11:24 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 02:40 - INFO - Loaded property files and created logger instance
+15/10/15 02:40 - INFO - Setting up FireFox driver.
+15/10/15 02:41 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 02:41 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 02:41 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 02:41 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 02:41 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 02:41 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 02:41 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 02:41 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 02:41 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 02:41 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444900271019.jpg
+15/10/15 02:41 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 02:42 - INFO - Loaded property files and created logger instance
+15/10/15 02:42 - INFO - Setting up FireFox driver.
+15/10/15 02:43 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 02:43 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 02:43 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 02:43 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 02:43 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 02:43 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 02:43 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 02:43 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 02:43 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 02:43 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444900391307.jpg
+15/10/15 02:43 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 02:43 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444900392089.jpg
+15/10/15 02:43 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 02:43 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 02:45 - INFO - Loaded property files and created logger instance
+15/10/15 02:45 - INFO - Setting up FireFox driver.
+15/10/15 02:45 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 02:45 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 02:45 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 02:45 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 02:45 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 02:45 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 02:45 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 02:45 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 02:45 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 02:45 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444900548581.jpg
+15/10/15 02:45 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 02:45 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444900549316.jpg
+15/10/15 02:45 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 02:45 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 02:46 - INFO - Loaded property files and created logger instance
+15/10/15 02:46 - INFO - Setting up FireFox driver.
+15/10/15 02:46 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 02:47 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 02:47 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 02:47 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 02:47 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 02:47 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 02:47 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 02:47 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 02:47 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 02:53 - INFO - Loaded property files and created logger instance
+15/10/15 02:53 - INFO - Setting up FireFox driver.
+15/10/15 02:53 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 02:53 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 02:53 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 02:53 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 02:53 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 02:53 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 02:53 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 02:53 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 02:53 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 02:53 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444901013108.jpg
+15/10/15 02:53 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 03:05 - INFO - Loaded property files and created logger instance
+15/10/15 03:05 - INFO - Setting up FireFox driver.
+15/10/15 03:05 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 03:05 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 03:05 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 03:05 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 03:05 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 03:05 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 03:05 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 03:05 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 03:05 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 03:06 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444901763558.jpg
+15/10/15 03:06 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 03:06 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 03:08 - INFO - Loaded property files and created logger instance
+15/10/15 03:08 - INFO - Setting up FireFox driver.
+15/10/15 03:08 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 03:12 - INFO - Loaded property files and created logger instance
+15/10/15 03:12 - INFO - Setting up FireFox driver.
+15/10/15 03:12 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 03:12 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 03:12 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 03:12 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 03:12 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 03:12 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 03:12 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 03:12 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 03:12 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 03:12 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444902155507.jpg
+15/10/15 03:12 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 03:12 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 03:21 - INFO - Loaded property files and created logger instance
+15/10/15 03:21 - INFO - Setting up FireFox driver.
+15/10/15 03:21 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 03:21 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 03:21 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 03:21 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 03:21 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 03:21 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 03:21 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 03:21 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 03:21 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 03:21 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 03:21 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 03:21 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 03:31 - INFO - Loaded property files and created logger instance
+15/10/15 03:31 - INFO - Setting up FireFox driver.
+15/10/15 03:31 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 03:31 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 03:31 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 03:31 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 03:31 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 03:31 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 03:31 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 03:31 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 03:31 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 03:31 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 03:31 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 03:33 - INFO - Loaded property files and created logger instance
+15/10/15 03:33 - INFO - Setting up FireFox driver.
+15/10/15 03:33 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 03:33 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 03:33 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 03:33 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 03:33 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 03:33 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 03:33 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 03:33 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 03:33 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 03:33 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 03:33 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 03:35 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444903502126.jpg
+15/10/15 03:35 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 03:35 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 03:37 - INFO - Loaded property files and created logger instance
+15/10/15 03:37 - INFO - Setting up FireFox driver.
+15/10/15 03:37 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 03:37 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 03:37 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 03:37 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 03:37 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 03:37 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 03:37 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 03:37 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 03:37 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 03:37 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 03:37 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 03:38 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444903715628.jpg
+15/10/15 03:38 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 03:38 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 03:40 - INFO - Loaded property files and created logger instance
+15/10/15 03:40 - INFO - Setting up FireFox driver.
+15/10/15 03:40 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 03:40 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444903854613.jpg
+15/10/15 03:40 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 03:40 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 03:40 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 03:40 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 03:40 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 03:40 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 03:40 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 03:41 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 03:41 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 03:41 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444903899986.jpg
+15/10/15 03:41 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 03:41 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 04:11 - INFO - Loaded property files and created logger instance
+15/10/15 04:11 - INFO - Setting up FireFox driver.
+15/10/15 04:11 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 04:11 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 04:11 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 04:11 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 04:11 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 04:11 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 04:11 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 04:11 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 04:11 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 04:11 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 04:11 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 04:12 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444905726745.jpg
+15/10/15 04:12 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 04:12 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444905755482.jpg
+15/10/15 04:12 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 04:12 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444905766080.jpg
+15/10/15 04:12 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 04:12 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444905774489.jpg
+15/10/15 04:12 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 04:12 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 06:44 - INFO - Loaded property files and created logger instance
+15/10/15 06:44 - INFO - Setting up FireFox driver.
+15/10/15 06:44 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 06:44 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 06:44 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 06:44 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 06:44 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 06:44 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 06:44 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 06:44 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 06:44 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 06:44 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 06:44 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:44 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444914896856.jpg
+15/10/15 06:44 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:45 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444914900716.jpg
+15/10/15 06:45 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:45 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444914904494.jpg
+15/10/15 06:45 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:45 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444914909417.jpg
+15/10/15 06:45 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+15/10/15 06:45 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444914916033.jpg
+15/10/15 06:45 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 06:45 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+15/10/15 06:50 - INFO - Loaded property files and created logger instance
+15/10/15 06:50 - INFO - Setting up FireFox driver.
+15/10/15 06:50 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 06:50 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 06:50 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 06:50 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 06:50 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 06:50 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 06:50 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 06:50 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 06:50 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 06:50 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 06:50 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:51 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444915277021.jpg
+15/10/15 06:51 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:51 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444915280823.jpg
+15/10/15 06:51 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:51 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444915284633.jpg
+15/10/15 06:51 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:51 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444915288898.jpg
+15/10/15 06:51 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+15/10/15 06:58 - INFO - Loaded property files and created logger instance
+15/10/15 06:58 - INFO - Setting up FireFox driver.
+15/10/15 06:58 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+15/10/15 06:58 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+15/10/15 06:58 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+15/10/15 06:58 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+15/10/15 06:58 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+15/10/15 06:58 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+15/10/15 06:58 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+15/10/15 06:58 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+15/10/15 06:58 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+15/10/15 06:58 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+15/10/15 06:58 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:59 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444915758202.jpg
+15/10/15 06:59 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:59 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444915776047.jpg
+15/10/15 06:59 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 06:59 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444915790048.jpg
+15/10/15 06:59 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+15/10/15 07:00 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444915803800.jpg
+15/10/15 07:00 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+15/10/15 07:00 - INFO - Test case passed: verify page navigation links like First, Previous, Next and Last links work properly
+15/10/15 07:00 - INFO - Test executed on Operating System : WINDOWS 8.1
+15/10/15 07:00 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================

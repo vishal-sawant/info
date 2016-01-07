@@ -1,0 +1,58 @@
+<h2>Reporter output</h2><table><tr><td>TestNG is going to start the execution</td></tr>
+<tr><td>About to begin executing Test  Regression Test on UDB
+==========================================================</td></tr>
+<tr><td>Executing Test Case :- verifyMAHomePgDisplayed</td></tr>
+<tr><td>Test case passed: verify clicking on the M&A tab Merger Acquisition home page gets displayed</td></tr>
+<tr><td>Executing Test Case :- verifyAllColumnsDisplayedOnMAHp</td></tr>
+<tr><td>Test case passed: verify all the M&A columns are displayed on M&A home page</td></tr>
+<tr><td>Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown</td></tr>
+<tr><td>Test case passed: verify by default, 10 is selected in 'Show entries' dropdown</td></tr>
+<tr><td>Executing Test Case :- verifyDefaultNumberOfRecordsDispOnHome</td></tr>
+<tr><td>Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page</td></tr>
+<tr><td>Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown</td></tr>
+<tr><td>Test case passed: verify correct number of records display on M&A home page as per value selected in the show entries drop down</td></tr>
+<tr><td>Executing Test Case :- verifyCompHomePageNavigation</td></tr>
+<tr><td>Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1447762112068.jpg</td></tr>
+<tr><td>Executing Test Case :- verifyCompHomePageNavigation</td></tr>
+<tr><td>Test case passed: verify pagination works fine on M&A home page</td></tr>
+<tr><td>Executing Test Case :- verifyCompHomePageNavigation</td></tr>
+<tr><td>Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1447762239307.jpg</td></tr>
+<tr><td>Executing Test Case :- verifyCompHomePageNavigation</td></tr>
+<tr><td>Test case passed: verify pagination works fine on M&A home page</td></tr>
+<tr><td>Executing Test Case :- verifyDiffPageNavLinkWorks</td></tr>
+<tr><td>Test case passed: verify page navigation links like First, Previous, Next and Last work properly</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by M&A Id, Target, Acquirer, Seller,  From-To Date, Value, Published</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by M&A Id, Target, Acquirer, Seller,  From-To Date, Value, Published</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by M&A Id, Target, Acquirer, Seller,  From-To Date, Value, Published</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1447762532984.jpg</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by M&A Id, Target, Acquirer, Seller,  From-To Date, Value, Published</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by M&A Id, Target, Acquirer, Seller,  From-To Date, Value, Published</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by M&A Id, Target, Acquirer, Seller,  From-To Date, Value, Published</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by M&A Id, Target, Acquirer, Seller,  From-To Date, Value, Published</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by M&A Id, Target, Acquirer, Seller,  From-To Date, Value, Published</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by M&A Id, Target, Acquirer, Seller,  From-To Date, Value, Published</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by M&A Id, Target, Acquirer, Seller,  From-To Date, Value, Published</td></tr>
+<tr><td>Executing Test Case :- verifyDefaultFilterWorksOnCompHp</td></tr>
+<tr><td>Test case passed: verify by default records are filtered by Last Updated Date in descending order on M&A Home page</td></tr>
+<tr><td>Executing Test Case :- verifyFilterFunctionality</td></tr>
+<tr><td>Test case passed: verify user able to filter records by M&A ID, Announcement Date, Value, Status and Updated User</td></tr>
+<tr><td>Executing Test Case :- verifyFilterFunctionality</td></tr>
+<tr><td>Test case passed: verify user able to filter records by M&A ID, Announcement Date, Value, Status and Updated User</td></tr>
+<tr><td>Executing Test Case :- verifyFilterFunctionality</td></tr>
+<tr><td>Test case passed: verify user able to filter records by M&A ID, Announcement Date, Value, Status and Updated User</td></tr>
+<tr><td>Executing Test Case :- verifyFilterFunctionality</td></tr>
+<tr><td>Test case passed: verify user able to filter records by M&A ID, Announcement Date, Value, Status and Updated User</td></tr>
+<tr><td>Executing Test Case :- verifyFilterFunctionality</td></tr>
+<tr><td>Test case passed: verify user able to filter records by M&A ID, Announcement Date, Value, Status and Updated User</td></tr>
+</table>

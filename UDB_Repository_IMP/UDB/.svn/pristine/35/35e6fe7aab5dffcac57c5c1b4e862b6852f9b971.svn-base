@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="base.Listener"/>
+  </listeners>
+  <test name=" Regression Test on UDB(failed)">
+    <classes>
+      <class name="udbtests.HomePageTest">
+        <methods>
+          <include name="setupBeforeSuite"/>
+          <include name="setupAfterSuite"/>
+        </methods>
+      </class> <!-- udbtests.HomePageTest -->
+      <class name="udbtests.LoginPageTest">
+        <methods>
+          <include name="setupBeforeSuite"/>
+          <include name="setupAfterSuite"/>
+        </methods>
+      </class> <!-- udbtests.LoginPageTest -->
+      <class name="udbtests.CompanyHomeTest">
+        <methods>
+          <include name="setupBeforeSuite"/>
+          <include name="setupAfterSuite"/>
+          <include name="verifyCompHomePageNavigation" invocation-numbers="0 1 2 3"/>
+          <include name="verifyFilterFunctionality" invocation-numbers="0 1 2"/>
+          <include name="verifyDiffPageNavLinkWorks"/>
+          <include name="verifyRecordsDisplayedAsPerSelValInDropdown"/>
+          <include name="verifySearchOnCompHp" invocation-numbers="0 1 2 4 5"/>
+        </methods>
+      </class> <!-- udbtests.CompanyHomeTest -->
+      <class name="udbtests.MergerAcquisitionHomeTest">
+        <methods>
+          <include name="verifyDefaultSelectedValueOfShowEntiresDropdown"/>
+          <include name="verifyDiffPageNavLinkWorks"/>
+          <include name="verifyAllColumnsDisplayedOnMAHp"/>
+          <include name="setupBeforeSuite"/>
+          <include name="verifyDefaultFilterWorksOnCompHp"/>
+          <include name="verifyRecordsDisplayedAsPerSelValInDropdown"/>
+          <include name="verifyMAHomePgDisplayed"/>
+          <include name="setupAfterSuite"/>
+          <include name="verifySearchOnCompHp"/>
+          <include name="verifyDefaultNumberOfRecordsDispOnHome"/>
+          <include name="verifyFilterFunctionality"/>
+          <include name="verifyCompHomePageNavigation"/>
+        </methods>
+      </class> <!-- udbtests.MergerAcquisitionHomeTest -->
+    </classes>
+  </test> <!--  Regression Test on UDB(failed) -->
+</suite> <!-- Failed suite [Suite] -->

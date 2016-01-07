@@ -1,0 +1,202 @@
+12/10/15 08:57 - INFO - Loaded property files and created logger instance
+12/10/15 08:57 - INFO - Setting up FireFox driver.
+12/10/15 08:58 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 08:58 - INFO - Test case passed: verify user able to login into UDB application
+12/10/15 08:58 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 08:58 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 10:28 - INFO - Loaded property files and created logger instance
+12/10/15 10:28 - INFO - Setting up FireFox driver.
+12/10/15 10:28 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 10:28 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444625926212.jpg
+12/10/15 10:28 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 10:28 - INFO - Test case passed: verify user able to login into UDB application
+12/10/15 10:28 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 10:28 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 10:34 - INFO - Loaded property files and created logger instance
+12/10/15 10:34 - INFO - Setting up FireFox driver.
+12/10/15 10:35 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 10:35 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444626324793.jpg
+12/10/15 10:35 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 10:35 - INFO - Test case passed: verify user able to login into UDB application
+12/10/15 10:35 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 10:35 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 10:38 - INFO - Loaded property files and created logger instance
+12/10/15 10:38 - INFO - Setting up FireFox driver.
+12/10/15 10:38 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 10:38 - INFO - Test case passed: verify user able to login into UDB application
+12/10/15 10:38 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 10:39 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444626541901.jpg
+12/10/15 10:39 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 10:39 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 10:41 - INFO - Loaded property files and created logger instance
+12/10/15 10:41 - INFO - Setting up FireFox driver.
+12/10/15 10:41 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 10:41 - INFO - Test case passed: verify user able to login into UDB application
+12/10/15 10:41 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 10:41 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444626688882.jpg
+12/10/15 10:41 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 10:41 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 10:42 - INFO - Loaded property files and created logger instance
+12/10/15 10:42 - INFO - Setting up FireFox driver.
+12/10/15 10:42 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 10:42 - INFO - Test case passed: verify user able to login into UDB application
+12/10/15 10:42 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 10:42 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444626774086.jpg
+12/10/15 10:42 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 10:42 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 10:47 - INFO - Loaded property files and created logger instance
+12/10/15 10:47 - INFO - Setting up FireFox driver.
+12/10/15 10:47 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 10:47 - INFO - Test case passed: verify user able to login into UDB application
+12/10/15 10:47 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 10:47 - INFO - Test case passed: verify user not able to login into UDB application using invalid credentials
+12/10/15 10:47 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 10:47 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 11:24 - INFO - Loaded property files and created logger instance
+12/10/15 11:24 - INFO - Setting up FireFox driver.
+12/10/15 11:24 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 11:25 - INFO - Test case passed: verify user able to login into UDB application and UDB home page displayed
+12/10/15 11:25 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 11:25 - INFO - Test case passed: verify user able to logout from UDB application successfully
+12/10/15 11:25 - INFO - Test case passed: verify user not able to login into UDB application using invalid credentials
+12/10/15 11:25 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 11:25 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 11:55 - INFO - Loaded property files and created logger instance
+12/10/15 11:55 - INFO - Setting up FireFox driver.
+12/10/15 11:55 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 11:55 - INFO - Test case passed: verify user able to login into UDB application and UDB home page displayed
+12/10/15 11:55 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 11:55 - INFO - Test case passed: verify user able to logout from UDB application successfully
+12/10/15 11:55 - INFO - Test case passed: verify user not able to login into UDB application using invalid credentials
+12/10/15 11:55 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 11:55 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 12:00 - INFO - Loaded property files and created logger instance
+12/10/15 12:00 - INFO - Setting up FireFox driver.
+12/10/15 12:00 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 12:00 - INFO - Test case passed: verify user able to login into UDB application and UDB home page displayed
+12/10/15 12:00 - INFO - Loaded property files and created logger instance
+12/10/15 12:00 - INFO - Setting up FireFox driver.
+12/10/15 12:01 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 12:01 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444631494370.jpg
+12/10/15 12:01 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 12:01 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 12:01 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 12:01 - INFO - Test case passed: verify user able to logout from UDB application successfully
+12/10/15 12:01 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 12:01 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 12:05 - INFO - Loaded property files and created logger instance
+12/10/15 12:05 - INFO - Setting up FireFox driver.
+12/10/15 12:06 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 12:06 - INFO - Test case passed: verify user able to login into UDB application and UDB home page displayed
+12/10/15 12:06 - INFO - Loaded property files and created logger instance
+12/10/15 12:06 - INFO - Setting up FireFox driver.
+12/10/15 12:06 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 12:06 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 12:13 - INFO - Loaded property files and created logger instance
+12/10/15 12:13 - INFO - Setting up FireFox driver.
+12/10/15 12:14 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 12:14 - INFO - Test case passed: verify user able to login into UDB application and UDB home page displayed
+12/10/15 12:14 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 12:14 - INFO - Test case passed: verify user able to logout from UDB application successfully
+12/10/15 12:14 - INFO - Test case passed: verify user not able to login into UDB application using invalid credentials
+12/10/15 12:14 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 12:14 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 12:14 - INFO - Loaded property files and created logger instance
+12/10/15 12:14 - INFO - Setting up FireFox driver.
+12/10/15 12:14 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 12:14 - INFO - Test case passed: verify clicking on the company tab company home page gets displayed
+12/10/15 12:14 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 12:14 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:23 - INFO - Loaded property files and created logger instance
+12/10/15 06:23 - INFO - Setting up FireFox driver.
+12/10/15 06:23 - INFO - Executing Test Case :- verifyUDBLogin
+12/10/15 06:24 - INFO - Test case passed: verify user able to login into UDB application and UDB home page displayed
+12/10/15 06:24 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+12/10/15 06:24 - INFO - Test case passed: verify user able to logout from UDB application successfully
+12/10/15 06:24 - INFO - Test case passed: verify user not able to login into UDB application using invalid credentials
+12/10/15 06:24 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:24 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:24 - INFO - Loaded property files and created logger instance
+12/10/15 06:24 - INFO - Setting up FireFox driver.
+12/10/15 06:24 - INFO - Executing Test Case :- verifyCompHomePgDisplayed
+12/10/15 06:24 - INFO - Test case passed: verify clicking on the company tab company home page gets displayed
+12/10/15 06:24 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:24 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:24 - INFO - Loaded property files and created logger instance
+12/10/15 06:24 - INFO - Setting up FireFox driver.
+12/10/15 06:24 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+12/10/15 06:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444654479064.jpg
+12/10/15 06:24 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:24 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:27 - INFO - Loaded property files and created logger instance
+12/10/15 06:27 - INFO - Setting up FireFox driver.
+12/10/15 06:27 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+12/10/15 06:27 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444654639453.jpg
+12/10/15 06:27 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:27 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:32 - INFO - Loaded property files and created logger instance
+12/10/15 06:32 - INFO - Setting up FireFox driver.
+12/10/15 06:32 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+12/10/15 06:32 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444654963522.jpg
+12/10/15 06:32 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:32 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:34 - INFO - Loaded property files and created logger instance
+12/10/15 06:34 - INFO - Setting up FireFox driver.
+12/10/15 06:34 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+12/10/15 06:34 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444655077914.jpg
+12/10/15 06:34 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:34 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:37 - INFO - Loaded property files and created logger instance
+12/10/15 06:37 - INFO - Setting up FireFox driver.
+12/10/15 06:37 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+12/10/15 06:37 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444655240547.jpg
+12/10/15 06:37 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:37 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:40 - INFO - Loaded property files and created logger instance
+12/10/15 06:40 - INFO - Setting up FireFox driver.
+12/10/15 06:40 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+12/10/15 06:40 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444655454287.jpg
+12/10/15 06:40 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:40 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:42 - INFO - Loaded property files and created logger instance
+12/10/15 06:42 - INFO - Setting up FireFox driver.
+12/10/15 06:42 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+12/10/15 06:42 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444655533914.jpg
+12/10/15 06:42 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:42 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:48 - INFO - Loaded property files and created logger instance
+12/10/15 06:48 - INFO - Setting up FireFox driver.
+12/10/15 06:48 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+12/10/15 06:48 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444655925664.jpg
+12/10/15 06:48 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:48 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+12/10/15 06:52 - INFO - Loaded property files and created logger instance
+12/10/15 06:52 - INFO - Setting up FireFox driver.
+12/10/15 06:52 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+12/10/15 06:52 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444656172352.jpg
+12/10/15 06:52 - INFO - Test executed on Operating System : WINDOWS 8.1
+12/10/15 06:52 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================

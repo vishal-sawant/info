@@ -1,0 +1,841 @@
+package pageobjects;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import base.CommonMethods;
+import base.LaunchBrowser;
+
+public class MergerAcquisitionHome {
+  private WebDriver driver;
+  private Logger logger;
+  protected CommonMethods commonObj = LaunchBrowser.getCommonMethodObj();
+
+	public MergerAcquisitionHome(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public String getMaHPageText() {
+		return commonObj.getText("textOnMAHmPg");
+	}
+
+	public boolean verifyDifferentColumnsOnMAHome() {
+		List<WebElement> maHmPgCols = commonObj.getWebElements("m&aHomePgCols");
+		String[] columns = new String[] { "Action", "M&A Id", "Target",
+				"Acquirer", "Seller", "Industry", "Region", "Date",
+				"Value ($mil)", "Status", "Last updated user",
+				"Last updated date", "Published", "Updates Published" };
+		int i = 0;
+		for (WebElement currentColumn : maHmPgCols) {
+			if (!currentColumn.getText().equals(columns[i])) {
+				return false;
+			}
+			i++;
+		}
+		return true;
+	}
+
+	public String getdefaultSelectedShowEntriesOption() {
+		WebElement dropdown = driver.findElement(By.name("example_length"));
+		Select select = new Select(dropdown);
+		WebElement defaultSelected = select.getFirstSelectedOption();
+		return defaultSelected.getText();
+	}
+
+	public boolean getDropDownEntries() {
+		boolean match = true;
+		String[] showEntriesValues = { "10", "25", "50", "100" };
+		WebElement dropdown = driver.findElement(By.name("example_length"));
+		Select select = new Select(dropdown);
+
+		List<WebElement> options = select.getOptions();
+		int i = 0;
+		for (WebElement we : options) {
+			if (!(we.getText().equals(showEntriesValues[i]))) {
+				match = false;
+			}
+			i++;
+		}
+		return match;
+	}
+
+	public int getNumberOfRecordsDisplayedOnMAHome() {
+		List<WebElement> recordsOnMAHome = commonObj
+				.getWebElements("numberOfRecordsDispOnMAHome");
+		return recordsOnMAHome.size();
+	}
+
+	public boolean adjustNumberOfRecordsToBeDisplayedOnmAHome() {
+		boolean isRecordsNumberMatches = true;
+		String[] showEntriesValues = { "25", "50", "100" };
+		Select select = new Select(
+				driver.findElement(By.name("example_length")));
+		for (int i = 0; i < showEntriesValues.length; i++) {
+			select.selectByValue(showEntriesValues[i]);
+			WebDriverWait wait = new WebDriverWait(driver, 8);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsOnCompHp = commonObj
+					.getWebElements("numberOfRecordsDispOnMAHome");
+			int temp = Integer.parseInt(showEntriesValues[i]);
+			int recordCount = recordsOnCompHp.size();
+			if (recordCount != temp) {
+				isRecordsNumberMatches = false;
+				break;
+			}
+		}
+		return isRecordsNumberMatches;
+	}
+
+	public boolean pageNavigation(String recordsToDisplay) {
+		boolean pageNavigationWorks = true;
+		driver.navigate().refresh();
+		Select select = new Select(
+				driver.findElement(By.name("example_length")));
+		select.selectByValue(recordsToDisplay);
+		WebDriverWait wait = new WebDriverWait(driver, 7);
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+				.id("example_processing")));
+		List<WebElement> recordsOnMAHome = commonObj
+				.getWebElements("numberOfRecordsDispOnMAHome");
+		int temp = Integer.parseInt(recordsToDisplay);
+		int recordCount = recordsOnMAHome.size();
+		if (recordCount == temp) {
+			String mergerID = commonObj.getText("mergerAcquisitionID");
+			for (int j = 0; j < 10; j++) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				if (commonObj.getText("mergerAcquisitionID").equals(mergerID)) {
+					pageNavigationWorks = false;
+					break;
+				} else
+					mergerID = commonObj.getText("mergerAcquisitionID");
+			}
+		}
+		return pageNavigationWorks;
+	}
+
+	public boolean clickOnDiffPageNavLinks() {
+		driver.navigate().refresh();
+		commonObj.click("lastNav");
+		WebDriverWait wait = new WebDriverWait(driver, 7);
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+				.id("example_processing")));
+		if (!(commonObj.isElementPresentAndDisplayed("disabledNextNav") && commonObj
+				.isElementPresentAndDisplayed("disabledLastNav")))
+			return false;
+		commonObj.click("previousNav");
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+				.id("example_processing")));
+		commonObj.click("firstNav");
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+				.id("example_processing")));
+		if (!(commonObj.isElementPresentAndDisplayed("disabledFirstNav") && commonObj
+				.isElementPresentAndDisplayed("disabledPreviousNav")))
+			return false;
+		else
+			return true;
+	}
+
+	public boolean diffSearchOnMAHome(String searchType) {
+		boolean searchWorks = true;
+		int totalRecords = 0, count = 0;
+		WebDriverWait wait = new WebDriverWait(driver, 9);
+
+		switch (searchType) {
+
+		case "byM&AId":
+			String mergerId = commonObj.getText("selectMAId");
+			commonObj.type("searchByMAID", mergerId);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsByCompId = commonObj
+					.getWebElements("numberOfRecordsDispOnMAHome");
+			int recordCount = recordsByCompId.size();
+			if (!(recordCount == 1 && commonObj.getText("getMAId").equals(
+					mergerId)))
+				searchWorks = false;
+			break;
+
+		case "byTarget":
+			driver.navigate().refresh();
+			String targetName = "";
+			if (targetName.equals("")) {
+				List<WebElement> allTargetNames = commonObj
+						.getWebElements("selectTargetName");
+				for (WebElement record : allTargetNames) {
+					if (!record.getText().isEmpty()) {
+						targetName = record.getText();
+						break;
+					}
+				}
+				commonObj.click("nextNav");
+			}
+
+			commonObj.type("searchByTargetName", targetName);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsByTargetName = commonObj
+					.getWebElements("numberOfRecordsDispOnMAHome");
+			for (WebElement record : recordsByTargetName) {
+				if (!record.findElement(By.xpath("./td[3]")).getText()
+						.contains(targetName)) {
+					searchWorks = false;
+					break;
+				}
+			}
+			while (commonObj.isClickable("nextNav")) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				recordsByTargetName = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : recordsByTargetName) {
+					if (!record.findElement(By.xpath("./td[3]")).getText()
+							.contains(targetName)) {
+						searchWorks = false;
+						break;
+					}
+				}
+			}
+			break;
+
+		case "byAcquirer":
+			driver.navigate().refresh();
+			String acquirerName = "";
+			if (acquirerName.equals("")) {
+				List<WebElement> allAcquirerNames = commonObj
+						.getWebElements("selectAcquirerName");
+				for (WebElement record : allAcquirerNames) {
+					if (!record.getText().isEmpty()) {
+						acquirerName = record.getText();
+						break;
+					}
+				}
+				commonObj.click("nextNav");
+			}
+
+			commonObj.type("searchByAcquirerName", acquirerName);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsByAcquirerName = commonObj
+					.getWebElements("numberOfRecordsDispOnMAHome");
+			for (WebElement record : recordsByAcquirerName) {
+				if (!record.findElement(By.xpath("./td[4]")).getText()
+						.contains(acquirerName)) {
+					searchWorks = false;
+					break;
+				}
+			}
+			while (commonObj.isClickable("nextNav")) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				recordsByTargetName = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : recordsByAcquirerName) {
+					if (!record.findElement(By.xpath("./td[4]")).getText()
+							.contains(acquirerName)) {
+						searchWorks = false;
+						break;
+					}
+				}
+			}
+			break;
+
+		case "bySeller":
+			driver.navigate().refresh();
+			String sellerName = "";
+			if (sellerName.equals("")) {
+				List<WebElement> allSellerNames = commonObj
+						.getWebElements("selectSellerName");
+				for (WebElement record : allSellerNames) {
+					if (!record.getText().isEmpty()) {
+						sellerName = record.getText();
+						break;
+					}
+				}
+				commonObj.click("nextNav");
+			}
+
+			commonObj.type("searchBySellerName", sellerName);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsBySellerName = commonObj
+					.getWebElements("numberOfRecordsDispOnMAHome");
+			for (WebElement record : recordsBySellerName) {
+				if (!record.findElement(By.xpath("./td[5]")).getText()
+						.contains(sellerName)) {
+					searchWorks = false;
+					break;
+				}
+			}
+			while (commonObj.isClickable("nextNav")) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				recordsByTargetName = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : recordsBySellerName) {
+					if (!record.findElement(By.xpath("./td[5]")).getText()
+							.contains(sellerName)) {
+						searchWorks = false;
+						break;
+					}
+				}
+			}
+			break;
+
+		case "byFrom-ToDate":
+			try {
+				driver.navigate().refresh();
+				commonObj.click("searchMAFromDate");
+				commonObj.click("datePreviousButton");
+				commonObj.click("selectDate");
+				commonObj.click("searchMAToDate");
+				commonObj.click("selectDate");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				String fromDate = driver.findElement(
+						By.id("example_range_from_7")).getAttribute("value");
+				String toDate = driver.findElement(By.id("example_range_to_7"))
+						.getAttribute("value");
+				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+				Date frmDate = dateFormat.parse(fromDate);
+				Date tDate = dateFormat.parse(toDate);
+				List<WebElement> recordsByAnnouncementDate = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : recordsByAnnouncementDate) {
+					String announcementDate = record.findElement(
+							By.xpath("./td[8]")).getText();
+					Date announceDate = dateFormat.parse(announcementDate);
+					if ((announceDate.compareTo(frmDate) < 0 || announceDate
+							.equals(frmDate))
+							&& (tDate.compareTo(announceDate) < 0 || tDate
+									.equals(announceDate))) {
+						searchWorks = false;
+						break;
+					}
+				}
+				while (commonObj.isClickable("nextNav")) {
+					commonObj.click("nextNav");
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					recordsByAnnouncementDate = commonObj
+							.getWebElements("numberOfRecordsDispOnMAHome");
+					for (WebElement record : recordsByAnnouncementDate) {
+						String announcementDate = record.findElement(
+								By.xpath("./td[8]")).getText();
+						Date anncmntDate = dateFormat.parse(announcementDate);
+						if ((anncmntDate.compareTo(frmDate) < 0 || anncmntDate
+								.equals(frmDate))
+								&& (tDate.compareTo(anncmntDate) < 0 || tDate
+										.equals(anncmntDate))) {
+							searchWorks = false;
+							break;
+						}
+					}
+				}
+			} catch (Exception e) {
+				logger.info("Some exception occurred:"+e);
+			}
+
+			break;
+
+		case "byValue":
+			driver.navigate().refresh();
+			commonObj.type("searchByFrmVal", "1001");
+			commonObj.type("searchByToVal", "1003");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsByValue = commonObj
+					.getWebElements("numberOfRecordsDispOnMAHome");
+			for (WebElement record : recordsByValue) {
+				String value = record.findElement(By.xpath("./td[9]"))
+						.getText();
+				int val = Integer.parseInt(value);
+				if (!(val >= 1001 && val <= 1003)) {
+					searchWorks = false;
+					break;
+				}
+			}
+			while (commonObj.isClickable("nextNav")) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				recordsByValue = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : recordsByValue) {
+					String value = record.findElement(By.xpath("./td[9]"))
+							.getText();
+					int val = Integer.parseInt(value);
+					if (!(val >= 1001 && val <= 1003)) {
+						searchWorks = false;
+						break;
+					}
+				}
+			}
+			break;
+
+		case "byStatus":
+			driver.navigate().refresh();
+			String[] status = { "Announced", "Auction", "Completed", "Pending",
+					"Rumor", "Withdrawn" };
+			for (int i = 0; i < status.length; i++) {
+				commonObj.selectDropdwonElement("searchByStatus", status[i]);
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				List<WebElement> recordsByStatus = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : recordsByStatus) {
+					String mergerStatus = record.findElement(
+							By.xpath("./td[10]")).getText();
+					if (!(mergerStatus.equals(status[i]))) {
+						searchWorks = false;
+						break;
+					}
+				}
+				for (int j = 0; j < 7 && commonObj.isClickable("nextNav"); j++) {
+					commonObj.click("nextNav");
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					recordsByStatus = commonObj
+							.getWebElements("numberOfRecordsDispOnMAHome");
+					for (WebElement record : recordsByStatus) {
+						String mergerStatus = record.findElement(
+								By.xpath("./td[10]")).getText();
+						if (!(mergerStatus.equals(status[i]))) {
+							searchWorks = false;
+							break;
+						}
+					}
+				}
+			}
+			break;
+
+		case "byLastUpdatedUser":
+			driver.navigate().refresh();
+			String updatedUser = commonObj.getText("selectMAUpdatedUser");
+			commonObj.type("searchByMAUser", updatedUser);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsByUpdatedUser = commonObj
+					.getWebElements("numberOfRecordsDispOnMAHome");
+			for (WebElement record : recordsByUpdatedUser) {
+				if (!record.findElement(By.xpath("./td[11]")).getText()
+						.contains(updatedUser)) {
+					searchWorks = false;
+					break;
+				}
+			}
+			while (commonObj.isClickable("nextNav")) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				recordsByUpdatedUser = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : recordsByUpdatedUser) {
+					if (!record.findElement(By.xpath("./td[11]")).getText()
+							.contains(updatedUser)) {
+						searchWorks = false;
+						break;
+					}
+				}
+			}
+			break;
+
+		case "byLastUpdatedDate":
+			try {
+				driver.navigate().refresh();
+				commonObj.click("searchMAUpdateFromDate");
+				commonObj.click("datePreviousButton");
+				commonObj.click("selectDate");
+				commonObj.click("searchMAUpdateToDate");
+				commonObj.click("selectDate");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				String fromDate = driver.findElement(
+						By.id("example_range_from_11")).getAttribute("value");
+				String toDate = driver
+						.findElement(By.id("example_range_to_11"))
+						.getAttribute("value");
+				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+				Date frmDate = dateFormat.parse(fromDate);
+				Date tDate = dateFormat.parse(toDate);
+				List<WebElement> recordsByLastUpdatedDate = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : recordsByLastUpdatedDate) {
+					String lastUpdatedDate = record.findElement(
+							By.xpath("./td[12]")).getText();
+					Date lastUpdateDate = dateFormat.parse(lastUpdatedDate);
+					if ((lastUpdateDate.compareTo(frmDate) < 0 || lastUpdateDate
+							.equals(frmDate))
+							&& (tDate.compareTo(lastUpdateDate) < 0 || tDate
+									.equals(lastUpdateDate))) {
+						searchWorks = false;
+						break;
+					}
+				}
+				while (commonObj.isClickable("nextNav")) {
+					commonObj.click("nextNav");
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					recordsByLastUpdatedDate = commonObj
+							.getWebElements("numberOfRecordsDispOnMAHome");
+					for (WebElement record : recordsByLastUpdatedDate) {
+						String lastUpdatedDate = record.findElement(
+								By.xpath("./td[12]")).getText();
+						Date lastUpdateDate = dateFormat.parse(lastUpdatedDate);
+						if ((lastUpdateDate.compareTo(frmDate) < 0 || lastUpdateDate
+								.equals(frmDate))
+								&& (tDate.compareTo(lastUpdateDate) < 0 || tDate
+										.equals(lastUpdateDate))) {
+							searchWorks = false;
+							break;
+						}
+					}
+				}
+			} catch (Exception e) {
+				logger.info("Some exception occurred:"+e);
+			}
+
+			break;
+
+		case "byPublished-Unpublished":
+			String[] pubValue = { "Y", "N", "" };
+			commonObj.click("firstNav");
+
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> allRecords = commonObj
+					.getWebElements("numberOfRecordsDispOnMAHome");
+			totalRecords = allRecords.size();
+			while (commonObj.isClickable("nextNav")) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				allRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				totalRecords = totalRecords + allRecords.size();
+			}
+			for (int i = 0; i < 3; i++) {
+				if (pubValue[i].equals("")) {
+					commonObj.selectDropdwonElement("mergerPubDropdown",
+							pubValue[i]);
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					List<WebElement> records = commonObj
+							.getWebElements("numberOfRecordsDispOnMAHome");
+					count = records.size();
+					while (commonObj.isClickable("nextNav")) {
+						commonObj.click("nextNav");
+						wait.until(ExpectedConditions
+								.invisibilityOfElementLocated(By
+										.id("example_processing")));
+						records = commonObj
+								.getWebElements("numberOfRecordsDispOnMAHome");
+						count = count + records.size();
+					}
+					if (totalRecords != count)
+						searchWorks = false;
+				} else {
+					commonObj.selectDropdwonElement("mergerPubDropdown",
+							pubValue[i]);
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					List<WebElement> publishedRecords = commonObj
+							.getWebElements("numberOfRecordsDispOnMAHome");
+					for (WebElement record : publishedRecords) {
+						if (!record.findElement(By.xpath("./td[13]")).getText()
+								.contains(pubValue[i])) {
+							searchWorks = false;
+							break;
+						}
+					}
+
+					for (int j = 0; j < 5 && commonObj.isClickable("nextNav"); j++) {
+						commonObj.click("nextNav");
+						wait.until(ExpectedConditions
+								.invisibilityOfElementLocated(By
+										.id("example_processing")));
+						publishedRecords = commonObj
+								.getWebElements("numberOfRecordsDispOnMAHome");
+						for (WebElement record : publishedRecords) {
+							if (!record.findElement(By.xpath("./td[13]"))
+									.getText().contains(pubValue[i])) {
+								searchWorks = false;
+								break;
+							}
+						}
+					}
+				}
+			}
+			break;
+
+		case "byUpdatesPublished":
+			String[] updatesPubValue = { "Y", "N", "NA", "" };
+			commonObj.click("firstNav");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> allUpdatesPublishedRecords = commonObj
+					.getWebElements("numberOfRecordsDispOnMAHome");
+			totalRecords = allUpdatesPublishedRecords.size();
+			while (commonObj.isClickable("nextNav")) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				allUpdatesPublishedRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				totalRecords = totalRecords + allUpdatesPublishedRecords.size();
+			}
+
+			for (int i = 0; i < 4; i++) {
+				if (updatesPubValue[i].equals("")) {
+					commonObj.selectDropdwonElement("mergerUpdatesPubDropdown",
+							updatesPubValue[i]);
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					List<WebElement> records1 = commonObj
+							.getWebElements("numberOfRecordsDispOnMAHome");
+					count = records1.size();
+					while (commonObj.isClickable("nextNav")) {
+						commonObj.click("nextNav");
+						wait.until(ExpectedConditions
+								.invisibilityOfElementLocated(By
+										.id("example_processing")));
+						records1 = commonObj
+								.getWebElements("numberOfRecordsDispOnMAHome");
+						count = count + records1.size();
+					}
+					if (totalRecords != count)
+						searchWorks = false;
+				} else {
+					commonObj.selectDropdwonElement("mergerUpdatesPubDropdown",
+							updatesPubValue[i]);
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					List<WebElement> publishedRecords = commonObj
+							.getWebElements("numberOfRecordsDispOnMAHome");
+					for (WebElement record : publishedRecords) {
+						if (!record.findElement(By.xpath("./td[14]")).getText()
+								.contains(updatesPubValue[i])) {
+							searchWorks = false;
+							break;
+						}
+					}
+					for (int j = 0; j < 5 && commonObj.isClickable("nextNav"); j++) {
+						commonObj.click("nextNav");
+						wait.until(ExpectedConditions
+								.invisibilityOfElementLocated(By
+										.id("example_processing")));
+						publishedRecords = commonObj
+								.getWebElements("numberOfRecordsDispOnMAHome");
+						for (WebElement record : publishedRecords) {
+							if (!record.findElement(By.xpath("./td[14]"))
+									.getText().contains(updatesPubValue[i])) {
+								searchWorks = false;
+								break;
+							}
+						}
+					}
+				}
+			}
+		}
+		return searchWorks;
+	}
+
+	public boolean filterRecordsByUpdatedDate() {
+		boolean defaultFilterWorks = true;
+		WebDriverWait wait = new WebDriverWait(driver, 8);
+		try {
+			driver.navigate().refresh();
+			for (int j = 0; j < 5; j++) {
+				String firstUpdatedDate = commonObj
+						.getText("mergerLastUpdatedDate");
+				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+				Date updatedDate = dateFormat.parse(firstUpdatedDate);
+				List<WebElement> filteredRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : filteredRecords) {
+					String currentUpdatedDate = record.findElement(
+							By.xpath("./td[12]")).getText();
+					Date compareUpdatedDate = dateFormat
+							.parse(currentUpdatedDate);
+					if (!(compareUpdatedDate.compareTo(updatedDate) < 0 || updatedDate
+							.equals(compareUpdatedDate))) {
+						defaultFilterWorks = false;
+						break;
+					}
+				}
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+			}
+		} catch (Exception e) {
+			logger.info("Some exception occurred:"+e);
+		}
+		return defaultFilterWorks;
+	}
+
+	public boolean filterByFunctionality(String byFilter) {
+		boolean filterWorks = true;
+		WebDriverWait wait = new WebDriverWait(driver, 12);
+		driver.navigate().refresh();
+
+		switch (byFilter) {
+
+		case "filterOnM&AId":
+			commonObj.click("clickOnMAIdColumn");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			commonObj.click("clickOnMAIdColumn");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			for (int j = 0; j < 5; j++) {
+				String mergerID = commonObj.getText("firstMergerID");
+				int maId1 = Integer.parseInt(mergerID);
+				List<WebElement> filteredRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : filteredRecords) {
+					String currentMergerId = record.findElement(
+							By.xpath("./td[2]")).getText();
+					int maId2 = Integer.parseInt(currentMergerId);
+					if (maId1 < maId2) {
+						filterWorks = false;
+						break;
+					} else {
+						maId1 = maId2;
+					}
+				}
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+			}
+			break;
+
+		case "filterOnAnnouncementDate":
+			commonObj.click("announcementDateCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			try {
+				for (int j = 0; j < 5; j++) {
+					String announcementDate1 = commonObj
+							.getText("firstAnnDate");
+					List<WebElement> filteredRecords = commonObj
+							.getWebElements("numberOfRecordsDispOnMAHome");
+					DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+					Date date1 = dateFormat.parse(announcementDate1);
+					for (WebElement record : filteredRecords) {
+						String announcementDate2 = record.findElement(
+								By.xpath("./td[8]")).getText();
+						Date date2 = dateFormat.parse(announcementDate2);
+						if (!(date1.compareTo(date2) < 0 || date2.equals(date1))) {
+							filterWorks = false;
+							break;
+						}
+					}
+					commonObj.click("nextNav");
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+				}
+			} catch (Exception e) {
+				logger.info("Some exception occurred:"+e);
+			}
+			break;
+
+		case "filterOnValue":
+			commonObj.click("dealValueCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			for (int j = 0; j < 5; j++) {
+				String value1 = commonObj.getText("firstDealValue");
+				int dealVal1 = Integer.parseInt(value1);
+				List<WebElement> filteredRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : filteredRecords) {
+					String value2 = record.findElement(By.xpath("./td[9]"))
+							.getText();
+					int dealVal2 = Integer.parseInt(value2);
+					if (dealVal1 > dealVal2) {
+						filterWorks = false;
+						break;
+					} else {
+						dealVal1 = dealVal2;
+					}
+				}
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+			}
+			break;
+
+		case "filterOnStatus":
+			commonObj.click("dealStatusCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			for (int j = 0; j < 10; j++) {
+				String status1 = commonObj.getText("firstStatusVal");
+				List<WebElement> filteredRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : filteredRecords) {
+					String status2 = record.findElement(By.xpath("./td[10]"))
+							.getText();
+					if (status1.compareTo(status2) > 0) {
+						filterWorks = false;
+						break;
+					} else {
+						status1 = status2;
+					}
+				}
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+			}
+			break;
+
+		case "filterOnLastUpdatedUser":
+			commonObj.click("lastUpdatedUserCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			for (int j = 0; j < 25; j++) {
+				String userName1 = commonObj.getText("lastUpdatedUser");
+				List<WebElement> filteredRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnMAHome");
+				for (WebElement record : filteredRecords) {
+					String userName2 = record.findElement(By.xpath("./td[11]"))
+							.getText();
+					if (userName1.compareTo(userName2) > 0) {
+						filterWorks = false;
+						break;
+					} else {
+						userName1 = userName2;
+					}
+				}
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+			}
+			break;
+		}
+		return filterWorks;
+	}
+}

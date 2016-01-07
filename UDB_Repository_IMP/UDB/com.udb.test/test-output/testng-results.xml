@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="27" failed="4" total="31" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49567" started-at="2016-01-05T07:04:35Z" finished-at="2016-01-05T07:05:24Z">
+    <groups>
+    </groups>
+    <test name=" Regression Test on UDB" duration-ms="49567" started-at="2016-01-05T07:04:35Z" finished-at="2016-01-05T07:05:24Z">
+      <class name="udbtests.AdminRoleGroupTest">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:udbtests.AdminRoleGroupTest@52ab03b3]" name="setupBeforeSuite" is-config="true" duration-ms="3969" started-at="2016-01-05T12:34:35Z" finished-at="2016-01-05T12:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="FAIL" signature="verifyRoleGroupPgDisp()[pri:0, instance:udbtests.AdminRoleGroupTest@52ab03b3]" name="verifyRoleGroupPgDisp" duration-ms="37488" started-at="2016-01-05T12:34:39Z" finished-at="2016-01-05T12:35:16Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 8 seconds waiting for element to be clickable: By.xpath: //div[contains(text(), 'Admin')]
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'vsawant-win8', ip: '172.27.142.77', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: c5f149fb-96e5-4d9d-a29d-06fa27a3c78e
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:42154/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 8 seconds waiting for element to be clickable: By.xpath: //div[contains(text(), 'Admin')]
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'vsawant-win8', ip: '172.27.142.77', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: c5f149fb-96e5-4d9d-a29d-06fa27a3c78e
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:42154/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at pageobjects.HomePage.clickOnAdminRoleGroup(HomePage.java:58)
+	at udbtests.AdminRoleGroupTest.verifyRoleGroupPgDisp(AdminRoleGroupTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[contains(text(), 'Admin')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'vsawant-win8', ip: '172.27.142.77', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//div[contains(text(), 'Admin')]}
+Session ID: c5f149fb-96e5-4d9d-a29d-06fa27a3c78e
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:42154/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:661)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRoleGroupPgDisp -->
+        <test-method status="FAIL" signature="verifyCreateNewGroup()[pri:0, instance:udbtests.AdminRoleGroupTest@52ab03b3]" name="verifyCreateNewGroup" duration-ms="1" started-at="2016-01-05T12:35:16Z" finished-at="2016-01-05T12:35:16Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at udbtests.AdminRoleGroupTest.verifyCreateNewGroup(AdminRoleGroupTest.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewGroup -->
+        <test-method status="FAIL" signature="verifyEditGroupFunctionality()[pri:0, instance:udbtests.AdminRoleGroupTest@52ab03b3]" name="verifyEditGroupFunctionality" duration-ms="0" started-at="2016-01-05T12:35:16Z" finished-at="2016-01-05T12:35:16Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at udbtests.AdminRoleGroupTest.verifyEditGroupFunctionality(AdminRoleGroupTest.java:170)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditGroupFunctionality -->
+        <test-method status="FAIL" signature="verifyDeleteGroupFunctionality()[pri:0, instance:udbtests.AdminRoleGroupTest@52ab03b3]" name="verifyDeleteGroupFunctionality" duration-ms="0" started-at="2016-01-05T12:35:16Z" finished-at="2016-01-05T12:35:16Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at udbtests.AdminRoleGroupTest.verifyDeleteGroupFunctionality(AdminRoleGroupTest.java:178)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteGroupFunctionality -->
+        <test-method status="FAIL" signature="setupAfterSuite()[pri:0, instance:udbtests.AdminRoleGroupTest@52ab03b3]" name="setupAfterSuite" is-config="true" duration-ms="0" started-at="2016-01-05T12:35:16Z" finished-at="2016-01-05T12:35:16Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'vsawant-win8', ip: '172.27.142.77', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: c5f149fb-96e5-4d9d-a29d-06fa27a3c78e
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:42154/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'vsawant-win8', ip: '172.27.142.77', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: c5f149fb-96e5-4d9d-a29d-06fa27a3c78e
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:42154/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:742)
+	at base.LaunchBrowser.setupAfterSuite(LaunchBrowser.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- udbtests.AdminRoleGroupTest -->
+      <class name="udbtests.AdminUserTest">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="setupBeforeSuite" is-config="true" duration-ms="3555" started-at="2016-01-05T12:35:16Z" finished-at="2016-01-05T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="SKIP" signature="verifyUserAdminPgDisp()[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyUserAdminPgDisp" duration-ms="0" started-at="2016-01-05T12:35:20Z" finished-at="2016-01-05T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAdminPgDisp -->
+        <test-method status="SKIP" signature="verifyDiffColsOnAdminUserPg()[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyDiffColsOnAdminUserPg" duration-ms="0" started-at="2016-01-05T12:35:20Z" finished-at="2016-01-05T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDiffColsOnAdminUserPg -->
+        <test-method status="SKIP" signature="verifyShowEntriesDropdownvalues()[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyShowEntriesDropdownvalues" duration-ms="0" started-at="2016-01-05T12:35:20Z" finished-at="2016-01-05T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowEntriesDropdownvalues -->
+        <test-method status="SKIP" signature="verifyAdminUserPgNav(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyAdminUserPgNav" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="pageNavDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserPgNav -->
+        <test-method status="SKIP" signature="verifyAdminUserPgNav(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyAdminUserPgNav" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="pageNavDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserPgNav -->
+        <test-method status="SKIP" signature="verifyAdminUserPgNav(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyAdminUserPgNav" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="pageNavDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserPgNav -->
+        <test-method status="SKIP" signature="verifyDiffPageNavLinkWorks()[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyDiffPageNavLinkWorks" duration-ms="0" started-at="2016-01-05T12:35:20Z" finished-at="2016-01-05T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDiffPageNavLinkWorks -->
+        <test-method status="SKIP" signature="verifyRecordsDisplayedAsPerSelValInDropdown()[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyRecordsDisplayedAsPerSelValInDropdown" duration-ms="0" started-at="2016-01-05T12:35:20Z" finished-at="2016-01-05T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecordsDisplayedAsPerSelValInDropdown -->
+        <test-method status="SKIP" signature="verifySearchOnAdminUserHp(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifySearchOnAdminUserHp" duration-ms="16" started-at="2016-01-05T12:35:20Z" data-provider="searchOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[byCompany]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchOnAdminUserHp -->
+        <test-method status="SKIP" signature="verifySearchOnAdminUserHp(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifySearchOnAdminUserHp" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="searchOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[byFirstName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchOnAdminUserHp -->
+        <test-method status="SKIP" signature="verifySearchOnAdminUserHp(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifySearchOnAdminUserHp" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="searchOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[byEmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchOnAdminUserHp -->
+        <test-method status="SKIP" signature="verifyDefaultNumberOfRecordsDispOnAdminUserHp()[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyDefaultNumberOfRecordsDispOnAdminUserHp" duration-ms="0" started-at="2016-01-05T12:35:20Z" finished-at="2016-01-05T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultNumberOfRecordsDispOnAdminUserHp -->
+        <test-method status="SKIP" signature="verifyAdminUserPgNav(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyAdminUserPgNav" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="pageNavDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserPgNav -->
+        <test-method status="SKIP" signature="verifyDefaultSelectedValueOfShowEntiresDropdown()[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyDefaultSelectedValueOfShowEntiresDropdown" duration-ms="0" started-at="2016-01-05T12:35:20Z" finished-at="2016-01-05T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultSelectedValueOfShowEntiresDropdown -->
+        <test-method status="SKIP" signature="verifySearchOnAdminUserHp(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifySearchOnAdminUserHp" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="searchOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[byLastName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchOnAdminUserHp -->
+        <test-method status="SKIP" signature="verifySearchOnAdminUserHp(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifySearchOnAdminUserHp" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="searchOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[byUserId]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchOnAdminUserHp -->
+        <test-method status="SKIP" signature="verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyFilterFunctionality" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="filterOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[filterOnLastName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterFunctionality -->
+        <test-method status="SKIP" signature="verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyFilterFunctionality" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="filterOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[filterOnEmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterFunctionality -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="setupAfterSuite" is-config="true" duration-ms="4407" started-at="2016-01-05T12:35:20Z" finished-at="2016-01-05T12:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+        <test-method status="SKIP" signature="verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyFilterFunctionality" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="filterOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[filterOnCompany]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterFunctionality -->
+        <test-method status="SKIP" signature="verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyFilterFunctionality" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="filterOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[filterOnCreatedDate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterFunctionality -->
+        <test-method status="SKIP" signature="verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyFilterFunctionality" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="filterOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[filterOnLastLoginDate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterFunctionality -->
+        <test-method status="SKIP" signature="verifySearchOnAdminUserHp(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifySearchOnAdminUserHp" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="searchOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[byCreatedDate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchOnAdminUserHp -->
+        <test-method status="SKIP" signature="verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyFilterFunctionality" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="filterOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[filterOnFirstName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterFunctionality -->
+        <test-method status="SKIP" signature="verifySearchOnAdminUserHp(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifySearchOnAdminUserHp" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="searchOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[byLast-LoginDate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchOnAdminUserHp -->
+        <test-method status="SKIP" signature="verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyFilterFunctionality" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="filterOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[filterOnUserId]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterFunctionality -->
+        <test-method status="SKIP" signature="verifySearchOnAdminUserHp(java.lang.String)[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifySearchOnAdminUserHp" duration-ms="0" started-at="2016-01-05T12:35:20Z" data-provider="searchOptionDataProvider" finished-at="2016-01-05T12:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[byPublished-Unpublished]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchOnAdminUserHp -->
+        <test-method status="SKIP" signature="verifyDefaultFilterWorksOnPersonHp()[pri:0, instance:udbtests.AdminUserTest@518309b0]" name="verifyDefaultFilterWorksOnPersonHp" duration-ms="0" started-at="2016-01-05T12:35:20Z" finished-at="2016-01-05T12:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultFilterWorksOnPersonHp -->
+      </class> <!-- udbtests.AdminUserTest -->
+    </test> <!--  Regression Test on UDB -->
+  </suite> <!-- Suite -->
+</testng-results>

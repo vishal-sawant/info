@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=" Regression Test on UDB"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.671">
+  <properties />
+  
+  
+            <testcase name="verifyUDBLogin" time="4.534" classname="udbtests.LoginPageTest" />
+                <testcase name="verifyInvalidUDBLogin" time="3.137" classname="udbtests.LoginPageTest" />
+      
+</testsuite>

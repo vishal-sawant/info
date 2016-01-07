@@ -1,0 +1,110 @@
+package udbtests;
+
+import base.LaunchBrowser;
+
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pageobjects.HomePage;
+import pageobjects.LoginPage;
+import pageobjects.PersonHome;
+
+
+public class PersonHomeTest extends LaunchBrowser {
+
+	private LoginPage loginPage;
+	private HomePage homePage;
+	private PersonHome person;
+	
+	@Test (priority=1)
+	public void verifyAllColumnsDisplayedOnCompHp() {
+		loginPage = new LoginPage(driver);
+		homePage = loginPage.clickLoginBtn();
+		person = homePage.clickOnPersonHome();
+		Assert.assertTrue(person.verifyDifferentColumnsOnPersonHP(),
+				"Not all columns are displayed on Person home page");
+		logger.info("Test case passed: verify all the person columns are displayed on Person home page");
+		Reporter.log("Test case passed: verify all the person columns are displayed on Person home page");
+	}
+	
+	@Test (priority=2)
+	public void verifyShowEntriesDropdownvalues() {
+		Assert.assertTrue(person.getDropDownEntries(),
+				"Show Entries drop down values does not match");
+		logger.info("Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown");
+		Reporter.log("Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown");
+	}
+	
+	@Test (priority=3)
+	public void verifyDefaultSelectedValueOfShowEntiresDropdown(){
+		Assert.assertEquals(person.getdefaultSelectedShowEntriesOption(), "10", "By default, 10 is not selected in 'Show entries' dropdown");
+		logger.info("Test case passed: verify by default, 10 is selected in 'Show entries' dropdown");
+		Reporter.log("Test case passed: verify by default, 10 is selected in 'Show entries' dropdown");
+	}
+	
+	@Test (priority=4)
+	public void verifyDefaultNumberOfRecordsDispOnCompHp(){
+		Assert.assertEquals(person.getNumberOfRecordsDisplayedOnCompHp(), 10, "Not 10 records are displayed per page");
+		logger.info("Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page");
+		Reporter.log("Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page");
+	}
+	
+	@Test (priority=5)
+	public void verifyRecordsDisplayedAsPerSelValInDropdown(){
+		Assert.assertTrue(person.adjustNumberOfRecordsToBeDisplayedOnCompHP(),"Incorrect number of records displayed on company home page");
+		logger.info("Test case passed: verify correct number of records display on person home page as per value selected in the show entries drop down");
+		Reporter.log("Test case passed: verify correct number of records display on person home page as per value selected in the show entries drop down");
+	}
+	
+	@DataProvider
+    public Object[][] pageNavDataProvider() {
+        return new Object[][]{{"10"}, {"25"}, {"50"}, {"100"}};
+    }
+	
+	@Test (priority=6,  dataProvider="pageNavDataProvider")
+	public void verifyCompHpPageNavigation(String recordsToDisplay){
+		Assert.assertTrue(person.pageNavigation(recordsToDisplay),"person home page navigation does not work");	
+		logger.info("Test case passed: verify person home page pagination works fine");
+		Reporter.log("Test case passed: verify person home page pagination works fine");
+	}
+	
+	@Test (priority=7)
+	public void verifyDiffPageNavLinkWorks(){
+		Assert.assertTrue(person.clickOnDiffPageNavLinks(),"Different page navigation links do not work");
+		logger.info("Test case passed: verify page navigation links like First, Previous, Next and Last links work properly");
+		Reporter.log("Test case passed: verify page navigation links like First, Previous, Next and Last links work properly");
+	}
+	
+	@DataProvider
+    public Object[][] searchOptionDataProvider() {
+        return new Object[][]{{"byPersonId"}, {"byFirstName"}, {"byLastName"}, {"byTitle"}, {"byCompany"}, {"byUpdatedUser"}, {"byFrom-ToDate"}, {"byPublished-Unpublished"}};
+    }
+	
+	@Test (priority=8, dataProvider="searchOptionDataProvider")
+	public void verifySearchOnPersonHp(String searchByType){
+		Assert.assertTrue(person.diffSearchOnPersonHp(searchByType),"Search functionality does not work on person home page");
+		logger.info("Test case passed: verify user able to search records by person Id, Company Name, Deal Types, Updated User, From-To Date, Published");
+		Reporter.log("Test case passed: verify user able to search records by person Id, Company Name, Deal Types, Updated User, From-To Date, Published");
+	}
+	
+	@Test (priority=9)
+	public void verifyDefaultFilterWorksOnPersonHp(){
+		Assert.assertTrue(person.filterRecordsByUpdatedDate(),"By default records are not filtered by Last Updated Date on Person Home page");
+		logger.info("Test case passed: verify by default records are filtered by Last Updated Date in descending order on Person Home page");
+		Reporter.log("Test case passed: verify by default records are filtered by Last Updated Date in descending order on Person Home page");
+	}
+	
+	@DataProvider
+    public Object[][] filterOptionDataProvider() {
+        return new Object[][]{{"filterOnPersonId"}, {"filterOnFirstName"}, {"filterOnLastName"}, {"filterOnUpdatedUser"}};
+    }
+	
+	@Test (priority=10, dataProvider="filterOptionDataProvider")
+	public void verifyFilterFunctionality(String filterByOption){
+		Assert.assertTrue(person.filterByFunctionality(filterByOption),"Records filter functionality does not work on person home page");
+		logger.info("Test case passed: verify user able to filter records by Person ID, Person Name and Updated User");
+		Reporter.log("Test case passed: verify user able to filter records by Person ID, Person Name and Updated User");
+	}
+}

@@ -1,0 +1,24 @@
+<h2>Reporter output</h2><table><tr><td>TestNG is going to start the execution</td></tr>
+<tr><td>About to begin executing Test  Regression Test on UDB
+==========================================================</td></tr>
+<tr><td>Executing Test Case :- verifyRoleGroupPgDisp</td></tr>
+<tr><td>Test case passed: verify by clicking on 'Role Group' button, it redirects to Add Group page.</td></tr>
+<tr><td>Executing Test Case :- verifyAllColsDispOnRoleGrpPg</td></tr>
+<tr><td>Test case passed: verify all the company columns are displayed on Admin Role Group page</td></tr>
+<tr><td>Executing Test Case :- verifyShowEntriesDropdownvalues</td></tr>
+<tr><td>Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown</td></tr>
+<tr><td>Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown</td></tr>
+<tr><td>Test case passed: verify by default, 10 is selected in 'Show entries' dropdown</td></tr>
+<tr><td>Executing Test Case :- verifyDefaultNumberOfRecordsDispOnRoleGrpPg</td></tr>
+<tr><td>Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page</td></tr>
+<tr><td>Executing Test Case :- verifyRoleGrpPageNavigation</td></tr>
+<tr><td>Test case passed: verify Role group home page pagination works fine</td></tr>
+<tr><td>Executing Test Case :- verifyDiffPageNavLinkWorks</td></tr>
+<tr><td>Test case passed: verify page navigation links like First, Previous, Next and Last links work properly</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnRoleGrpPg</td></tr>
+<tr><td>Test case passed: verify user able to search records by Role group name</td></tr>
+<tr><td>Executing Test Case :- verifyDefaultSortingOnGrpByName</td></tr>
+<tr><td>Test case passed: verify by default, group names are displayed in ascending order</td></tr>
+<tr><td>Executing Test Case :- verifyGrpNameSortingInDescendingOrder</td></tr>
+<tr><td>Test case passed: verify sorting functionality on Group Name column works properly</td></tr>
+</table>

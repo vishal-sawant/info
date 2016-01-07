@@ -1,0 +1,134 @@
+20/10/15 09:39 - INFO - Loaded property files and created logger instance
+20/10/15 09:39 - INFO - Setting up FireFox driver.
+20/10/15 09:39 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+20/10/15 09:39 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+20/10/15 09:39 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:39 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:39 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:39 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:39 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:40 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:40 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:40 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:40 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:51 - INFO - Loaded property files and created logger instance
+20/10/15 09:51 - INFO - Setting up FireFox driver.
+20/10/15 09:51 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+20/10/15 09:51 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+20/10/15 09:51 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:51 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:51 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:52 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:52 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:52 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:52 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:52 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:52 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:54 - INFO - Loaded property files and created logger instance
+20/10/15 09:54 - INFO - Setting up FireFox driver.
+20/10/15 09:54 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+20/10/15 09:55 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+20/10/15 09:55 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:55 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:55 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:55 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:55 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:55 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:55 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:56 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:56 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:58 - INFO - Loaded property files and created logger instance
+20/10/15 09:58 - INFO - Setting up FireFox driver.
+20/10/15 09:58 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+20/10/15 09:58 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+20/10/15 09:58 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:58 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:58 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:58 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:58 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:58 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:58 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 09:59 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 09:59 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:00 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1445315418559.jpg
+20/10/15 10:00 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:00 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1445315434896.jpg
+20/10/15 10:00 - INFO - Test executed on Operating System : WINDOWS 8.1
+20/10/15 10:00 - INFO - Test executed on Browser : firefox 41.0.2
+==========================================================
+20/10/15 10:03 - INFO - Loaded property files and created logger instance
+20/10/15 10:03 - INFO - Setting up FireFox driver.
+20/10/15 10:03 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+20/10/15 10:03 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+20/10/15 10:03 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:03 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:03 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:03 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:03 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:03 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:03 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:04 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:04 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:07 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:07 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:09 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:09 - INFO - Test executed on Operating System : WINDOWS 8.1
+20/10/15 10:09 - INFO - Test executed on Browser : firefox 41.0.2
+==========================================================
+20/10/15 10:17 - INFO - Loaded property files and created logger instance
+20/10/15 10:17 - INFO - Setting up FireFox driver.
+20/10/15 10:18 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+20/10/15 10:18 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+20/10/15 10:18 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:18 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:18 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:18 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:18 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:18 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:18 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:19 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:19 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:20 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:20 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:21 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:21 - INFO - Test executed on Operating System : WINDOWS 8.1
+20/10/15 10:21 - INFO - Test executed on Browser : firefox 41.0.2
+==========================================================
+20/10/15 10:27 - INFO - Loaded property files and created logger instance
+20/10/15 10:27 - INFO - Setting up FireFox driver.
+20/10/15 10:27 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+20/10/15 10:27 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+20/10/15 10:27 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:27 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:27 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:28 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:28 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:28 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:28 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:28 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:28 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:29 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:29 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 10:31 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 10:31 - INFO - Test executed on Operating System : WINDOWS 8.1
+20/10/15 10:31 - INFO - Test executed on Browser : firefox 41.0.2
+==========================================================
+20/10/15 11:24 - INFO - Loaded property files and created logger instance
+20/10/15 11:24 - INFO - Setting up FireFox driver.
+20/10/15 11:24 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+20/10/15 11:24 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+20/10/15 11:24 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 11:24 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 11:24 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 11:24 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 11:24 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 11:25 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 11:25 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 11:25 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 11:25 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 11:26 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 11:26 - INFO - Executing Test Case :- verifySearchOnCompHp
+20/10/15 11:28 - INFO - Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published
+20/10/15 11:28 - INFO - Test executed on Operating System : WINDOWS 8.1
+20/10/15 11:28 - INFO - Test executed on Browser : firefox 41.0.2
+==========================================================

@@ -1,0 +1,377 @@
+{
+  "_links" : {
+    "self" : {
+      "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/?size=18&_=1450851467356{&page,sort}",
+      "templated" : true
+    }
+  },
+  "_embedded" : {
+    "SecurityRoleGroup" : [ {
+      "description" : "M&A Read Only",
+      "name" : "MA_READ_ONLY",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Person Read Only",
+      "name" : "PERSON_READ_ONLY",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/9"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/9/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/9/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/9/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/9/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Group updated for testing purpose",
+      "name" : "UPDATED_GROUP_0.9691901637655832",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6503"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6503/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6503/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6503/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6503/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "M&A Editor",
+      "name" : "MA_EDITOR",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/2"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/2/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/2/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/2/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/2/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Company Editor",
+      "name" : "COMPANY_EDITOR",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "M&A Data Entry",
+      "name" : "MA_DATA_ENTRY",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/5"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/5/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/5/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/5/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/5/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Person Data Entry",
+      "name" : "PERSON_DATA_ENTRY",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Company Data Entry",
+      "name" : "COMPANY_DATA_ENTRY",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "UDB_ADMIN.Test'check-done& Good ",
+      "name" : "UDB_ADMIN.Test'check-done& Good ",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3053"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3053/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3053/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3053/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3053/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Group updated for testing purpose",
+      "name" : "UPDATED_GROUP_0.9643645934702746",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6901"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6901/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6901/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6901/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6901/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Company read",
+      "name" : "COMPANY_READ_ONLY",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7200"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7200/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7200/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7200/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7200/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "UDB_ADMIN",
+      "name" : "UDB_ADMIN",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7201"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7201/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7201/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7201/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7201/systemUserSet"
+        }
+      }
+    }, {
+      "description" : null,
+      "name" : "UPDATED_GROUP_0.4400038311579033",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6651"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6651/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6651/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6651/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/6651/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Group created for testing purpose",
+      "name" : "TEST_GROUP_0.7424560902125661",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8302"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8302/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8302/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8302/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8302/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Group created for testing purpose",
+      "name" : "TEST_GROUP_0.03185327651028347",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7250"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7250/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7250/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7250/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/7250/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Group created for testing purpose",
+      "name" : "TEST_GROUP_0.5848431520861375",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8301"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8301/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8301/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8301/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/8301/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "PERSON_READ_EDITOR",
+      "name" : "PERSON_READ_EDITOR",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3052"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3052/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3052/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3052/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/3052/systemUserSet"
+        }
+      }
+    }, {
+      "description" : "Person Editor Role Group",
+      "name" : "PERSON_EDITOR",
+      "_links" : {
+        "self" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/2101"
+        },
+        "secRoleGrpSecRoles" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/2101/secRoleGrpSecRoles"
+        },
+        "securityRole" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/2101/securityRole"
+        },
+        "sysUserSecRoleGrps" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/2101/sysUserSecRoleGrps"
+        },
+        "systemUserSet" : {
+          "href" : "http://stage.thedeal.com/udb/data/SecurityRoleGroup/2101/systemUserSet"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "size" : 18,
+    "totalElements" : 18,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

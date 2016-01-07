@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Log Output</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  <h1>Log Output</h1>
+  <p>
+    Combined output from all calls to the log methods of the <a href="http://testng.org/javadocs/org/testng/Reporter.html">TestNG Reporter</a>.    
+  </p>
+
+  <div id="log">
+                  TestNG is going to start the execution<br />
+                        About to begin executing Test&nbsp; Regression Test on UDB<br/>
+==========================================================<br />
+                        Executing Test Case :- verifyRoleGroupPgDisp<br />
+                        Test case passed: verify by clicking on &apos;Role Group&apos; button, it redirects to Add Group page.<br />
+                        Executing Test Case :- verifyAllColsDispOnRoleGrpPg<br />
+                        Test case passed: verify all the company columns are displayed on Admin Role Group page<br />
+                        Executing Test Case :- verifyShowEntriesDropdownvalues<br />
+                        Test case passed: verify user able to see values 10, 25, 50, 100 in &apos;Show entries&apos; dropdown<br />
+                        Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown<br />
+                        Test case passed: verify by default, 10 is selected in &apos;Show entries&apos; dropdown<br />
+                        Executing Test Case :- verifyDefaultNumberOfRecordsDispOnRoleGrpPg<br />
+                        Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page<br />
+                        Executing Test Case :- verifyRoleGrpPageNavigation<br />
+                        Test case passed: verify Role group home page pagination works fine<br />
+                        Executing Test Case :- verifyDiffPageNavLinkWorks<br />
+                        Test case passed: verify page navigation links like First, Previous, Next and Last links work properly<br />
+                        Executing Test Case :- verifySearchOnRoleGrpPg<br />
+                        Test case passed: verify user able to search records by Role group name<br />
+                        Executing Test Case :- verifyDefaultSortingOnGrpByName<br />
+                        Test case passed: verify by default, group names are displayed in ascending order<br />
+                        Executing Test Case :- verifyGrpNameSortingInDescendingOrder<br />
+                        Test case passed: verify sorting functionality on Group Name column works properly<br />
+                        Executing Test Case :- verifyCreateNewGroup<br />
+                        Test case passed: verify user is able to create a new role group using Add New Group button<br />
+            </div>
+
+</body>
+</html>

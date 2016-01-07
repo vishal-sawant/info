@@ -1,0 +1,197 @@
+#
+# Page elements present on UDB Login & Company home page
+#
+userName =id:inputUsername
+password =id:inputPassword
+loginButton =xpath://form[@id='loginForm']/div[3]/div/input
+logoutButton = xpath://a[contains(text(),'Logout')]
+invalidLoginText =xpath://div[contains(text(),'Invalid username and password!')]
+companyLink =xpath://div[contains(text(),'Company')]
+companyHomeLink =xpath://div[@class='panel-collapse collapse in']/div/a
+textOnCompHP =xpath://th[contains(text(),'Company Id')]
+companyHomePgColumns = xpath://table[@id='example']//tr[2]/th
+numberOfRecordsDispOnCompHp = xpath://table[@id='example']//tbody/tr
+nameOfCompany =xpath://table[@id='example']//tbody/tr/td[3]
+nextNav =xpath://a[@class='paginate_button next']
+lastNav =xpath://a[@class='paginate_button last']
+previousNav =xpath://a[@class='paginate_button previous']
+firstNav =xpath://a[@class='paginate_button first']
+disabledNextNav =xpath://a[@class='paginate_button next disabled']
+disabledLastNav =xpath://a[@class='paginate_button last disabled']
+disabledPreviousNav=xpath://a[@class='paginate_button previous disabled']
+disabledFirstNav=xpath://a[@class='paginate_button first disabled']
+searchByCompID =xpath://input[@value='Search Id']
+selectCompId =xpath://table[@id='example']//tbody/tr[3]/td[2]
+getCompId =xpath://table[@id='example']//tbody/tr/td[2]
+searchByCompName =xpath://input[@value='Search Company Name']
+selectCompName =xpath://table[@id='example']//tbody/tr[3]/td[3]
+searchByUser =xpath://input[@value='Search Updated User']
+selectUpdatedUser =xpath://table[@id='example']//tbody/tr[3]/td[8]
+searchByFromDate =id:example_range_from_8
+searchByToDate =id:example_range_to_8
+searchByPub =xpath://select[@class='search_init select_filter form-control']
+datePreviousButton =xpath://div[@id='ui-datepicker-div']//div/a/span
+selectDate =xpath://table[@class='ui-datepicker-calendar']//a
+pubDropdown =xpath://select[contains(@class,'select_filter form-control')]
+buttonDealTypes =id:chkBtnOpenexampleDealTypes
+dealMA =id:exampleDealTypes_cb_Merger or Acquisition
+dealBkF =id:exampleDealTypes_cb_Bankruptcy Filing
+dealBkW =id:exampleDealTypes_cb_Bankruptcy Warning
+dealAuction =id:exampleDealTypes_cb_Auction
+dealOCR =id:exampleDealTypes_cb_Out Of Court Restructuring
+buttonReset =xpath://div[@class='ui-dialog-buttonset']/button/span
+buttonClose =xpath://div[@class='ui-dialog-buttonset']/button[2]/span
+updatedDate =xpath://table[@id='example']//tbody/tr/td[9]
+clickOnCompIdColumn =xpath://table[@id='example']//tr[2]/th[2]
+firstCompanyID =xpath://table[@id='example']//tbody/tr/td[2]
+clickOnCompNameColumn =xpath://table[@id='example']//tr[2]/th[3]
+firstCompanyName =xpath://table[@id='example']//tbody/tr/td[3]
+clickOnUpdatedUserColumn =xpath://table[@id='example']//tr[2]/th[8]
+firstUpdatedUser =xpath://table[@id='example']//tbody/tr/td[8]
+#
+# Page elements related to Edit Company page
+#
+buttonEditCompany =xpath://table[@id='example']//tbody/tr[2]/td/a
+cancelButtonOfEditComp =xpath://form[@id='companyEditForm']/table//button[2]
+textToVerifyOnEditCompPage =xpath://div[contains(text(),'Edit Company')]
+warningText =xpath://div[@class='alert alert-danger alert-dismissible fade in']
+warningText2 =xpath://div[@class='modal-content']/div[2]
+warningPopup =xpath://div[@class='modal-content']
+popupYesButton =xpath://div[@class='modal-content']/div[3]/button
+popupNoButton =xpath://div[@class='modal-content']/div[3]/button[2]
+textViewComp =xpath://td[contains(text(),'View Company')]
+editBttnOnEditComp =xpath://button[contains(text(),'Edit Company')]
+#
+# Person Page 
+#
+testonPersonHomePage =xpath://th[contains(text(),'Person Id')]
+personHomePgColumns = xpath://table[@id='example']//tr[2]/th
+numberOfRecordsDispOnPersonHp = xpath://table[@id='example']//tbody/tr
+personId = xpath://table[@id='example']//tbody/tr/td[2]
+personLink = xpath://div[@class='UDBLeftColumn']//a[5]
+selectedPersonId = xpath://table[@id='example']//tbody/tr[5]/td[2]
+searchByPersonID = xpath://input[@value='Search Person Id']
+getPersonId = xpath://table[@id='example']//tbody/tr/td[2]
+personFname = xpath://table[@id='example']//tbody/tr[5]/td[3]
+searchByFirstName = xpath://input[@value='Search First Name']
+getPersonFname = xpath://table[@id='example']//tbody/tr/td[3]
+searchByLastName = xpath://input[@value='Search Last Name']
+getPersonLname = xpath://table[@id='example']//tbody/tr/td[4]
+getAllTitles =xpath://table[@id='example']//tbody/tr/td[5]
+searchByTitle = xpath://input[@value='Search Title']
+getAllCompNames =xpath://table[@id='example']//tbody/tr/td[6]
+searchByComp = xpath://input[@value='Search Company']
+clickOnPersonIdColumn =xpath://table[@id='example']//tr[2]/th[2]
+firstPersonID =xpath://table[@id='example']//tbody/tr/td[2]
+clickOnPersonFirstNameColumn =xpath://table[@id='example']//tr[2]/th[3]
+getPersonFirstName =xpath://table[@id='example']//tbody/tr/td[3]
+clickOnPersonLastNameColumn =xpath://table[@id='example']//tr[2]/th[4]
+getPersonLastName =xpath://table[@id='example']//tbody/tr/td[4]
+#
+# Page elements present on UDB M&A Home page
+#
+mergerAcquisitionLink =xpath://div[@class='UDBLeftColumn']//a[contains(text(),'M&A')]
+textOnMAHmPg =xpath://th[contains(text(),'Target')]
+m&aHomePgCols = xpath://table[@id='example']//tr[2]/th
+numberOfRecordsDispOnMAHome =xpath://table[@id='example']//tbody/tr
+mergerAcquisitionID =xpath://table[@id='example']//tbody/tr/td[2]
+selectMAId =xpath://table[@id='example']//tbody/tr[3]/td[2]
+searchByMAID =xpath://input[@value='Search M&A Id']
+getMAId =xpath://table[@id='example']//tbody/tr/td[2]
+selectTargetName =xpath://table[@id='example']//tbody/tr[2]/td[3]
+selectAcquirerName =xpath://table[@id='example']//tbody//td[4]
+selectSellerName =xpath://table[@id='example']//tbody//td[5]
+searchByTargetName =xpath://input[@value='Search Target']
+searchByAcquirerName =xpath://input[@value='Search Acquirer']
+searchBySellerName =xpath://input[@value='Search Seller']
+searchMAFromDate =id:example_range_from_7
+searchMAToDate =id:example_range_to_7
+searchByFrmVal =id:example_range_from_8
+searchByToVal =id:example_range_to_8
+searchByStatus =xpath://span[@class='filter_column filter_select']/select
+selectMAUpdatedUser =xpath://table[@id='example']//tbody/tr[3]/td[11]
+searchByMAUser =xpath://input[@value='Search Last updated user']
+searchMAUpdateFromDate =id:example_range_from_11
+searchMAUpdateToDate =id:example_range_to_11
+mergerPubDropdown =xpath://table[@id='example']/thead/tr/th[13]/span/select
+mergerUpdatesPubDropdown =xpath://table[@id='example']/thead/tr/th[14]/span/select
+mergerLastUpdatedDate =xpath://table[@id='example']//tbody/tr/td[12]
+clickOnMAIdColumn =xpath://table[@id='example']//tr[2]/th[2]
+firstMergerID =xpath://table[@id='example']//tbody/tr/td[2]
+announcementDateCol =xpath://table[@id='example']//tr[2]/th[8]
+firstAnnDate =xpath://table[@id='example']//tbody/tr/td[8]
+dealValueCol =xpath://table[@id='example']//tr[2]/th[9]
+firstDealValue =xpath://table[@id='example']//tbody/tr/td[9]
+dealStatusCol =xpath://table[@id='example']//tr[2]/th[10]
+firstStatusVal =xpath://table[@id='example']//tbody/tr/td[10]
+lastUpdatedUserCol =xpath://table[@id='example']//tr[2]/th[11]
+lastUpdatedUser =xpath://table[@id='example']//tbody/tr/td[11]
+searchTextField =xpath://input[@class='UDBSearchField']
+searchButton =xpath://form[@id='searchForm']//tbody//td[2]/button
+recordsDispOnMAResultsPage =xpath://table[@class='basicTableClass']//tbody/tr
+tableHeaderOnMAResultsPage =xpath://table[@class='basicTableClass']//tbody/tr/th[1]
+recordCountOnResultsPage =xpath://td[contains(text(),'Merger Acquisition search')]//font
+navLink =xpath://div[@class='tableNav']/a
+#
+# Page elements present on Auction Home page
+#
+auctionLink =xpath://div[@class='UDBLeftColumn']//a[contains(text(),'Auction')]
+textOnAuctionHmPg =xpath://th[contains(text(),'Auction ID')]
+auctionHomePgCols = xpath://table[@id='example']//tr[2]/th
+numberOfRecordsDispOnAuctionHome =xpath://table[@id='example']//tbody/tr
+auctionID =xpath://table[@id='example']//tbody/tr/td[2]
+selectAuctionId =xpath://table[@id='example']//tbody/tr[3]/td[2]
+searchByAuctionID =xpath://input[@value='Search Auction ID']
+getAuctionId =xpath://table[@id='example']//tbody/tr/td[2]
+selectTargetName =xpath://table[@id='example']//tbody/tr[2]/td[3]
+selectSellerName =xpath://table[@id='example']//tbody//td[4]
+searchByTargetName =xpath://input[@value='Search Target']
+searchBySellerName =xpath://input[@value='Search Seller']
+searchAuctionFromDate =id:example_range_from_6
+searchAuctionToDate =id:example_range_to_6
+searchByAuctionStat =xpath://span[@class='filter_column filter_select']/select
+selectAuctionUpdatedUser =xpath://table[@id='example']//tbody/tr[3]/td[10]
+searchByAuctionUser =xpath://input[@value='Search Last updated user']
+auctionLastUpdtFrmDt =id:example_range_from_10
+auctionLastUpdtToDt =id:example_range_to_10
+auctionPubDropdown =xpath://table[@id='example']/thead/tr/th[12]/span/select
+auctionUpdatesPubDropdown =xpath://table[@id='example']/thead/tr/th[13]/span/select
+auctionLastUpdtDt =xpath://table[@id='example']//tbody/tr/td[11]
+clickOnAuctionIdCol =xpath://table[@id='example']//tr[2]/th[2]
+firstAuctionID =xpath://table[@id='example']//tbody/tr/td[2]
+auctionDtCol =xpath://table[@id='example']//tr[2]/th[7]
+firstAuctionDt =xpath://table[@id='example']//tbody/tr/td[7]
+dealStatusCol =xpath://table[@id='example']//tr[2]/th[8]
+firstStatusVal =xpath://table[@id='example']//tbody/tr/td[8]
+lastUpdatedUserCol =xpath://table[@id='example']//tr[2]/th[10]
+lastUpdatedUser =xpath://table[@id='example']//tbody/tr/td[10]
+searchTextField =xpath://input[@class='UDBSearchField']
+searchButton =xpath://form[@id='searchForm']//tbody//td[2]/button
+recordsDispOnMAResultsPage =xpath://table[@class='basicTableClass']//tbody/tr
+tableHeaderOnMAResultsPage =xpath://table[@class='basicTableClass']//tbody/tr/th[1]
+recordCountOnResultsPage =xpath://td[contains(text(),'Merger Acquisition search')]//font
+navLink =xpath://div[@class='tableNav']/a
+#
+# Page elements for USER ADMIN module
+#
+adminBtn =xpath://div[contains(text(), 'Admin')]
+roleGroup =xpath://a[contains(text(), 'Role Group')]
+addGroupBtn =id:addGroupBtn
+roleGrpCols =xpath://table[@id='example']//tr[2]/th
+numberOfRecordsDispOnRoleGrpPg = xpath://table[@id='example']//tbody/tr
+nmOfGrp =xpath://table[@id='example']//tbody/tr/td[2]
+selectGrpName =xpath://table[@id='example']//tbody/tr[3]/td[2]
+searchByGrpNm =xpath://input[@value='Search Group Name']
+firstGrpNm =xpath://table[@id='example']//tbody/tr/td[2]
+clickOnGrpNmCol =xpath://table[@id='example']//tr[2]/th[2]
+newGrpForm = xpath://form[@name='groupForm']
+grpNmField =id:inputGroupName
+grpDesc =id:inputDescription
+addModulesFrom =id:multiselect
+addModulesTo =id:multiselect_to
+moveAllToRight =id:multiselect_rightAll
+moveSelectedToRight =id:multiselect_rightSelected
+moveSelectedToLeft =id:multiselect_leftSelected
+moveAllToLeft =id:multiselect_leftAll
+saveGrpBttn =id:saveGroupBtn
+roleGrpMsg =xpath://div[contains(text(),'Role Group Added successfully.')]

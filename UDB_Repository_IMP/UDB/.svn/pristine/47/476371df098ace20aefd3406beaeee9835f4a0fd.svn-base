@@ -1,0 +1,71 @@
+package pageobjects;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
+
+import base.CommonConstant;
+import base.CommonMethods;
+import base.LaunchBrowser;
+import base.ReadWriteExcel;
+
+public class LoginPage {
+	protected CommonMethods commonObj = LaunchBrowser.getCommonMethodObj();
+	protected WebDriver driver;
+
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public HomePage clickLoginBtn(Logger logger) {
+		try {
+			ReadWriteExcel.setExcelFile(CommonConstant.UDB_DATA_PATH,
+					CommonConstant.UDB_USERS);
+			String userName = ReadWriteExcel.getCellData(1, 0);
+			String password = ReadWriteExcel.getCellData(1, 1);
+			commonObj.click("userName");
+			commonObj.type("userName", userName);
+			commonObj.click("password");
+			commonObj.type("password", password);
+			commonObj.click("loginButton");
+		} catch (Exception e) {
+			logger.info("Some exception occurred:", e);
+			
+		}
+		return new HomePage(driver);
+	}
+
+	public boolean checkInvalidLogin(Logger logger) {
+		try {
+			ReadWriteExcel.setExcelFile(CommonConstant.UDB_DATA_PATH,
+					CommonConstant.UDB_USERS);
+			String userName = ReadWriteExcel.getCellData(7, 0);
+			String password = ReadWriteExcel.getCellData(7, 1);
+			commonObj.click("logoutButton");
+			logger.info("Test case passed: verify user able to logout from UDB application successfully");
+			Reporter.log("Test case passed: verify user able to logout from UDB application successfully");	
+			commonObj.click("userName");
+			commonObj.type("userName", userName);
+			commonObj.click("password");
+			commonObj.type("password", password);
+			commonObj.click("loginButton");
+			if (!commonObj.isElementPresentAndDisplayed("invalidLoginText"))
+				return false;
+		} catch (Exception e) {
+			logger.info(e);
+		}
+		return true;
+	}
+
+	public String getLoginPageTitle() {
+		commonObj = LaunchBrowser.getCommonMethodObj();
+		String title = commonObj.getPageTitle();
+		return title;
+	}
+
+	public boolean verifyLoginPageTitle() {
+		String expectedPageTitle = "Login Page";
+		return getLoginPageTitle().contains(expectedPageTitle);
+	}
+
+}

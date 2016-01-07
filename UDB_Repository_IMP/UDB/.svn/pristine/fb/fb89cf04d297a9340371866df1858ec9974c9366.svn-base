@@ -1,0 +1,28 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="78b5d4">  <td>15/11/25 18:34:30</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;LaunchBrowser.setupAfterSuite()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">&lt;&lt;setupAfterSuite</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="78b5d4">  <td>15/11/25 18:32:13</td>   <td>-136944</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;LaunchBrowser.setupBeforeSuite()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">&gt;&gt;setupBeforeSuite</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="b8acb8">  <td>15/11/25 18:32:56</td>   <td>-94314</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AdminRoleGroupTest.verifyAllColsDispOnRoleGrpPg()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">verifyAllColsDispOnRoleGrpPg</td> 
+  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="b8acb8">  <td>15/11/25 18:32:56</td>   <td>-94179</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AdminRoleGroupTest.verifyDefaultNumberOfRecordsDispOnRoleGrpPg()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">verifyDefaultNumberOfRecordsDispOnRoleGrpPg</td> 
+  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="b8acb8">  <td>15/11/25 18:32:56</td>   <td>-94214</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AdminRoleGroupTest.verifyDefaultSelectedValueOfShowEntiresDropdown()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">verifyDefaultSelectedValueOfShowEntiresDropdown</td> 
+  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="b8acb8">  <td>15/11/25 18:33:47</td>   <td>-43287</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AdminRoleGroupTest.verifyDefaultSortingOnGrpByName()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">verifyDefaultSortingOnGrpByName</td> 
+  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="b8acb8">  <td>15/11/25 18:33:17</td>   <td>-73127</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AdminRoleGroupTest.verifyDiffPageNavLinkWorks()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">verifyDiffPageNavLinkWorks</td> 
+  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="b8acb8">  <td>15/11/25 18:34:08</td>   <td>-22380</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AdminRoleGroupTest.verifyGrpNameSortingInDescendingOrder()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">verifyGrpNameSortingInDescendingOrder</td> 
+  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="b8acb8">  <td>15/11/25 18:32:21</td>   <td>-128911</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AdminRoleGroupTest.verifyRoleGroupPgDisp()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">verifyRoleGroupPgDisp</td> 
+  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="b8acb8">  <td>15/11/25 18:32:56</td>   <td>-94166</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AdminRoleGroupTest.verifyRoleGrpPageNavigation()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">verifyRoleGrpPageNavigation</td> 
+  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="b8acb8">  <td>15/11/25 18:33:26</td>   <td>-64281</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AdminRoleGroupTest.verifySearchOnRoleGrpPg()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">verifySearchOnRoleGrpPg</td> 
+  <td>main@243169225</td>   <td></td> </tr>
+<tr bgcolor="b8acb8">  <td>15/11/25 18:32:56</td>   <td>-94267</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AdminRoleGroupTest.verifyShowEntriesDropdownvalues()[pri:0, instance:udbtests.AdminRoleGroupTest@7342054]">verifyShowEntriesDropdownvalues</td> 
+  <td>main@243169225</td>   <td></td> </tr>
+</table>

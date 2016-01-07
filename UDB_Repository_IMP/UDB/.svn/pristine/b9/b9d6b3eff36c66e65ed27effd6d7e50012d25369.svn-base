@@ -1,0 +1,102 @@
+14/10/15 12:22 - INFO - Loaded property files and created logger instance
+14/10/15 12:22 - INFO - Setting up FireFox driver.
+14/10/15 12:23 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 12:23 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444805599076.jpg
+14/10/15 12:23 - INFO - Test executed on Operating System : WINDOWS 8.1
+14/10/15 12:23 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+14/10/15 01:39 - INFO - Loaded property files and created logger instance
+14/10/15 01:39 - INFO - Setting up FireFox driver.
+14/10/15 01:39 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 01:43 - INFO - Loaded property files and created logger instance
+14/10/15 01:43 - INFO - Setting up FireFox driver.
+14/10/15 01:43 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 01:44 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 01:44 - INFO - Test executed on Operating System : WINDOWS 8.1
+14/10/15 01:44 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+14/10/15 02:26 - INFO - Loaded property files and created logger instance
+14/10/15 02:26 - INFO - Setting up FireFox driver.
+14/10/15 02:26 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 02:26 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 02:26 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444812987592.jpg
+14/10/15 02:26 - INFO - Test executed on Operating System : WINDOWS 8.1
+14/10/15 02:26 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+14/10/15 02:27 - INFO - Loaded property files and created logger instance
+14/10/15 02:27 - INFO - Setting up FireFox driver.
+14/10/15 02:27 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 02:27 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 02:27 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 02:43 - INFO - Loaded property files and created logger instance
+14/10/15 02:43 - INFO - Setting up FireFox driver.
+14/10/15 02:43 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 02:43 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 02:43 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 03:25 - INFO - Loaded property files and created logger instance
+14/10/15 03:25 - INFO - Setting up FireFox driver.
+14/10/15 03:25 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 03:25 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 03:25 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 03:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444816593860.jpg
+14/10/15 03:26 - INFO - Test executed on Operating System : WINDOWS 8.1
+14/10/15 03:26 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+14/10/15 03:31 - INFO - Loaded property files and created logger instance
+14/10/15 03:31 - INFO - Setting up FireFox driver.
+14/10/15 03:31 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 03:32 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 03:32 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 03:42 - INFO - Loaded property files and created logger instance
+14/10/15 03:42 - INFO - Setting up FireFox driver.
+14/10/15 03:42 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 03:42 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 03:42 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 03:49 - INFO - Loaded property files and created logger instance
+14/10/15 03:49 - INFO - Setting up FireFox driver.
+14/10/15 03:49 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 03:49 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 03:49 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 04:07 - INFO - Loaded property files and created logger instance
+14/10/15 04:07 - INFO - Setting up FireFox driver.
+14/10/15 04:07 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 04:07 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 04:07 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 04:09 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+14/10/15 04:09 - INFO - Test executed on Operating System : WINDOWS 8.1
+14/10/15 04:09 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+14/10/15 04:10 - INFO - Loaded property files and created logger instance
+14/10/15 04:10 - INFO - Setting up FireFox driver.
+14/10/15 04:10 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 04:11 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 04:11 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 04:11 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+14/10/15 04:11 - INFO - Test executed on Operating System : WINDOWS 8.1
+14/10/15 04:11 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+14/10/15 05:32 - INFO - Loaded property files and created logger instance
+14/10/15 05:32 - INFO - Setting up FireFox driver.
+14/10/15 05:32 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 05:32 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 05:32 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+14/10/15 05:32 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+14/10/15 05:32 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 05:32 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+14/10/15 05:32 - INFO - Test executed on Operating System : WINDOWS 8.1
+14/10/15 05:32 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+14/10/15 05:52 - INFO - Loaded property files and created logger instance
+14/10/15 05:52 - INFO - Setting up FireFox driver.
+14/10/15 05:52 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+14/10/15 05:52 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+14/10/15 05:52 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+14/10/15 05:52 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+14/10/15 05:52 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+14/10/15 05:52 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+14/10/15 05:52 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+14/10/15 05:52 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+14/10/15 05:52 - INFO - Test executed on Operating System : WINDOWS 8.1
+14/10/15 05:52 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================

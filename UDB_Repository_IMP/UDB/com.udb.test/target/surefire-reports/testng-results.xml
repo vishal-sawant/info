@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG is going to start the execution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test  Regression Test on UDB
+==========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyUserAdminPgDisp]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify by clicking on 'Admin User' button, it redirects to Admin User page]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyDiffColsOnAdminUserPg]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify all the columns are displayed on User Admin home page]]>
+    </line>
+    <line>
+      <![CDATA[Executing Test Case :- verifyEditUserPgDisp]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed: verify Admin Edit User page displayed and all the fields displayed on Edit User page]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21878" started-at="2015-12-24T08:55:46Z" finished-at="2015-12-24T08:56:08Z">
+    <groups>
+    </groups>
+    <test name=" Regression Test on UDB" duration-ms="21878" started-at="2015-12-24T08:55:46Z" finished-at="2015-12-24T08:56:08Z">
+      <class name="udbtests.AdminUserTest">
+        <test-method status="PASS" signature="setupBeforeSuite()[pri:0, instance:udbtests.AdminUserTest@42f73c55]" name="setupBeforeSuite" is-config="true" duration-ms="10124" started-at="2015-12-24T14:25:46Z" finished-at="2015-12-24T14:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="verifyUserAdminPgDisp()[pri:0, instance:udbtests.AdminUserTest@42f73c55]" name="verifyUserAdminPgDisp" duration-ms="7910" started-at="2015-12-24T14:25:56Z" finished-at="2015-12-24T14:26:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify by clicking on 'Admin User' button, it redirects to Admin User page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserAdminPgDisp -->
+        <test-method status="PASS" signature="verifyDiffColsOnAdminUserPg()[pri:0, instance:udbtests.AdminUserTest@42f73c55]" name="verifyDiffColsOnAdminUserPg" duration-ms="100" started-at="2015-12-24T14:26:04Z" finished-at="2015-12-24T14:26:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify all the columns are displayed on User Admin home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDiffColsOnAdminUserPg -->
+        <test-method status="PASS" signature="verifyEditUserPgDisp()[pri:0, instance:udbtests.AdminUserTest@42f73c55]" name="verifyEditUserPgDisp" duration-ms="303" started-at="2015-12-24T14:26:04Z" finished-at="2015-12-24T14:26:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed: verify Admin Edit User page displayed and all the fields displayed on Edit User page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEditUserPgDisp -->
+        <test-method status="PASS" signature="setupAfterSuite()[pri:0, instance:udbtests.AdminUserTest@42f73c55]" name="setupAfterSuite" is-config="true" duration-ms="3431" started-at="2015-12-24T14:26:04Z" finished-at="2015-12-24T14:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
+      </class> <!-- udbtests.AdminUserTest -->
+    </test> <!--  Regression Test on UDB -->
+  </suite> <!-- Suite -->
+</testng-results>

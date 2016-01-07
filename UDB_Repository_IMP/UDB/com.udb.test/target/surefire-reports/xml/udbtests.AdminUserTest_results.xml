@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=" Regression Test on UDB"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.313">
+  <properties />
+  
+  
+            <testcase name="verifyUserAdminPgDisp" time="7.910" classname="udbtests.AdminUserTest" />
+                <testcase name="verifyDiffColsOnAdminUserPg" time="0.100" classname="udbtests.AdminUserTest" />
+                <testcase name="verifyEditUserPgDisp" time="0.303" classname="udbtests.AdminUserTest" />
+      
+</testsuite>

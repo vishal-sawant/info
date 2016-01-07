@@ -1,0 +1,35 @@
+<h2>Reporter output</h2><table><tr><td>TestNG is going to start the execution</td></tr>
+<tr><td>About to begin executing Test  Regression Test on UDB
+==========================================================</td></tr>
+<tr><td>Executing Test Case :- verifyUDBLogin</td></tr>
+<tr><td>Test case passed: verify user able to login into UDB application and UDB home page displayed</td></tr>
+<tr><td>Executing Test Case :- verifyInvalidUDBLogin</td></tr>
+<tr><td>Test case passed: verify user able to logout from UDB application successfully</td></tr>
+<tr><td>Test case passed: verify user not able to login into UDB application using invalid credentials</td></tr>
+<tr><td>Executing Test Case :- verifyCompHomePgDisplayed</td></tr>
+<tr><td>Test case passed: verify clicking on the company tab company home page gets displayed</td></tr>
+<tr><td>Executing Test Case :- verifyAllColumnsDisplayedOnCompHp</td></tr>
+<tr><td>Test case passed: verify all the company columns are displayed on Company home page</td></tr>
+<tr><td>Executing Test Case :- verifyShowEntriesDropdownvalues</td></tr>
+<tr><td>Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown</td></tr>
+<tr><td>Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown</td></tr>
+<tr><td>Test case passed: verify by default, 10 is selected in 'Show entries' dropdown</td></tr>
+<tr><td>Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp</td></tr>
+<tr><td>Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page</td></tr>
+<tr><td>Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown</td></tr>
+<tr><td>Screen Shots file :  D:\repository\UDB\com.udb.test\test-output\ScreenShots\image-1448428523468.jpg</td></tr>
+<tr><td>Executing Test Case :- verifyCompHomePageNavigation</td></tr>
+<tr><td>Executing Test Case :- verifyCompHomePageNavigation</td></tr>
+<tr><td>Executing Test Case :- verifyCompHomePageNavigation</td></tr>
+<tr><td>Executing Test Case :- verifyCompHomePageNavigation</td></tr>
+<tr><td>Executing Test Case :- verifyDiffPageNavLinkWorks</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Test case passed: verify user able to search records by Company Id, Company Name, Deal Types, Updated User, From-To Date, Published</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Executing Test Case :- verifySearchOnCompHp</td></tr>
+<tr><td>Executing Test Case :- verifyDefaultFilterWorksOnCompHp</td></tr>
+<tr><td>Test case passed: verify by default records are filtered by Last Updated Date in descending order on Company Home page</td></tr>
+</table>

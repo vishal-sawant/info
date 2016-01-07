@@ -1,0 +1,263 @@
+16/10/15 02:22 - INFO - Loaded property files and created logger instance
+16/10/15 02:22 - INFO - Setting up FireFox driver.
+16/10/15 02:22 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985573751.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985573945.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985574418.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985574647.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985574898.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985575206.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985575416.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985575598.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985575765.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985575947.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985576158.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985576361.jpg
+16/10/15 02:22 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:22 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985576516.jpg
+16/10/15 02:22 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/10/15 02:22 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/10/15 02:24 - INFO - Loaded property files and created logger instance
+16/10/15 02:24 - INFO - Setting up FireFox driver.
+16/10/15 02:24 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985693651.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985693871.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985694727.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985694969.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985695140.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985695302.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985695528.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985695722.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985695930.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985696173.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985696374.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985696654.jpg
+16/10/15 02:24 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:24 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985696803.jpg
+16/10/15 02:24 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/10/15 02:24 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/10/15 02:26 - INFO - Loaded property files and created logger instance
+16/10/15 02:26 - INFO - Setting up FireFox driver.
+16/10/15 02:26 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985780928.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985781212.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985781509.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985781794.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985781989.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985782156.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985782331.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985782541.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985782706.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985782852.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985783051.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985783270.jpg
+16/10/15 02:26 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:26 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444985783427.jpg
+16/10/15 02:26 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/10/15 02:26 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/10/15 02:35 - INFO - Loaded property files and created logger instance
+16/10/15 02:35 - INFO - Setting up FireFox driver.
+16/10/15 02:35 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 02:35 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+16/10/15 02:35 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+16/10/15 02:35 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+16/10/15 02:35 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+16/10/15 02:35 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+16/10/15 02:35 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+16/10/15 02:35 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+16/10/15 02:35 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+16/10/15 02:35 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+16/10/15 02:35 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:36 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444986380504.jpg
+16/10/15 02:36 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:36 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444986398443.jpg
+16/10/15 02:36 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:36 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444986411773.jpg
+16/10/15 02:36 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 02:37 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444986424971.jpg
+16/10/15 02:37 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+16/10/15 02:37 - INFO - Test case passed: verify page navigation links like First, Previous, Next and Last links work properly
+16/10/15 02:37 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:37 - INFO - Test case passed: verify user able to search records on Company Id, Company Name, Updated User, From Date, To Date, Published
+16/10/15 02:38 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 02:38 - INFO - Test case passed: verify user able to search records on Company Id, Company Name, Updated User, From Date, To Date, Published
+16/10/15 02:38 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 03:01 - INFO - Loaded property files and created logger instance
+16/10/15 03:01 - INFO - Setting up FireFox driver.
+16/10/15 03:01 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 03:02 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+16/10/15 03:02 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+16/10/15 03:02 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+16/10/15 03:02 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+16/10/15 03:02 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+16/10/15 03:02 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+16/10/15 03:02 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+16/10/15 03:02 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+16/10/15 03:02 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+16/10/15 03:02 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 03:02 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444987962801.jpg
+16/10/15 03:02 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 03:03 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444987980485.jpg
+16/10/15 03:03 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 03:03 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444987994005.jpg
+16/10/15 03:03 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 03:03 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444988007357.jpg
+16/10/15 03:03 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+16/10/15 03:03 - INFO - Test case passed: verify page navigation links like First, Previous, Next and Last links work properly
+16/10/15 03:03 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 03:05 - INFO - Loaded property files and created logger instance
+16/10/15 03:05 - INFO - Setting up FireFox driver.
+16/10/15 03:05 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 03:05 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+16/10/15 03:05 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+16/10/15 03:05 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+16/10/15 03:05 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+16/10/15 03:05 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+16/10/15 03:05 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+16/10/15 03:05 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+16/10/15 03:05 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+16/10/15 03:05 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444988157856.jpg
+16/10/15 03:05 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 03:06 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444988189075.jpg
+16/10/15 03:06 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 03:06 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444988207035.jpg
+16/10/15 03:06 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 03:07 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444988219904.jpg
+16/10/15 03:07 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 03:07 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444988230910.jpg
+16/10/15 03:07 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+16/10/15 03:07 - INFO - Test case passed: verify page navigation links like First, Previous, Next and Last links work properly
+16/10/15 03:07 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 03:07 - INFO - Test case passed: verify user able to search records on Company Id, Company Name, Updated User, From Date, To Date, Published
+16/10/15 03:07 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 03:28 - INFO - Loaded property files and created logger instance
+16/10/15 03:28 - INFO - Setting up FireFox driver.
+16/10/15 03:28 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 03:29 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+16/10/15 03:29 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+16/10/15 03:29 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+16/10/15 03:29 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+16/10/15 03:29 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+16/10/15 03:29 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+16/10/15 03:29 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+16/10/15 03:29 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+16/10/15 03:29 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+16/10/15 03:29 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 03:29 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444989578592.jpg
+16/10/15 03:29 - INFO - Executing Test Case :- verifyCompHpPageNavigation
+16/10/15 03:31 - INFO - Loaded property files and created logger instance
+16/10/15 03:31 - INFO - Setting up FireFox driver.
+16/10/15 03:31 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 03:32 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+16/10/15 03:32 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+16/10/15 03:32 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+16/10/15 03:32 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+16/10/15 03:32 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+16/10/15 03:32 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnCompHp
+16/10/15 03:32 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+16/10/15 03:32 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+16/10/15 03:32 - INFO - Test case passed: verify correct number of records display on company home page as per value selected in the show entries drop down
+16/10/15 03:32 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 03:32 - INFO - Test case passed: verify user able to search records on Company Id, Company Name, Updated User, From Date, To Date, Published
+16/10/15 03:32 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 03:32 - INFO - Test case passed: verify user able to search records on Company Id, Company Name, Updated User, From Date, To Date, Published
+16/10/15 03:32 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 03:34 - INFO - Test case passed: verify user able to search records on Company Id, Company Name, Updated User, From Date, To Date, Published
+16/10/15 03:34 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/10/15 03:34 - INFO - Test executed on Browser : firefox 40.0.3
+==========================================================
+16/10/15 05:38 - INFO - Loaded property files and created logger instance
+16/10/15 05:38 - INFO - Setting up FireFox driver.
+16/10/15 05:39 - INFO - Executing Test Case :- verifyUDBLogin
+16/10/15 05:39 - INFO - Test case passed: verify user able to login into UDB application and UDB home page displayed
+16/10/15 05:39 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+16/10/15 05:39 - INFO - Test case passed: verify user able to logout from UDB application successfully
+16/10/15 05:42 - INFO - Loaded property files and created logger instance
+16/10/15 05:42 - INFO - Setting up FireFox driver.
+16/10/15 05:42 - INFO - Executing Test Case :- verifyUDBLogin
+16/10/15 05:42 - INFO - Test case passed: verify user able to login into UDB application and UDB home page displayed
+16/10/15 05:42 - INFO - Executing Test Case :- verifyInvalidUDBLogin
+16/10/15 05:42 - INFO - Test case passed: verify user able to logout from UDB application successfully
+16/10/15 05:42 - INFO - Test case passed: verify user not able to login into UDB application using invalid credentials
+16/10/15 05:42 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/10/15 05:42 - INFO - Test executed on Browser : firefox 41.0.2
+==========================================================
+16/10/15 05:42 - INFO - Loaded property files and created logger instance
+16/10/15 05:42 - INFO - Setting up FireFox driver.
+16/10/15 05:42 - INFO - Executing Test Case :- verifyCompHomePgDisplayed
+16/10/15 05:42 - INFO - Test case passed: verify clicking on the company tab company home page gets displayed
+16/10/15 05:42 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/10/15 05:42 - INFO - Test executed on Browser : firefox 41.0.2
+==========================================================
+16/10/15 05:42 - INFO - Loaded property files and created logger instance
+16/10/15 05:42 - INFO - Setting up FireFox driver.
+16/10/15 05:42 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 05:43 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+16/10/15 05:43 - INFO - Test executed on Operating System : WINDOWS 8.1
+16/10/15 05:43 - INFO - Test executed on Browser : firefox 41.0.2
+==========================================================
+16/10/15 06:09 - INFO - Loaded property files and created logger instance
+16/10/15 06:09 - INFO - Setting up FireFox driver.
+16/10/15 06:09 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 06:10 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+16/10/15 06:10 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 06:10 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 06:11 - INFO - Loaded property files and created logger instance
+16/10/15 06:11 - INFO - Setting up FireFox driver.
+16/10/15 06:11 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 06:12 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+16/10/15 06:12 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+16/10/15 06:13 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 06:13 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 06:13 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 06:15 - INFO - Loaded property files and created logger instance
+16/10/15 06:15 - INFO - Setting up FireFox driver.
+16/10/15 06:15 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 06:21 - INFO - Loaded property files and created logger instance
+16/10/15 06:21 - INFO - Setting up FireFox driver.
+16/10/15 06:21 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp
+16/10/15 06:22 - INFO - Test case passed: verify all the company columns are displayed on Company home page
+16/10/15 06:22 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 06:23 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1444999999016.jpg
+16/10/15 06:23 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 06:23 - INFO - Screen Shots file :  D:\UDBAutomationUsingPOM\com.udb.test\test-output\ScreenShots\image-1445000039785.jpg
+16/10/15 06:23 - INFO - Executing Test Case :- verifySearchOnCompHp
+16/10/15 06:29 - INFO - Loaded property files and created logger instance
+16/10/15 06:29 - INFO - Setting up FireFox driver.
+16/10/15 06:29 - INFO - Executing Test Case :- verifyAllColumnsDisplayedOnCompHp

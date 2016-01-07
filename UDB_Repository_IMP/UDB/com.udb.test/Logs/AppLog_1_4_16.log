@@ -1,0 +1,72 @@
+04/01/16 06:06 - INFO - Loaded property files and created logger instance
+04/01/16 06:06 - INFO - Setting up Chrome driver.
+04/01/16 06:06 - INFO - Executing Test Case :- verifyRoleGroupPgDisp
+04/01/16 06:06 - INFO - Test case passed: verify by clicking on 'Role Group' button, it redirects to Add Group page
+04/01/16 06:06 - INFO - Executing Test Case :- verifyCreateNewGroup
+04/01/16 06:06 - INFO - Test case passed: verify user is able to create a new role group using Add New Group button
+04/01/16 06:06 - INFO - Executing Test Case :- verifyEditGroupFunctionality
+04/01/16 06:06 - INFO - Test case passed: verify user is able to update existing role group details by clicking on the Edit Group button
+04/01/16 06:06 - INFO - Executing Test Case :- verifyDeleteGroupFunctionality
+04/01/16 06:07 - INFO - Test case passed: verify user is able to delete role group record by clicking on the delete button and accepting the confrimation popup
+04/01/16 06:07 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/01/16 06:07 - INFO - Test executed on Browser : chrome 47.0.2526.106
+==========================================================
+04/01/16 06:07 - INFO - Loaded property files and created logger instance
+04/01/16 06:07 - INFO - Setting up Chrome driver.
+04/01/16 06:07 - INFO - Executing Test Case :- verifyUserAdminPgDisp
+04/01/16 06:07 - INFO - Test case passed: verify by clicking on 'Admin User' button, it redirects to Admin User page
+04/01/16 06:07 - INFO - Executing Test Case :- verifyDiffColsOnAdminUserPg
+04/01/16 06:07 - INFO - Test case passed: verify all the columns are displayed on User Admin home page
+04/01/16 06:07 - INFO - Executing Test Case :- verifyShowEntriesDropdownvalues
+04/01/16 06:07 - INFO - Test case passed: verify user able to see values 10, 25, 50, 100 in 'Show entries' dropdown
+04/01/16 06:07 - INFO - Executing Test Case :- verifyDefaultSelectedValueOfShowEntiresDropdown
+04/01/16 06:07 - INFO - Test case passed: verify by default, 10 is selected in 'Show entries' dropdown
+04/01/16 06:07 - INFO - Executing Test Case :- verifyDefaultNumberOfRecordsDispOnAdminUserHp
+04/01/16 06:07 - INFO - Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page
+04/01/16 06:07 - INFO - Executing Test Case :- verifyRecordsDisplayedAsPerSelValInDropdown
+04/01/16 06:07 - INFO - Test case passed: verify correct number of records display on Admin User home page as per value selected in the show entries drop down
+04/01/16 06:07 - INFO - Executing Test Case :- verifyAdminUserPgNav
+04/01/16 06:07 - INFO - Test case passed: verify Admin User home page navigation works fine
+04/01/16 06:07 - INFO - Executing Test Case :- verifyAdminUserPgNav
+04/01/16 06:07 - INFO - Test case passed: verify Admin User home page navigation works fine
+04/01/16 06:07 - INFO - Executing Test Case :- verifyAdminUserPgNav
+04/01/16 06:08 - INFO - Test case passed: verify Admin User home page navigation works fine
+04/01/16 06:08 - INFO - Executing Test Case :- verifyAdminUserPgNav
+04/01/16 06:08 - INFO - Test case passed: verify Admin User home page navigation works fine
+04/01/16 06:08 - INFO - Executing Test Case :- verifyDiffPageNavLinkWorks
+04/01/16 06:08 - INFO - Test case passed: verify page navigation links like First, Previous, Next and Last links work properly
+04/01/16 06:08 - INFO - Executing Test Case :- verifySearchOnAdminUserHp
+04/01/16 06:08 - INFO - Test case passed: verify user able to search records by User Id, First Name, Last Name, Email, From-To Date on Admin User home page
+04/01/16 06:08 - INFO - Executing Test Case :- verifySearchOnAdminUserHp
+04/01/16 06:09 - INFO - Test case passed: verify user able to search records by User Id, First Name, Last Name, Email, From-To Date on Admin User home page
+04/01/16 06:09 - INFO - Executing Test Case :- verifySearchOnAdminUserHp
+04/01/16 06:09 - INFO - Test case passed: verify user able to search records by User Id, First Name, Last Name, Email, From-To Date on Admin User home page
+04/01/16 06:09 - INFO - Executing Test Case :- verifySearchOnAdminUserHp
+04/01/16 06:09 - INFO - Test case passed: verify user able to search records by User Id, First Name, Last Name, Email, From-To Date on Admin User home page
+04/01/16 06:09 - INFO - Executing Test Case :- verifySearchOnAdminUserHp
+04/01/16 06:10 - INFO - Test case passed: verify user able to search records by User Id, First Name, Last Name, Email, From-To Date on Admin User home page
+04/01/16 06:10 - INFO - Executing Test Case :- verifySearchOnAdminUserHp
+04/01/16 06:10 - INFO - Test case passed: verify user able to search records by User Id, First Name, Last Name, Email, From-To Date on Admin User home page
+04/01/16 06:10 - INFO - Executing Test Case :- verifySearchOnAdminUserHp
+04/01/16 06:10 - INFO - Test case passed: verify user able to search records by User Id, First Name, Last Name, Email, From-To Date on Admin User home page
+04/01/16 06:10 - INFO - Executing Test Case :- verifySearchOnAdminUserHp
+04/01/16 06:13 - INFO - Test case passed: verify user able to search records by User Id, First Name, Last Name, Email, From-To Date on Admin User home page
+04/01/16 06:13 - INFO - Executing Test Case :- verifyDefaultFilterWorksOnPersonHp
+04/01/16 06:13 - INFO - Test case passed: verify by default records are sorted on User Id in ascending order
+04/01/16 06:13 - INFO - Executing Test Case :- verifyFilterFunctionality
+04/01/16 06:13 - INFO - Test case passed: verify user able to filter Admin User records by User ID, User Name, Email, Company, Last Login Date, Created Date etc
+04/01/16 06:13 - INFO - Executing Test Case :- verifyFilterFunctionality
+04/01/16 06:13 - INFO - Test case passed: verify user able to filter Admin User records by User ID, User Name, Email, Company, Last Login Date, Created Date etc
+04/01/16 06:13 - INFO - Executing Test Case :- verifyFilterFunctionality
+04/01/16 06:13 - INFO - Test case passed: verify user able to filter Admin User records by User ID, User Name, Email, Company, Last Login Date, Created Date etc
+04/01/16 06:13 - INFO - Executing Test Case :- verifyFilterFunctionality
+04/01/16 06:14 - INFO - Test case passed: verify user able to filter Admin User records by User ID, User Name, Email, Company, Last Login Date, Created Date etc
+04/01/16 06:14 - INFO - Executing Test Case :- verifyFilterFunctionality
+04/01/16 06:14 - INFO - Test case passed: verify user able to filter Admin User records by User ID, User Name, Email, Company, Last Login Date, Created Date etc
+04/01/16 06:14 - INFO - Executing Test Case :- verifyFilterFunctionality
+04/01/16 06:14 - INFO - Test case passed: verify user able to filter Admin User records by User ID, User Name, Email, Company, Last Login Date, Created Date etc
+04/01/16 06:14 - INFO - Executing Test Case :- verifyFilterFunctionality
+04/01/16 06:14 - INFO - Test case passed: verify user able to filter Admin User records by User ID, User Name, Email, Company, Last Login Date, Created Date etc
+04/01/16 06:14 - INFO - Test executed on Operating System : WINDOWS 8.1
+04/01/16 06:14 - INFO - Test executed on Browser : chrome 47.0.2526.106
+==========================================================

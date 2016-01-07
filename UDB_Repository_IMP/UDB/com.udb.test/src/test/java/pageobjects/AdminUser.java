@@ -1,0 +1,871 @@
+package pageobjects;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import base.CommonMethods;
+import base.LaunchBrowser;
+
+public class AdminUser {
+	private WebDriver driver;
+	private Logger logger;
+	protected CommonMethods commonObj = LaunchBrowser.getCommonMethodObj();
+	protected String grpNm = "TEST_GROUP_" + Math.random();
+
+	public AdminUser(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public boolean adminUserPgDisplayed() {
+		if (commonObj.isElementPresentAndDisplayed("addUserBtn"))
+			return true;
+		else
+			return false;
+	}
+
+	public boolean verifyDiffColsOnUserHmPg() {
+		List<WebElement> userAdminCols = commonObj
+				.getWebElements("adminUserHmPgCols");
+		String[] columns = new String[] { "Action", "User ID", "First Name",
+				"Last Name", "Email", "Company", "Last Login Date",
+				"Created Date", "Inactive" };
+		int i = 0;
+		for (WebElement currentCol : userAdminCols) {
+			if (!currentCol.getText().equals(columns[i])) {
+				return false;
+			}
+			i++;
+		}
+		return true;
+	}
+
+	public boolean getDropDownEntries() {
+		boolean match = true;
+		String[] showEntriesValues = { "10", "25", "50", "100" };
+		WebElement dropdown = driver.findElement(By.name("example_length"));
+		Select select = new Select(dropdown);
+		List<WebElement> options = select.getOptions();
+		int i = 0;
+		for (WebElement we : options) {
+			if (!(we.getText().equals(showEntriesValues[i]))) {
+				match = false;
+			}
+			i++;
+		}
+		return match;
+	}
+
+	public String getdefaultSelectedShowEntriesOption() {
+		WebElement dropdown = driver.findElement(By.name("example_length"));
+		Select select = new Select(dropdown);
+		WebElement defaultSelected = select.getFirstSelectedOption();
+		return defaultSelected.getText();
+	}
+
+	public int getNumberOfRecordsDisplayedOnAdminUserHp() {
+		List<WebElement> recordsOnUserHp = commonObj
+				.getWebElements("numberOfRecordsDispOnAdminUserHp");
+		return recordsOnUserHp.size();
+	}
+
+	public boolean adjustNumberOfRecordsToBeDisplayedOnUserHp() {
+		boolean isRecordsNumberMatches = true;
+		String[] showEntriesValues = { "25", "50", "100" };
+		Select select = new Select(
+				driver.findElement(By.name("example_length")));
+		for (int i = 0; i < showEntriesValues.length; i++) {
+			select.selectByValue(showEntriesValues[i]);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsOnCompHp = commonObj
+					.getWebElements("numberOfRecordsDispOnAdminUserHp");
+			int temp = Integer.parseInt(showEntriesValues[i]);
+			int recordCount = recordsOnCompHp.size();
+			if (recordCount != temp) {
+				isRecordsNumberMatches = false;
+				break;
+			}
+		}
+		return isRecordsNumberMatches;
+	}
+
+	public boolean pageNavigation(String recordsToDisplay) {
+		boolean pageNavigationWorks = true;
+		driver.navigate().refresh();
+		Select select = new Select(
+				driver.findElement(By.name("example_length")));
+		select.selectByValue(recordsToDisplay);
+		WebDriverWait wait = new WebDriverWait(driver, 12);
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+				.id("example_processing")));
+		List<WebElement> recordsOnUserHp = commonObj
+				.getWebElements("numberOfRecordsDispOnAdminUserHp");
+		int temp = Integer.parseInt(recordsToDisplay);
+		int recordCount = recordsOnUserHp.size();
+		if (recordCount == temp) {
+			String pName = commonObj.getText("userId");
+			for (int j = 0; j < 10 && commonObj.isClickable("nextNav"); j++) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				if (commonObj.getText("userId").equals(pName)) {
+					pageNavigationWorks = false;
+					break;
+				} else
+					pName = commonObj.getText("userId");
+			}
+		}
+		return pageNavigationWorks;
+	}
+
+	public boolean clickOnDiffPageNavLinks() {
+		driver.navigate().refresh();
+		commonObj.click("lastNav");
+		WebDriverWait wait = new WebDriverWait(driver, 12);
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+				.id("example_processing")));
+		if (!(commonObj.isElementPresentAndDisplayed("disabledNextNav") && commonObj
+				.isElementPresentAndDisplayed("disabledLastNav")))
+			return false;
+		commonObj.click("previousNav");
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+				.id("example_processing")));
+		commonObj.click("firstNav");
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+				.id("example_processing")));
+		if (!(commonObj.isElementPresentAndDisplayed("disabledFirstNav") && commonObj
+				.isElementPresentAndDisplayed("disabledPreviousNav")))
+			return false;
+		else
+			return true;
+	}
+
+	public boolean diffSearchOnUserHp(String searchType) {
+		boolean searchWorks = true;
+		WebDriverWait wait = new WebDriverWait(driver, 12);
+
+		switch (searchType) {
+
+		case "byUserId":
+			String userId = commonObj.getText("userId");
+			commonObj.type("searchByUserID", userId);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsByPersonId = commonObj
+					.getWebElements("numberOfRecordsDispOnAdminUserHp");
+			int recordCount = recordsByPersonId.size();
+			if (!(recordCount == 1 && commonObj.getText("getUserId").equals(
+					userId)))
+				searchWorks = false;
+			break;
+
+		case "byFirstName":
+			driver.navigate().refresh();
+			String getFName = "";
+			String firstName = commonObj.getText("getUserFNm");
+			firstName = firstName.toLowerCase();
+			commonObj.type("srchByUserFNm", firstName);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsByFirstName = commonObj
+					.getWebElements("numberOfRecordsDispOnAdminUserHp");
+			for (WebElement record : recordsByFirstName) {
+				getFName = record.findElement(By.xpath("./td[3]")).getText();
+				getFName = getFName.toLowerCase();
+				if (!getFName.contains(firstName)) {
+					searchWorks = false;
+					break;
+				}
+			}
+			while (commonObj.isClickable("nextNav")) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				recordsByFirstName = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : recordsByFirstName) {
+					getFName = record.findElement(By.xpath("./td[3]"))
+							.getText();
+					getFName = getFName.toLowerCase();
+					if (!getFName.contains(firstName)) {
+						searchWorks = false;
+						break;
+					}
+				}
+			}
+			break;
+
+		case "byLastName":
+			driver.navigate().refresh();
+			String getLName = "";
+			String lastName = commonObj.getText("getUserLNm");
+			lastName = lastName.toLowerCase();
+			commonObj.type("srchByUserLNm", lastName);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsByLastName = commonObj
+					.getWebElements("numberOfRecordsDispOnAdminUserHp");
+			for (WebElement record : recordsByLastName) {
+				getLName = record.findElement(By.xpath("./td[4]")).getText();
+				getLName = getLName.toLowerCase();
+				if (!getLName.contains(lastName)) {
+					searchWorks = false;
+					break;
+				}
+			}
+			while (commonObj.isClickable("nextNav")) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				recordsByLastName = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : recordsByLastName) {
+					getLName = record.findElement(By.xpath("./td[4]"))
+							.getText();
+					getLName = getLName.toLowerCase();
+					if (!getLName.contains(lastName)) {
+						searchWorks = false;
+						break;
+					}
+				}
+			}
+			break;
+
+		case "byEmail":
+			driver.navigate().refresh();
+			String email = "";
+			String getEmail = "";
+			if (email.equals("")) {
+				List<WebElement> allEmails = commonObj
+						.getWebElements("getAllEmails");
+				for (WebElement record : allEmails) {
+					if (!record.getText().isEmpty()) {
+						email = record.getText();
+						email = email.toLowerCase();
+						break;
+					}
+				}
+				commonObj.click("nextNav");
+			}
+
+			commonObj.type("searchByEmail", email);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsByEmail = commonObj
+					.getWebElements("numberOfRecordsDispOnAdminUserHp");
+			for (WebElement record : recordsByEmail) {
+				getEmail = record.findElement(By.xpath("./td[5]")).getText();
+				getEmail = getEmail.toLowerCase();
+				if (!getEmail.contains(email)) {
+					searchWorks = false;
+					break;
+				}
+			}
+
+			for (int i = 0; i < 40 && commonObj.isClickable("nextNav"); i++) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				recordsByEmail = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : recordsByEmail) {
+					getEmail = record.findElement(By.xpath("./td[5]"))
+							.getText();
+					getEmail = getEmail.toLowerCase();
+					if (!getEmail.contains(email)) {
+						searchWorks = false;
+						break;
+					}
+				}
+			}
+			break;
+
+		case "byCompany":
+			driver.navigate().refresh();
+			String company = "";
+			if (company.equals("")) {
+				List<WebElement> allComps = commonObj
+						.getWebElements("getAllUserCompNms");
+				for (WebElement record : allComps) {
+					if (!record.getText().isEmpty()) {
+						company = record.getText();
+						if (company.contains(";")) {
+							company = company.split(";")[0];
+						}
+						break;
+					}
+				}
+				commonObj.click("nextNav");
+			}
+
+			commonObj.type("searchByUserComp", company);
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			List<WebElement> recordsByComp = commonObj
+					.getWebElements("numberOfRecordsDispOnAdminUserHp");
+			for (WebElement record : recordsByComp) {
+				if (!record.findElement(By.xpath("./td[6]")).getText()
+						.contains(company)) {
+					searchWorks = false;
+					break;
+				}
+			}
+
+			while (commonObj.isClickable("nextNav")) {
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				recordsByComp = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : recordsByComp) {
+					if (!record.findElement(By.xpath("./td[6]")).getText()
+							.contains(company)) {
+						searchWorks = false;
+						break;
+					}
+				}
+			}
+			break;
+
+		case "byLast-LoginDate":
+			try {
+				driver.navigate().refresh();
+				commonObj.click("srchByFrmDt");
+				commonObj.click("dtPrevBtn");
+				commonObj.click("selectDt");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='ui-datepicker-div']//div/a/span")));
+				commonObj.click("srchByToDt");
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='ui-datepicker-div']//div/a/span")));
+				commonObj.click("selectDt");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				String fromDate = driver.findElement(
+						By.id("example_range_from_6")).getAttribute("value");
+				String toDate = driver.findElement(By.id("example_range_to_6"))
+						.getAttribute("value");
+				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+				Date frmDate = dateFormat.parse(fromDate);
+				Date tDate = dateFormat.parse(toDate);
+				List<WebElement> recordsByLastLoginDt = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : recordsByLastLoginDt) {
+					String loginDt = record.findElement(By.xpath("./td[7]"))
+							.getText();
+					Date uDate = dateFormat.parse(loginDt);
+					if ((uDate.compareTo(frmDate) < 0 || uDate.equals(frmDate))
+							&& (tDate.compareTo(uDate) < 0 || tDate
+									.equals(uDate))) {
+						searchWorks = false;
+						break;
+					}
+				}
+				while (commonObj.isClickable("nextNav")) {
+					commonObj.click("nextNav");
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					recordsByLastLoginDt = commonObj
+							.getWebElements("numberOfRecordsDispOnAdminUserHp");
+					for (WebElement record : recordsByLastLoginDt) {
+						String updatedDate = record.findElement(
+								By.xpath("./td[7]")).getText();
+						Date uDate = dateFormat.parse(updatedDate);
+						if ((uDate.compareTo(frmDate) < 0 || uDate
+								.equals(frmDate))
+								&& (tDate.compareTo(uDate) < 0 || tDate
+										.equals(uDate))) {
+							searchWorks = false;
+							break;
+						}
+					}
+				}
+			} catch (Exception e) {
+				logger.info("Some exception occurred:" + e);
+			}
+
+			break;
+
+		case "byCreatedDate":
+			try {
+				driver.navigate().refresh();
+				commonObj.click("createdFrmDt");
+				commonObj.click("dtPrevBtn");
+				commonObj.click("selectDt");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='ui-datepicker-div']//div/a/span")));
+				commonObj.click("createdToDt");
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='ui-datepicker-div']//div/a/span")));
+				commonObj.click("selectDt");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				String fromDate = driver.findElement(
+						By.id("example_range_from_7")).getAttribute("value");
+				String toDate = driver.findElement(By.id("example_range_to_7"))
+						.getAttribute("value");
+				DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+				Date frmDate = dateFormat.parse(fromDate);
+				Date tDate = dateFormat.parse(toDate);
+				List<WebElement> recordsByCreatedDt = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : recordsByCreatedDt) {
+					String loginDt = record.findElement(By.xpath("./td[8]"))
+							.getText();
+					Date uDate = dateFormat.parse(loginDt);
+					if ((uDate.compareTo(frmDate) < 0 || uDate.equals(frmDate))
+							&& (tDate.compareTo(uDate) < 0 || tDate
+									.equals(uDate))) {
+						searchWorks = false;
+						break;
+					}
+				}
+				while (commonObj.isClickable("nextNav")) {
+					commonObj.click("nextNav");
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					recordsByCreatedDt = commonObj
+							.getWebElements("numberOfRecordsDispOnAdminUserHp");
+					for (WebElement record : recordsByCreatedDt) {
+						String updatedDate = record.findElement(
+								By.xpath("./td[8]")).getText();
+						Date uDate = dateFormat.parse(updatedDate);
+						if ((uDate.compareTo(frmDate) < 0 || uDate
+								.equals(frmDate))
+								&& (tDate.compareTo(uDate) < 0 || tDate
+										.equals(uDate))) {
+							searchWorks = false;
+							break;
+						}
+					}
+				}
+			} catch (Exception e) {
+				logger.info("Some exception occurred:" + e);
+			}
+
+			break;
+
+		case "byPublished-Unpublished":
+			String[] pubValue = { "", "Y", "N" };
+			driver.navigate().refresh();
+			commonObj.selDropdownElementUsingVisibleText("showEntries", "100");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			int totalRecords = 0,
+			actCnt = 0,
+			inactCnt = 0;
+			for (int i = 0; i < 3; i++) {
+				if (pubValue[i].equals("")) {
+					commonObj.selectDropdwonElement("pubDropdown", pubValue[i]);
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					List<WebElement> records = commonObj
+							.getWebElements("numberOfRecordsDispOnAdminUserHp");
+					totalRecords = records.size();
+					while (commonObj.isClickable("nextNav")) {
+						commonObj.click("nextNav");
+						wait.until(ExpectedConditions
+								.invisibilityOfElementLocated(By
+										.id("example_processing")));
+						records = commonObj
+								.getWebElements("numberOfRecordsDispOnAdminUserHp");
+						totalRecords = totalRecords + records.size();
+					}
+
+				} else {
+					commonObj.selectDropdwonElement("pubDropdown", pubValue[i]);
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+					List<WebElement> publishedRecords = commonObj
+							.getWebElements("numberOfRecordsDispOnAdminUserHp");
+					if (pubValue[i].equals("N"))
+						inactCnt = publishedRecords.size();
+					else
+						actCnt = publishedRecords.size();
+					for (WebElement record : publishedRecords) {
+						if (!record.findElement(By.xpath("./td[9]")).getText()
+								.contains(pubValue[i])) {
+							searchWorks = false;
+							break;
+						}
+					}
+					while (commonObj.isClickable("nextNav")) {
+						commonObj.click("nextNav");
+						wait.until(ExpectedConditions
+								.invisibilityOfElementLocated(By
+										.id("example_processing")));
+						publishedRecords = commonObj
+								.getWebElements("numberOfRecordsDispOnAdminUserHp");
+						if (pubValue[i].equals("N"))
+							inactCnt = inactCnt + publishedRecords.size();
+						else
+							actCnt = actCnt + publishedRecords.size();
+						for (WebElement record : publishedRecords) {
+							if (!record.findElement(By.xpath("./td[9]"))
+									.getText().contains(pubValue[i])) {
+								searchWorks = false;
+								break;
+							}
+						}
+					}
+				}
+			}
+			if (totalRecords != (actCnt + inactCnt))
+				searchWorks = false;
+			break;
+		}
+		return searchWorks;
+	}
+
+	public boolean defaultSortOnUserIdCol() {
+		boolean defaultSort = true;
+		WebDriverWait wait = new WebDriverWait(driver, 12);
+		for (int j = 0; j < 5; j++) {
+			String userID1 = commonObj.getText("fstUserID");
+			userID1 = userID1.toLowerCase();
+			List<WebElement> filteredRecords = commonObj
+					.getWebElements("numberOfRecordsDispOnAdminUserHp");
+			for (WebElement record : filteredRecords) {
+				String userID2 = record.findElement(By.xpath("./td[2]"))
+						.getText();
+				userID2 = userID2.toLowerCase();
+				if (userID1.compareTo(userID2) > 0) {
+					defaultSort = false;
+					break;
+				} else {
+					userID1 = userID2;
+				}
+			}
+			if(commonObj.isClickable("nextNav")){
+			commonObj.click("nextNav");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			}
+			else
+				break;
+		}
+		return defaultSort;
+	}
+
+	public boolean filterByFunctionality(String byFilter) {
+		boolean filterWorks = true;
+		WebDriverWait wait = new WebDriverWait(driver, 12);
+		driver.navigate().refresh();
+		switch (byFilter) {
+		case "filterOnUserId":
+			commonObj.click("clkOnUserIdCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			for (int j = 0; j < 5; j++) {
+				String userID1 = commonObj.getText("fstUserID");
+				userID1 = userID1.toLowerCase();
+				List<WebElement> filteredRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : filteredRecords) {
+					String userID2 = record.findElement(By.xpath("./td[2]"))
+							.getText();
+					userID2 = userID2.toLowerCase();
+					if (userID1.compareTo(userID2) < 0) {
+						filterWorks = false;
+						break;
+					} else {
+						userID1 = userID2;
+					}
+				}
+				if(commonObj.isClickable("nextNav")){
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+				}
+				else
+					break;
+			}
+			break;
+
+		case "filterOnFirstName":
+			commonObj.click("clkOnUserFrstNmCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			for (int j = 0; j < 5; j++) {
+				String firstName1 = commonObj.getText("getUserFrstNm");
+				firstName1 = firstName1.toLowerCase();
+				List<WebElement> filteredRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : filteredRecords) {
+					String firstName2 = record.findElement(By.xpath("./td[3]"))
+							.getText();
+					firstName2 = firstName2.toLowerCase();
+					if (firstName1.compareTo(firstName2) > 0) {
+						filterWorks = false;
+						break;
+					} else {
+						firstName1 = firstName2;
+					}
+				}
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+			}
+			break;
+
+		case "filterOnLastName":
+			commonObj.click("clkOnUserLstNmCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			for (int j = 0; j < 5; j++) {
+				String lastName1 = commonObj.getText("getUserLstNm");
+				lastName1 = lastName1.toLowerCase();
+				List<WebElement> filteredRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : filteredRecords) {
+					String lastName2 = record.findElement(By.xpath("./td[4]"))
+							.getText();
+					lastName2 = lastName2.toLowerCase();
+					if (lastName1.compareTo(lastName2) > 0) {
+						filterWorks = false;
+						break;
+					} else {
+						lastName1 = lastName2;
+					}
+				}
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+			}
+			break;
+
+		case "filterOnEmail":
+			commonObj.click("clkOnUserEmailCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			for (int j = 0; j < 5; j++) {
+				String email1 = commonObj.getText("getUserEmail");
+				email1 = email1.toLowerCase();
+				List<WebElement> filteredRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : filteredRecords) {
+					String email2 = record.findElement(By.xpath("./td[5]"))
+							.getText();
+					email2 = email2.toLowerCase();
+					if (email1.compareTo(email2) > 0) {
+						filterWorks = false;
+						break;
+					} else {
+						email1 = email2;
+					}
+				}
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+			}
+			break;
+
+		case "filterOnCompany":
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//table[@id='example']//tr[2]/th[6]")));
+			commonObj.click("clkOnUserCompCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			for (int j = 0; j < 5; j++) {
+				String comp1 = commonObj.getText("getUserComp");
+				comp1 = comp1.toLowerCase();
+				List<WebElement> filteredRecords = commonObj
+						.getWebElements("numberOfRecordsDispOnAdminUserHp");
+				for (WebElement record : filteredRecords) {
+					String comp2 = record.findElement(By.xpath("./td[6]"))
+							.getText();
+					comp2 = comp2.toLowerCase();
+					if (comp1.compareTo(comp2) > 0) {
+						filterWorks = false;
+						break;
+					} else {
+						comp1 = comp2;
+					}
+				}
+				commonObj.click("nextNav");
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+						.id("example_processing")));
+			}
+			break;
+
+		case "filterOnLastLoginDate":
+			commonObj.click("clkOnLastLoginDtCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			try {
+				for (int j = 0; j < 5; j++) {
+					String lastLoginDt1 = commonObj.getText("getLoginDt");
+					if (lastLoginDt1.isEmpty())
+						break;
+					List<WebElement> filteredRecords = commonObj
+							.getWebElements("numberOfRecordsDispOnAdminUserHp");
+					DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+					Date date1 = dateFormat.parse(lastLoginDt1);
+					for (WebElement record : filteredRecords) {
+						String lastLoginDt2 = record.findElement(
+								By.xpath("./td[7]")).getText();
+						if (lastLoginDt2.isEmpty())
+							break;
+						Date date2 = dateFormat.parse(lastLoginDt2);
+						if (!(date1.compareTo(date2) < 0 || date2.equals(date1))) {
+							filterWorks = false;
+							break;
+						}
+					}
+					commonObj.click("nextNav");
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+				}
+			} catch (Exception e) {
+				logger.info("Some exception occurred:" + e);
+			}
+			break;
+
+		case "filterOnCreatedDate":
+			commonObj.click("clkOnCreatedDtCol");
+			wait.until(ExpectedConditions.invisibilityOfElementLocated(By
+					.id("example_processing")));
+			try {
+				for (int j = 0; j < 5; j++) {
+					String createdDt1 = commonObj.getText("getCreatedDt");
+					List<WebElement> filteredRecords = commonObj
+							.getWebElements("numberOfRecordsDispOnAdminUserHp");
+					DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+					Date date1 = dateFormat.parse(createdDt1);
+					for (WebElement record : filteredRecords) {
+						String createdDt2 = record.findElement(
+								By.xpath("./td[8]")).getText();
+						Date date2 = dateFormat.parse(createdDt2);
+						if (!(date1.compareTo(date2) < 0 || date2.equals(date1))) {
+							filterWorks = false;
+							break;
+						}
+					}
+					commonObj.click("nextNav");
+					wait.until(ExpectedConditions
+							.invisibilityOfElementLocated(By
+									.id("example_processing")));
+				}
+			} catch (Exception e) {
+				logger.info("Some exception occurred:" + e);
+			}
+			break;
+		}
+		return filterWorks;
+	}
+
+	public boolean editAdminUser() {
+		boolean editUser = true;
+		String[] userLabels = { "User ID", "First Name", "Last Name", "Email" };
+		String[] userTxtFields = { "inputUserId", "inputFirstName",
+				"inputLastName", "inputEmail" };
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		commonObj.click("clkOnEditUserBtn");
+		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//select[@id='multiselect']/option")));
+		if (!commonObj.isElementPresentAndDisplayed("saveUserBtn"))
+			editUser = false;
+		List<WebElement> editUserFields = commonObj
+				.getWebElements("editUserElements");
+		for (int i = 0; i < 4; i++) {
+			if (!(editUserFields.get(i).findElement(By.xpath(".//label"))
+					.getText().contentEquals(userLabels[i]) && editUserFields
+					.get(i).findElement(By.xpath(".//div/input"))
+					.getAttribute("id").contentEquals(userTxtFields[i]))) {
+				editUser = false;
+				break;
+			}
+		}
+		if (!(editUserFields.get(4).findElement(By.xpath(".//label")).getText()
+				.contains("Access Groups") && editUserFields.get(4)
+				.findElement(By.xpath(".//div/div")).getAttribute("id")
+				.contentEquals("multiselect_box")))
+			editUser = false;
+		if (!(editUserFields.get(5).findElement(By.xpath(".//div/input"))
+				.getAttribute("id").contentEquals("saveUserBtn") && editUserFields
+				.get(5).findElement(By.xpath(".//div/button"))
+				.getAttribute("id").contentEquals("cancelUserBtn")))
+			editUser = false;
+		return editUser;
+	}
+	
+	public boolean readOnlyFields(){
+		boolean readOnlyChk = true;
+		String userId = commonObj.getWebElement("putUserId").getAttribute("readonly");
+		if(!userId.equals("true"))
+			readOnlyChk = false;
+		String firstNm = commonObj.getWebElement("putUserFNm").getAttribute("readonly");
+		if(!firstNm.equals("true"))
+			readOnlyChk = false;
+		String lastNm = commonObj.getWebElement("putUserLNm").getAttribute("readonly");
+		if(!lastNm.equals("true"))
+			readOnlyChk = false;
+		String email = commonObj.getWebElement("PutUserEmail").getAttribute("readonly");
+		if(!email.equals("true"))
+			readOnlyChk = false;
+		return readOnlyChk;
+	}
+	
+	public boolean addRmvAccessGrpOptions() {
+		boolean addRmvGrp = true;
+		boolean flag = false;
+		String[] optsSelected = new String[4];
+		commonObj.click("moveAllToRight");
+		Select leftDropdown = new Select(driver.findElement(By
+				.id("multiselect")));
+		List<WebElement> options1 = leftDropdown.getOptions();
+		if (!options1.isEmpty())
+			addRmvGrp = false;
+		commonObj.click("moveAllToLeft");
+		Select RightDropdown = new Select(driver.findElement(By
+				.id("multiselect_to")));
+		List<WebElement> options2 = RightDropdown.getOptions();
+		if (!options2.isEmpty())
+			addRmvGrp = false;
+		leftDropdown.selectByIndex(0);
+		leftDropdown.selectByIndex(1);
+		leftDropdown.selectByIndex(2);
+		leftDropdown.selectByIndex(3);
+		List<WebElement> selectedOpts = leftDropdown.getAllSelectedOptions();
+		for (int i=0; i<selectedOpts.size(); i++){
+			optsSelected[i]= selectedOpts.get(i).getText();
+		}
+		commonObj.click("moveSelectedToRight");
+		List<WebElement> options3 = RightDropdown.getOptions();
+			for (int i = 0; i < 4; i++) {
+				for (WebElement opt : options3) {
+				if (opt.getText().equals(optsSelected[i])){
+					flag = true;
+					break;
+				}
+			}
+			if (flag==false){
+				addRmvGrp = false;
+				break;
+			}
+		}
+		commonObj.click("moveSelectedToLeft");
+		List<WebElement> options4 = RightDropdown.getOptions();
+		if (!options4.isEmpty())
+			addRmvGrp = false;
+		return addRmvGrp;
+	}
+	
+	/*public boolean saveUserGrp(){
+		boolean saveUser = true;
+		Select leftDropdown = new Select(driver.findElement(By
+				.id("multiselect")));
+		
+	}*/
+
+}

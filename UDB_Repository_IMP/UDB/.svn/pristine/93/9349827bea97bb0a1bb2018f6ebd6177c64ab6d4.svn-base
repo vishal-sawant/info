@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report -  Regression Test on UDB</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1> Regression Test on UDB</h1>
+<p>
+  Test duration: 140.319s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">udbtests.AdminRoleGroupTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyAllColsDispOnRoleGrpPg
+      </td>
+  <td class="duration">
+    0.046s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify all the company columns are displayed on Admin Role Group page<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDefaultNumberOfRecordsDispOnRoleGrpPg
+      </td>
+  <td class="duration">
+    0.012s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify if 10 is selected in Show Entries, only 10 records are displayed per page<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDefaultSelectedValueOfShowEntiresDropdown
+      </td>
+  <td class="duration">
+    0.034s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify by default, 10 is selected in &apos;Show entries&apos; dropdown<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDefaultSortingOnGrpByName
+      </td>
+  <td class="duration">
+    20.904s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify by default, group names are displayed in ascending order<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyDiffPageNavLinkWorks
+      </td>
+  <td class="duration">
+    8.845s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify page navigation links like First, Previous, Next and Last links work properly<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyGrpNameSortingInDescendingOrder
+      </td>
+  <td class="duration">
+    22.378s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify sorting functionality on Group Name column works properly<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyRoleGroupPgDisp
+      </td>
+  <td class="duration">
+    34.596s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify by clicking on &apos;Role Group&apos; button, it redirects to Add Group page.<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyRoleGrpPageNavigation
+      </td>
+  <td class="duration">
+    21.037s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify Role group home page pagination works fine<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchOnRoleGrpPg
+      </td>
+  <td class="duration">
+    20.990s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to search records by Role group name<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyShowEntriesDropdownvalues
+      </td>
+  <td class="duration">
+    0.052s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test case passed: verify user able to see values 10, 25, 50, 100 in &apos;Show entries&apos; dropdown<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

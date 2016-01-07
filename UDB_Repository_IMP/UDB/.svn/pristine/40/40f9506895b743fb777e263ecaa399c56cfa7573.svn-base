@@ -1,0 +1,62 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="6fbdfc">  <td>15/11/17 17:36:01</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;LaunchBrowser.setupBeforeSuite()[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">&gt;&gt;setupBeforeSuite</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:36:10</td>   <td>8223</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyMAHomePgDisplayed()[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyMAHomePgDisplayed</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:36:46</td>   <td>44216</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyAllColumnsDisplayedOnMAHp()[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyAllColumnsDisplayedOnMAHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:36:46</td>   <td>44367</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyDefaultSelectedValueOfShowEntiresDropdown()[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyDefaultSelectedValueOfShowEntiresDropdown</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:36:46</td>   <td>44404</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyDefaultNumberOfRecordsDispOnHome()[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyDefaultNumberOfRecordsDispOnHome</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:36:49</td>   <td>47918</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyRecordsDisplayedAsPerSelValInDropdown()[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyRecordsDisplayedAsPerSelValInDropdown</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:37:10</td>   <td>68428</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyCompHomePageNavigation(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyCompHomePageNavigation</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:38:32</td>   <td>150348</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyCompHomePageNavigation(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyCompHomePageNavigation</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:40:01</td>   <td>239619</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyCompHomePageNavigation(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyCompHomePageNavigation</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:40:39</td>   <td>277544</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyCompHomePageNavigation(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyCompHomePageNavigation</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:42:10</td>   <td>368337</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyDiffPageNavLinkWorks()[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyDiffPageNavLinkWorks</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:42:54</td>   <td>412989</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:42:56</td>   <td>414975</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:43:53</td>   <td>471819</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:45:15</td>   <td>553686</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:45:33</td>   <td>571235</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:46:02</td>   <td>600717</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:46:26</td>   <td>624566</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:50:23</td>   <td>861633</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:50:57</td>   <td>895918</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:51:23</td>   <td>921359</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:52:42</td>   <td>1000507</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifySearchOnCompHp(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifySearchOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:54:22</td>   <td>1100734</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyDefaultFilterWorksOnCompHp()[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyDefaultFilterWorksOnCompHp</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:54:57</td>   <td>1135997</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyFilterFunctionality</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:55:36</td>   <td>1174853</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyFilterFunctionality</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:56:40</td>   <td>1238328</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyFilterFunctionality</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:57:40</td>   <td>1298842</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyFilterFunctionality</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="f87d7c">  <td>15/11/17 17:59:12</td>   <td>1390565</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="MergerAcquisitionHomeTest.verifyFilterFunctionality(java.lang.String)[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">verifyFilterFunctionality</td> 
+  <td>main@251447190</td>   <td></td> </tr>
+<tr bgcolor="6fbdfc">  <td>15/11/17 18:02:07</td>   <td>1565196</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;LaunchBrowser.setupAfterSuite()[pri:0, instance:udbtests.MergerAcquisitionHomeTest@7ef9e0a]">&lt;&lt;setupAfterSuite</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@251447190</td>   <td></td> </tr>
+</table>

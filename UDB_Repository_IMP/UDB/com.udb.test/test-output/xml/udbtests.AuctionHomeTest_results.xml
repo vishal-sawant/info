@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=" Regression Test on UDB"
+           tests="23"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1047.098">
+  <properties />
+  
+  
+            <testcase name="verifySearchOnAuctionHp" time="69.518" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifySearchOnAuctionHp" time="94.286" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyFilterFunctionality" time="25.584" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyDefaultFilterWorksOnAuctionHp" time="14.478" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifySearchOnAuctionHp" time="31.704" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifySearchOnAuctionHp" time="28.200" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyAuctionHmPgNav" time="80.420" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyFilterFunctionality" time="18.252" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyFilterFunctionality" time="144.777" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyDiffPageNavLinkWorks" time="10.151" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifySearchOnAuctionHp" time="25.127" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyFilterFunctionality" time="53.555" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyRecordsDisplayedAsPerSelValInDropdown" time="6.007" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyAllColsDispOnAuctionHp" time="1.041" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyAuctionHmPgNav" time="102.003" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyAuctionHomePgDisplayed" time="6.418" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyAuctionHmPgNav" time="89.973" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifySearchOnAuctionHp" time="24.938" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifySearchOnAuctionHp" time="116.024" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyDefaultNumberOfRecordsDispOnAuctionHmPg" time="0.010" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifyAuctionHmPgNav" time="77.229" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifySearchOnAuctionHp" time="25.525" classname="udbtests.AuctionHomeTest" />
+                <testcase name="verifySearchOnAuctionHp" time="1.878" classname="udbtests.AuctionHomeTest" />
+      
+</testsuite>

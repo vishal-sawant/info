@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="base.Listener" />
+  	</listeners>
+ 		<test name=" Regression Test on UDB">
+    		<classes>
+      			<class name="udbtests.LoginPageTest"/> 
+      			<class name="udbtests.HomePageTest"/>
+      			<class name="udbtests.CompanyHomeTest"/> 
+      			<class name="udbtests.EditCompanyTest"/>
+      			<class name="udbtests.MergerAcquisitionHomeTest"/>
+    		</classes>
+  		</test> 
+</suite> 

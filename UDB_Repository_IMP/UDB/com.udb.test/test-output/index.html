@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\repository\UDB\com.udb.test\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods, 4 failed,  27 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminRoleGroupTest" hash-for-method="verifyCreateNewGroup">verifyCreateNewGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminRoleGroupTest" hash-for-method="verifyDeleteGroupFunctionality">verifyDeleteGroupFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminRoleGroupTest" hash-for-method="verifyEditGroupFunctionality">verifyEditGroupFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminRoleGroupTest" hash-for-method="verifyRoleGroupPgDisp">verifyRoleGroupPgDisp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyAdminUserPgNav(100)">verifyAdminUserPgNav(100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyAdminUserPgNav(10)">verifyAdminUserPgNav(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyAdminUserPgNav(50)">verifyAdminUserPgNav(50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyAdminUserPgNav(25)">verifyAdminUserPgNav(25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyDefaultFilterWorksOnPersonHp">verifyDefaultFilterWorksOnPersonHp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyDefaultNumberOfRecordsDispOnAdminUserHp">verifyDefaultNumberOfRecordsDispOnAdminUserHp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyDefaultSelectedValueOfShowEntiresDropdown">verifyDefaultSelectedValueOfShowEntiresDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyDiffColsOnAdminUserPg">verifyDiffColsOnAdminUserPg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyDiffPageNavLinkWorks">verifyDiffPageNavLinkWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyFilterFunctionality(filterOnUserId)">verifyFilterFunctionality(filterOnUserId)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyFilterFunctionality(filterOnLastName)">verifyFilterFunctionality(filterOnLastName)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyFilterFunctionality(filterOnFirstName)">verifyFilterFunctionality(filterOnFirstName)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyFilterFunctionality(filterOnLastLoginDate)">verifyFilterFunctionality(filterOnLastLoginDate)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyFilterFunctionality(filterOnCreatedDate)">verifyFilterFunctionality(filterOnCreatedDate)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyFilterFunctionality(filterOnEmail)">verifyFilterFunctionality(filterOnEmail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyFilterFunctionality(filterOnCompany)">verifyFilterFunctionality(filterOnCompany)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyRecordsDisplayedAsPerSelValInDropdown">verifyRecordsDisplayedAsPerSelValInDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifySearchOnAdminUserHp(byFirstName)">verifySearchOnAdminUserHp(byFirstName)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifySearchOnAdminUserHp(byUserId)">verifySearchOnAdminUserHp(byUserId)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifySearchOnAdminUserHp(byCreatedDate)">verifySearchOnAdminUserHp(byCreatedDate)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifySearchOnAdminUserHp(byLast-LoginDate)">verifySearchOnAdminUserHp(byLast-LoginDate)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifySearchOnAdminUserHp(byPublished-Unpublished)">verifySearchOnAdminUserHp(byPublished-Unpublished)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifySearchOnAdminUserHp(byCompany)">verifySearchOnAdminUserHp(byCompany)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifySearchOnAdminUserHp(byEmail)">verifySearchOnAdminUserHp(byEmail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifySearchOnAdminUserHp(byLastName)">verifySearchOnAdminUserHp(byLastName)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyShowEntriesDropdownvalues">verifyShowEntriesDropdownvalues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udbtests.AdminUserTest" hash-for-method="verifyUserAdminPgDisp">verifyUserAdminPgDisp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">udbtests.AdminRoleGroupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateNewGroup">
+                  </a> <!-- verifyCreateNewGroup -->
+                  <span class="method-name">verifyCreateNewGroup</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at udbtests.AdminRoleGroupTest.verifyCreateNewGroup(AdminRoleGroupTest.java:115)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteGroupFunctionality">
+                  </a> <!-- verifyDeleteGroupFunctionality -->
+                  <span class="method-name">verifyDeleteGroupFunctionality</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at udbtests.AdminRoleGroupTest.verifyDeleteGroupFunctionality(AdminRoleGroupTest.java:178)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditGroupFunctionality">
+                  </a> <!-- verifyEditGroupFunctionality -->
+                  <span class="method-name">verifyEditGroupFunctionality</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at udbtests.AdminRoleGroupTest.verifyEditGroupFunctionality(AdminRoleGroupTest.java:170)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRoleGroupPgDisp">
+                  </a> <!-- verifyRoleGroupPgDisp -->
+                  <span class="method-name">verifyRoleGroupPgDisp</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 8 seconds waiting for element to be clickable: By.xpath: //div[contains(text(), &apos;Admin&apos;)]
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;vsawant-win8&apos;, ip: &apos;172.27.142.77&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: c5f149fb-96e5-4d9d-a29d-06fa27a3c78e
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:42154/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at pageobjects.HomePage.clickOnAdminRoleGroup(HomePage.java:58)
+	at udbtests.AdminRoleGroupTest.verifyRoleGroupPgDisp(AdminRoleGroupTest.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[contains(text(), &apos;Admin&apos;)] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;vsawant-win8&apos;, ip: &apos;172.27.142.77&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//div[contains(text(), &apos;Admin&apos;)]}
+Session ID: c5f149fb-96e5-4d9d-a29d-06fa27a3c78e
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, pageLoadStrategy=normal, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:42154/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:661)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 26 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">udbtests.AdminUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdminUserPgNav(100)">
+                  </a> <!-- verifyAdminUserPgNav(100) -->
+                  <span class="method-name">verifyAdminUserPgNav</span>
+                  <span class="parameters">(100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdminUserPgNav(10)">
+                  </a> <!-- verifyAdminUserPgNav(10) -->
+                  <span class="method-name">verifyAdminUserPgNav</span>
+                  <span class="parameters">(10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdminUserPgNav(50)">
+                  </a> <!-- verifyAdminUserPgNav(50) -->
+                  <span class="method-name">verifyAdminUserPgNav</span>
+                  <span class="parameters">(50)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdminUserPgNav(25)">
+                  </a> <!-- verifyAdminUserPgNav(25) -->
+                  <span class="method-name">verifyAdminUserPgNav</span>
+                  <span class="parameters">(25)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDefaultFilterWorksOnPersonHp">
+                  </a> <!-- verifyDefaultFilterWorksOnPersonHp -->
+                  <span class="method-name">verifyDefaultFilterWorksOnPersonHp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDefaultNumberOfRecordsDispOnAdminUserHp">
+                  </a> <!-- verifyDefaultNumberOfRecordsDispOnAdminUserHp -->
+                  <span class="method-name">verifyDefaultNumberOfRecordsDispOnAdminUserHp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDefaultSelectedValueOfShowEntiresDropdown">
+                  </a> <!-- verifyDefaultSelectedValueOfShowEntiresDropdown -->
+                  <span class="method-name">verifyDefaultSelectedValueOfShowEntiresDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDiffColsOnAdminUserPg">
+                  </a> <!-- verifyDiffColsOnAdminUserPg -->
+                  <span class="method-name">verifyDiffColsOnAdminUserPg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDiffPageNavLinkWorks">
+                  </a> <!-- verifyDiffPageNavLinkWorks -->
+                  <span class="method-name">verifyDiffPageNavLinkWorks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilterFunctionality(filterOnUserId)">
+                  </a> <!-- verifyFilterFunctionality(filterOnUserId) -->
+                  <span class="method-name">verifyFilterFunctionality</span>
+                  <span class="parameters">(filterOnUserId)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilterFunctionality(filterOnLastName)">
+                  </a> <!-- verifyFilterFunctionality(filterOnLastName) -->
+                  <span class="method-name">verifyFilterFunctionality</span>
+                  <span class="parameters">(filterOnLastName)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilterFunctionality(filterOnFirstName)">
+                  </a> <!-- verifyFilterFunctionality(filterOnFirstName) -->
+                  <span class="method-name">verifyFilterFunctionality</span>
+                  <span class="parameters">(filterOnFirstName)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilterFunctionality(filterOnLastLoginDate)">
+                  </a> <!-- verifyFilterFunctionality(filterOnLastLoginDate) -->
+                  <span class="method-name">verifyFilterFunctionality</span>
+                  <span class="parameters">(filterOnLastLoginDate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilterFunctionality(filterOnCreatedDate)">
+                  </a> <!-- verifyFilterFunctionality(filterOnCreatedDate) -->
+                  <span class="method-name">verifyFilterFunctionality</span>
+                  <span class="parameters">(filterOnCreatedDate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilterFunctionality(filterOnEmail)">
+                  </a> <!-- verifyFilterFunctionality(filterOnEmail) -->
+                  <span class="method-name">verifyFilterFunctionality</span>
+                  <span class="parameters">(filterOnEmail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilterFunctionality(filterOnCompany)">
+                  </a> <!-- verifyFilterFunctionality(filterOnCompany) -->
+                  <span class="method-name">verifyFilterFunctionality</span>
+                  <span class="parameters">(filterOnCompany)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRecordsDisplayedAsPerSelValInDropdown">
+                  </a> <!-- verifyRecordsDisplayedAsPerSelValInDropdown -->
+                  <span class="method-name">verifyRecordsDisplayedAsPerSelValInDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchOnAdminUserHp(byFirstName)">
+                  </a> <!-- verifySearchOnAdminUserHp(byFirstName) -->
+                  <span class="method-name">verifySearchOnAdminUserHp</span>
+                  <span class="parameters">(byFirstName)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchOnAdminUserHp(byUserId)">
+                  </a> <!-- verifySearchOnAdminUserHp(byUserId) -->
+                  <span class="method-name">verifySearchOnAdminUserHp</span>
+                  <span class="parameters">(byUserId)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchOnAdminUserHp(byCreatedDate)">
+                  </a> <!-- verifySearchOnAdminUserHp(byCreatedDate) -->
+                  <span class="method-name">verifySearchOnAdminUserHp</span>
+                  <span class="parameters">(byCreatedDate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchOnAdminUserHp(byLast-LoginDate)">
+                  </a> <!-- verifySearchOnAdminUserHp(byLast-LoginDate) -->
+                  <span class="method-name">verifySearchOnAdminUserHp</span>
+                  <span class="parameters">(byLast-LoginDate)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchOnAdminUserHp(byPublished-Unpublished)">
+                  </a> <!-- verifySearchOnAdminUserHp(byPublished-Unpublished) -->
+                  <span class="method-name">verifySearchOnAdminUserHp</span>
+                  <span class="parameters">(byPublished-Unpublished)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchOnAdminUserHp(byCompany)">
+                  </a> <!-- verifySearchOnAdminUserHp(byCompany) -->
+                  <span class="method-name">verifySearchOnAdminUserHp</span>
+                  <span class="parameters">(byCompany)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchOnAdminUserHp(byEmail)">
+                  </a> <!-- verifySearchOnAdminUserHp(byEmail) -->
+                  <span class="method-name">verifySearchOnAdminUserHp</span>
+                  <span class="parameters">(byEmail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchOnAdminUserHp(byLastName)">
+                  </a> <!-- verifySearchOnAdminUserHp(byLastName) -->
+                  <span class="method-name">verifySearchOnAdminUserHp</span>
+                  <span class="parameters">(byLastName)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShowEntriesDropdownvalues">
+                  </a> <!-- verifyShowEntriesDropdownvalues -->
+                  <span class="method-name">verifyShowEntriesDropdownvalues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserAdminPgDisp">
+                  </a> <!-- verifyUserAdminPgDisp -->
+                  <span class="method-name">verifyUserAdminPgDisp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\repository\UDB\com.udb.test\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;base.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot; Regression Test on UDB&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;udbtests.AdminRoleGroupTest&quot;/&gt;
+      &lt;class name=&quot;udbtests.AdminUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  Regression Test on UDB --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name"> Regression Test on UDB (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyRoleGroupPgDisp')
+data.setCell(0, 2, 'udbtests.AdminRoleGroupTest')
+data.setCell(0, 3, 37488);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifySearchOnAdminUserHp')
+data.setCell(1, 2, 'udbtests.AdminUserTest')
+data.setCell(1, 3, 16);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCreateNewGroup')
+data.setCell(2, 2, 'udbtests.AdminRoleGroupTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyEditGroupFunctionality')
+data.setCell(3, 2, 'udbtests.AdminRoleGroupTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyDeleteGroupFunctionality')
+data.setCell(4, 2, 'udbtests.AdminRoleGroupTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAdminUserPgNav')
+data.setCell(5, 2, 'udbtests.AdminUserTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyDefaultFilterWorksOnPersonHp')
+data.setCell(6, 2, 'udbtests.AdminUserTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifySearchOnAdminUserHp')
+data.setCell(7, 2, 'udbtests.AdminUserTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySearchOnAdminUserHp')
+data.setCell(8, 2, 'udbtests.AdminUserTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyDiffPageNavLinkWorks')
+data.setCell(9, 2, 'udbtests.AdminUserTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyAdminUserPgNav')
+data.setCell(10, 2, 'udbtests.AdminUserTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySearchOnAdminUserHp')
+data.setCell(11, 2, 'udbtests.AdminUserTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyAdminUserPgNav')
+data.setCell(12, 2, 'udbtests.AdminUserTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyUserAdminPgDisp')
+data.setCell(13, 2, 'udbtests.AdminUserTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyFilterFunctionality')
+data.setCell(14, 2, 'udbtests.AdminUserTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifySearchOnAdminUserHp')
+data.setCell(15, 2, 'udbtests.AdminUserTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyDiffColsOnAdminUserPg')
+data.setCell(16, 2, 'udbtests.AdminUserTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyAdminUserPgNav')
+data.setCell(17, 2, 'udbtests.AdminUserTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifySearchOnAdminUserHp')
+data.setCell(18, 2, 'udbtests.AdminUserTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyRecordsDisplayedAsPerSelValInDropdown')
+data.setCell(19, 2, 'udbtests.AdminUserTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyFilterFunctionality')
+data.setCell(20, 2, 'udbtests.AdminUserTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyFilterFunctionality')
+data.setCell(21, 2, 'udbtests.AdminUserTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyShowEntriesDropdownvalues')
+data.setCell(22, 2, 'udbtests.AdminUserTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyFilterFunctionality')
+data.setCell(23, 2, 'udbtests.AdminUserTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifySearchOnAdminUserHp')
+data.setCell(24, 2, 'udbtests.AdminUserTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyDefaultNumberOfRecordsDispOnAdminUserHp')
+data.setCell(25, 2, 'udbtests.AdminUserTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyFilterFunctionality')
+data.setCell(26, 2, 'udbtests.AdminUserTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifySearchOnAdminUserHp')
+data.setCell(27, 2, 'udbtests.AdminUserTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyFilterFunctionality')
+data.setCell(28, 2, 'udbtests.AdminUserTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyFilterFunctionality')
+data.setCell(29, 2, 'udbtests.AdminUserTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyDefaultSelectedValueOfShowEntiresDropdown')
+data.setCell(30, 2, 'udbtests.AdminUserTest')
+data.setCell(30, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">udbtests.AdminRoleGroupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupBeforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyRoleGroupPgDisp</span>
+                <span class="method-start">3969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCreateNewGroup</span>
+                <span class="method-start">41491 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyEditGroupFunctionality</span>
+                <span class="method-start">41508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDeleteGroupFunctionality</span>
+                <span class="method-start">41539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setupAfterSuite</span>
+                <span class="method-start">41571 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">udbtests.AdminUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupBeforeSuite</span>
+                <span class="method-start">41586 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserAdminPgDisp</span>
+                <span class="method-start">45141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDiffColsOnAdminUserPg</span>
+                <span class="method-start">45143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyShowEntriesDropdownvalues</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDefaultSelectedValueOfShowEntiresDropdown</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDefaultNumberOfRecordsDispOnAdminUserHp</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRecordsDisplayedAsPerSelValInDropdown</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdminUserPgNav(10)</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdminUserPgNav(25)</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdminUserPgNav(50)</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdminUserPgNav(100)</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDiffPageNavLinkWorks</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchOnAdminUserHp(byUserId)</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchOnAdminUserHp(byFirstName)</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchOnAdminUserHp(byLastName)</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchOnAdminUserHp(byEmail)</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchOnAdminUserHp(byCompany)</span>
+                <span class="method-start">45144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchOnAdminUserHp(byLast-LoginDate)</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchOnAdminUserHp(byCreatedDate)</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchOnAdminUserHp(byPublished-Unpublished)</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDefaultFilterWorksOnPersonHp</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilterFunctionality(filterOnUserId)</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilterFunctionality(filterOnFirstName)</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilterFunctionality(filterOnLastName)</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilterFunctionality(filterOnEmail)</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilterFunctionality(filterOnCompany)</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilterFunctionality(filterOnLastLoginDate)</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilterFunctionality(filterOnCreatedDate)</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">setupAfterSuite</span>
+                <span class="method-start">45160 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
